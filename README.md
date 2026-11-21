@@ -17,7 +17,7 @@ Press `w` in Expo's terminal UI to open the web app. Progress and a disabled-end
 
 See [data/SCHEMA.md](data/SCHEMA.md) and [data/kanji.schema.json](data/kanji.schema.json). Add one `<character>.json` file under `data/kanji/` and add its character at the desired position in `data/kanji/index.json`, then run `npm run gen:data`. The generated module is `src/generated/kanji.ts`; edit the JSON source files, not the generated module. `npm run validate:data` checks the index and all entries.
 
-Origin claims and short quotations are sourced from each English Wiktionary glyph-origin page. Candidate selection evidence and excluded-candidate reasons are in [research/SELECTION.md](research/SELECTION.md). Kanji readings and meanings use KanjiAPI's KANJIDIC-derived records. Example words, readings, and meanings have individual Jisho sources in their JSON records.
+Origin summaries are based on the English and Japanese Wiktionary glyph-origin entries, with source links to both entries and the corresponding Shuowen page. Candidate selection evidence and excluded-candidate reasons are in [research/SELECTION.md](research/SELECTION.md). Kanji readings and meanings use KanjiAPI's KANJIDIC-derived records. Example words, readings, and meanings have individual Jisho sources in their JSON records.
 
 ## Origin animations
 
@@ -27,11 +27,15 @@ Origin claims and short quotations are sourced from each English Wiktionary glyp
 npm run render:anim
 ```
 
-The renderer creates 720×720, 24 fps H.264 videos with no audio and PNG posters in `assets/anim/`, using the source drawing description and data caption. Manim Community Edition is the intended renderer. This environment does not include Cairo/Pango development headers and does not allow system package installation, so the checked-in renderer uses the same JSON records and scene drawings to produce the MP4s with SVG rasterization and ffmpeg. Install the Manim system prerequisites before using the Python Manim scenes directly.
+The renderer requires Manim Community Edition in `.venv-manim` and creates 720×720, 24 fps H.264 videos with no audio and PNG posters in `assets/anim/`. It post-processes Manim output with ffmpeg using H.264, `yuv420p`, fast-start metadata, and CRF 28. Set up the renderer with `uv venv -p 3.12 .venv-manim && VIRTUAL_ENV=.venv-manim uv pip install manim`.
 
 ## Waitlist and analytics
 
-`src/config.ts` contains the only endpoints. `WAITLIST_ENDPOINT` defaults to `null`; with that value, validated emails are saved in local device storage and the app shows “Thanks — saved.” Setting a URL makes the app POST `{ email, ts }` there. `ANALYTICS_ENDPOINT` defaults to `null`; events stay in a bounded local ring buffer and dev console. The adapter sends events plus a locally stored anonymous device ID when an endpoint is configured. `ANALYTICS_PROVIDER` names the adapter target.
+`src/config.ts` contains the only endpoints. `WAITLIST_ENDPOINT` is `null`; validated emails are saved in local device storage and the app shows “Thanks — saved.” `ANALYTICS_ENDPOINT` is `null`; events stay in a bounded local ring buffer and dev console, with no network requests. `ANALYTICS_PROVIDER` names the adapter target.
+
+The analytics adapter records `visit`, `quiz_answer`, `kanji_learned`, and `review_return`. Event props include event-specific kanji, answer correctness, or days since first visit. `visit`, `kanji_learned`, and `review_return` also include `source: { session, first_touch }`; each value is normalized to `tiktok`, `instagram`, `youtube`, `other`, or `direct`. Session attribution captures `utm_source`, `utm_medium`, `utm_campaign`, `utm_content`, and `document.referrer`; `utm_source` takes precedence. The normalized first-touch source and its attribution details stay on the device.
+
+Each kanji is available at `/kanji/<character>` and the short route `/k/<character>`. For example, `/kanji-app/k/木?utm_source=tiktok` opens the same learning page and preserves campaign parameters for attribution.
 
 ## GitHub Pages
 

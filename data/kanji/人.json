@@ -1,0 +1,62 @@
+{
+  "char": "人",
+  "jlpt": "N5",
+  "jlpt_source": "https://jlptsensei.com/jlpt-n5-kanji-list/",
+  "readings_source": "https://kanjiapi.dev/v1/kanji/%E4%BA%BA",
+  "meanings": [
+    "person"
+  ],
+  "on": [
+    "ジン",
+    "ニン"
+  ],
+  "kun": [
+    "ひと",
+    "-り",
+    "-と"
+  ],
+  "examples": [
+    {
+      "word": "人",
+      "reading": "ひと",
+      "meaning": "person",
+      "source_url": "https://jisho.org/search/%E4%BA%BA"
+    },
+    {
+      "word": "二人",
+      "reading": "ふたり",
+      "meaning": "two people",
+      "source_url": "https://jisho.org/search/%E4%BA%8C%E4%BA%BA"
+    }
+  ],
+  "animation": {
+    "video": "assets/anim/4eba.mp4",
+    "poster": "assets/anim/4eba.png",
+    "manim": {
+      "strokes_hint": "hand-drawn depiction transforms into the modern glyph",
+      "picture": "one person seen from the side, with an arm and a leg"
+    }
+  },
+  "origin": {
+    "type": "pictogram",
+    "liushu_zh": "象形",
+    "summary_en": "The oldest form shows one person seen from the side, an arm and a leg — not two people leaning.",
+    "sources": [
+      {
+        "title": "English Wiktionary — Glyph origin",
+        "url": "https://en.wiktionary.org/wiki/%E4%BA%BA#Glyph_origin",
+        "accessed": "2026-11-22"
+      },
+      {
+        "title": "Japanese Wiktionary — 字源 (季旭昇 p.630)",
+        "url": "https://ja.wiktionary.org/wiki/%E4%BA%BA",
+        "accessed": "2026-11-22"
+      },
+      {
+        "title": "Shuowen via Chinese Text Project",
+        "url": "https://ctext.org/dictionary.pl?if=en&char=%E4%BA%BA",
+        "accessed": "2026-11-22"
+      }
+    ]
+  }
+}

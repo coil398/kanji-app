@@ -18,12 +18,21 @@
   "origin": {
     "type": "pictogram",
     "liushu_zh": "象形",
-    "summary_en": "Pictogram of the sun.",
+    "summary_en": "The oldest form shows the sun; the inner line was added to tell it apart from 口.",
     "sources": [
       {
-        "title": "Wiktionary, '日' — Glyph origin",
-        "url": "https://en.wiktionary.org/wiki/%E6%97%A5",
-        "quote": "Pictogram (象形) – the sun.",
+        "title": "English Wiktionary — Glyph origin",
+        "url": "https://en.wiktionary.org/wiki/%E6%97%A5#Glyph_origin",
+        "accessed": "2026-11-22"
+      },
+      {
+        "title": "Japanese Wiktionary — 字源 (季旭昇 p.531)",
+        "url": "https://ja.wiktionary.org/wiki/%E6%97%A5",
+        "accessed": "2026-11-22"
+      },
+      {
+        "title": "Shuowen via Chinese Text Project",
+        "url": "https://ctext.org/dictionary.pl?if=en&char=%E6%97%A5",
         "accessed": "2026-11-22"
       }
     ]
@@ -46,8 +55,8 @@
     "video": "assets/anim/65e5.mp4",
     "poster": "assets/anim/65e5.png",
     "manim": {
-      "strokes_hint": "simple strokes based on the source description",
-      "picture": "a circle with a short horizontal sun mark"
+      "strokes_hint": "hand-drawn depiction transforms into the modern glyph",
+      "picture": "the sun as a round shape with an inner line"
     }
   }
 }

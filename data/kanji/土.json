@@ -1,0 +1,68 @@
+{
+  "char": "土",
+  "jlpt": "N5",
+  "jlpt_source": "https://jlptsensei.com/jlpt-n5-kanji-list/",
+  "readings_source": "https://kanjiapi.dev/v1/kanji/%E5%9C%9F",
+  "meanings": [
+    "soil",
+    "earth",
+    "ground"
+  ],
+  "on": [
+    "ド",
+    "ト"
+  ],
+  "kun": [
+    "つち"
+  ],
+  "origin": {
+    "type": "pictogram",
+    "liushu_zh": "象形",
+    "summary_en": "The oldest form shows a mound of earth.",
+    "sources": [
+      {
+        "title": "English Wiktionary — Glyph origin",
+        "url": "https://en.wiktionary.org/wiki/%E5%9C%9F#Glyph_origin",
+        "accessed": "2026-11-22"
+      },
+      {
+        "title": "Japanese Wiktionary — 字源 (季旭昇撰 『説文新証』 芸文印書館、2014年、906頁。)",
+        "url": "https://ja.wiktionary.org/wiki/%E5%9C%9F",
+        "accessed": "2026-11-22"
+      },
+      {
+        "title": "Shuowen quotation — Japanese Wiktionary",
+        "url": "https://ja.wiktionary.org/wiki/%E5%9C%9F",
+        "quote": "土，地之吐生物者也。二象地之下、地之中物出形也",
+        "accessed": "2026-11-22"
+      },
+      {
+        "title": "Shuowen via Chinese Text Project",
+        "url": "https://ctext.org/dictionary.pl?if=en&char=%E5%9C%9F",
+        "accessed": "2026-11-22"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "word": "土",
+      "reading": "つち",
+      "meaning": "soil, earth",
+      "source_url": "https://jisho.org/search/%E5%9C%9F"
+    },
+    {
+      "word": "土曜日",
+      "reading": "どようび",
+      "meaning": "Saturday",
+      "source_url": "https://jisho.org/search/%E5%9C%9F%E6%9B%9C%E6%97%A5"
+    }
+  ],
+  "animation": {
+    "video": "assets/anim/571f.mp4",
+    "poster": "assets/anim/571f.png",
+    "manim": {
+      "strokes_hint": "a hand-drawn origin transforms into the modern glyph",
+      "picture": "a mound of earth rising from the ground"
+    }
+  }
+}

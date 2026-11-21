@@ -21,7 +21,9 @@ export default function KanjiDetailScreen() {
     <Panel>
       <Eyebrow>THE OLD SHAPE</Eyebrow>
       <Body style={{ color: colors.ink, fontSize: 19, lineHeight: 28 }}>{item.origin.summary_en}</Body>
-      <Text style={{ color: colors.muted, fontSize: 14 }}>Source: <Link href={item.origin.sources[0].url} asChild><Text accessibilityRole="link" style={{ color: colors.green, textDecorationLine: 'underline' }}>{item.origin.sources[0].title}</Text></Link></Text>
+      <View style={{ gap: 5 }}>
+        {item.origin.sources.map((source) => <Text key={`${source.url}-${source.title}`} style={{ color: colors.muted, fontSize: 14 }}>Source: <Link href={source.url} asChild><Text accessibilityRole="link" style={{ color: colors.green, textDecorationLine: 'underline' }}>{source.title}</Text></Link></Text>)}
+      </View>
     </Panel>
     <Panel>
       <Eyebrow>READ IT</Eyebrow>

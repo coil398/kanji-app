@@ -17,12 +17,21 @@
   "origin": {
     "type": "pictogram",
     "liushu_zh": "象形",
-    "summary_en": "Pictogram of a crescent moon.",
+    "summary_en": "The oldest form shows a crescent moon.",
     "sources": [
       {
-        "title": "Wiktionary, '月' — Glyph origin",
-        "url": "https://en.wiktionary.org/wiki/%E6%9C%88",
-        "quote": "Pictogram (象形) – pictographic representation of a crescent moon.",
+        "title": "English Wiktionary — Glyph origin",
+        "url": "https://en.wiktionary.org/wiki/%E6%9C%88#Glyph_origin",
+        "accessed": "2026-11-22"
+      },
+      {
+        "title": "Japanese Wiktionary — 字源 (裘錫圭 p.5, 122)",
+        "url": "https://ja.wiktionary.org/wiki/%E6%9C%88",
+        "accessed": "2026-11-22"
+      },
+      {
+        "title": "Shuowen via Chinese Text Project",
+        "url": "https://ctext.org/dictionary.pl?if=en&char=%E6%9C%88",
         "accessed": "2026-11-22"
       }
     ]
@@ -45,8 +54,8 @@
     "video": "assets/anim/6708.mp4",
     "poster": "assets/anim/6708.png",
     "manim": {
-      "strokes_hint": "simple strokes based on the source description",
-      "picture": "a thin crescent moon"
+      "strokes_hint": "hand-drawn depiction transforms into the modern glyph",
+      "picture": "a crescent moon"
     }
   }
 }

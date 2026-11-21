@@ -16,12 +16,21 @@
   "origin": {
     "type": "pictogram",
     "liushu_zh": "象形",
-    "summary_en": "Pictogram of three mountain peaks.",
+    "summary_en": "The oldest form shows three mountain peaks (triangles in the oldest forms).",
     "sources": [
       {
-        "title": "Wiktionary, '山' — Glyph origin",
-        "url": "https://en.wiktionary.org/wiki/%E5%B1%B1",
-        "quote": "Pictogram (象形) – three mountain peaks.",
+        "title": "English Wiktionary — Glyph origin",
+        "url": "https://en.wiktionary.org/wiki/%E5%B1%B1#Glyph_origin",
+        "accessed": "2026-11-22"
+      },
+      {
+        "title": "Japanese Wiktionary — 字源 (裘錫圭 p.112ほか3書)",
+        "url": "https://ja.wiktionary.org/wiki/%E5%B1%B1",
+        "accessed": "2026-11-22"
+      },
+      {
+        "title": "Shuowen via Chinese Text Project",
+        "url": "https://ctext.org/dictionary.pl?if=en&char=%E5%B1%B1",
         "accessed": "2026-11-22"
       }
     ]
@@ -44,7 +53,7 @@
     "video": "assets/anim/5c71.mp4",
     "poster": "assets/anim/5c71.png",
     "manim": {
-      "strokes_hint": "simple strokes based on the source description",
+      "strokes_hint": "hand-drawn depiction transforms into the modern glyph",
       "picture": "three mountain peaks"
     }
   }

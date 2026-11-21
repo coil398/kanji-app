@@ -10,5 +10,8 @@ for (const char of chars) {
   const route = path.resolve('dist/kanji', char);
   await mkdir(route, { recursive: true });
   await writeFile(path.join(route, 'index.html'), html);
+  const shortRoute = path.resolve('dist/k', char);
+  await mkdir(shortRoute, { recursive: true });
+  await writeFile(path.join(shortRoute, 'index.html'), html);
 }
-console.log(`Prepared Pages fallback and ${chars.length} direct kanji routes.`);
+console.log(`Prepared Pages fallback and ${chars.length * 2} direct kanji routes.`);

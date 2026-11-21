@@ -18,12 +18,21 @@
   "origin": {
     "type": "pictogram",
     "liushu_zh": "象形",
-    "summary_en": "Pictogram of a tree with branches and roots.",
+    "summary_en": "The oldest form shows a tree: branches on top, roots below.",
     "sources": [
       {
-        "title": "Wiktionary, '木' — Glyph origin",
-        "url": "https://en.wiktionary.org/wiki/%E6%9C%A8",
-        "quote": "Pictogram (象形) – a tree: branches on top, roots on the bottom (more visible in earlier forms).",
+        "title": "English Wiktionary — Glyph origin",
+        "url": "https://en.wiktionary.org/wiki/%E6%9C%A8#Glyph_origin",
+        "accessed": "2026-11-22"
+      },
+      {
+        "title": "Japanese Wiktionary — 字源 (季旭昇『説文新証』p.484)",
+        "url": "https://ja.wiktionary.org/wiki/%E6%9C%A8",
+        "accessed": "2026-11-22"
+      },
+      {
+        "title": "Shuowen via Chinese Text Project",
+        "url": "https://ctext.org/dictionary.pl?if=en&char=%E6%9C%A8",
         "accessed": "2026-11-22"
       }
     ]
@@ -46,8 +55,8 @@
     "video": "assets/anim/6728.mp4",
     "poster": "assets/anim/6728.png",
     "manim": {
-      "strokes_hint": "simple strokes based on the source description",
-      "picture": "a trunk with branches and roots"
+      "strokes_hint": "hand-drawn depiction transforms into the modern glyph",
+      "picture": "a tree with branches, trunk, and visible roots"
     }
   }
 }

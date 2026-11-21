@@ -17,12 +17,21 @@
   "origin": {
     "type": "indicative",
     "liushu_zh": "指事",
-    "summary_en": "Ideogram marking the bottom of a tree to indicate its roots.",
+    "summary_en": "The oldest form shows a tree with a mark at its roots → “root, origin” (today also “book”).",
     "sources": [
       {
-        "title": "Wiktionary, '本' — Glyph origin",
-        "url": "https://en.wiktionary.org/wiki/%E6%9C%AC",
-        "quote": "Ideogram (指事): a tree with its bottom highlighted with an extra stroke, accentuating the roots.",
+        "title": "English Wiktionary — Glyph origin",
+        "url": "https://en.wiktionary.org/wiki/%E6%9C%AC#Glyph_origin",
+        "accessed": "2026-11-22"
+      },
+      {
+        "title": "Japanese Wiktionary — 字源 (裘錫圭 p.120ほか)",
+        "url": "https://ja.wiktionary.org/wiki/%E6%9C%AC",
+        "accessed": "2026-11-22"
+      },
+      {
+        "title": "Shuowen via Chinese Text Project",
+        "url": "https://ctext.org/dictionary.pl?if=en&char=%E6%9C%AC",
         "accessed": "2026-11-22"
       }
     ]
@@ -45,8 +54,8 @@
     "video": "assets/anim/672c.mp4",
     "poster": "assets/anim/672c.png",
     "manim": {
-      "strokes_hint": "simple strokes based on the source description",
-      "picture": "a tree with its roots marked"
+      "strokes_hint": "hand-drawn depiction transforms into the modern glyph",
+      "picture": "a tree with a mark at its roots"
     }
   }
 }

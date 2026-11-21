@@ -15,12 +15,21 @@
   "origin": {
     "type": "pictogram",
     "liushu_zh": "象形",
-    "summary_en": "Pictogram of a carriage seen from above.",
+    "summary_en": "The oldest form shows a chariot seen from above: two wheels, an axle, a shaft.",
     "sources": [
       {
-        "title": "Wiktionary, '車' — Glyph origin",
-        "url": "https://en.wiktionary.org/wiki/%E8%BB%8A",
-        "quote": "Pictogram (象形) – originally a carriage seen from above.",
+        "title": "English Wiktionary — Glyph origin",
+        "url": "https://en.wiktionary.org/wiki/%E8%BB%8A#Glyph_origin",
+        "accessed": "2026-11-22"
+      },
+      {
+        "title": "Japanese Wiktionary — 字源 (『金文形義通解』ほか3書)",
+        "url": "https://ja.wiktionary.org/wiki/%E8%BB%8A",
+        "accessed": "2026-11-22"
+      },
+      {
+        "title": "Shuowen via Chinese Text Project",
+        "url": "https://ctext.org/dictionary.pl?if=en&char=%E8%BB%8A",
         "accessed": "2026-11-22"
       }
     ]
@@ -43,8 +52,8 @@
     "video": "assets/anim/8eca.mp4",
     "poster": "assets/anim/8eca.png",
     "manim": {
-      "strokes_hint": "simple strokes based on the source description",
-      "picture": "a top view of a simple two wheeled cart"
+      "strokes_hint": "hand-drawn depiction transforms into the modern glyph",
+      "picture": "a chariot seen from above, with two wheels, an axle, and a shaft"
     }
   }
 }

@@ -16,12 +16,21 @@
   "origin": {
     "type": "pictogram",
     "liushu_zh": "象形",
-    "summary_en": "Pictogram of fire.",
+    "summary_en": "The oldest form shows a fire.",
     "sources": [
       {
-        "title": "Wiktionary, '火' — Glyph origin",
-        "url": "https://en.wiktionary.org/wiki/%E7%81%AB",
-        "quote": "Pictogram (象形) – pictographic representation of a fire.",
+        "title": "English Wiktionary — Glyph origin",
+        "url": "https://en.wiktionary.org/wiki/%E7%81%AB#Glyph_origin",
+        "accessed": "2026-11-22"
+      },
+      {
+        "title": "Japanese Wiktionary — 字源",
+        "url": "https://ja.wiktionary.org/wiki/%E7%81%AB",
+        "accessed": "2026-11-22"
+      },
+      {
+        "title": "Shuowen via Chinese Text Project",
+        "url": "https://ctext.org/dictionary.pl?if=en&char=%E7%81%AB",
         "accessed": "2026-11-22"
       }
     ]
@@ -44,8 +53,8 @@
     "video": "assets/anim/706b.mp4",
     "poster": "assets/anim/706b.png",
     "manim": {
-      "strokes_hint": "simple strokes based on the source description",
-      "picture": "three rising flames"
+      "strokes_hint": "hand-drawn depiction transforms into the modern glyph",
+      "picture": "flames"
     }
   }
 }

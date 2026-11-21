@@ -17,12 +17,21 @@
   "origin": {
     "type": "pictogram",
     "liushu_zh": "象形",
-    "summary_en": "Pictogram of flowing water.",
+    "summary_en": "The oldest form shows water flowing between two banks.",
     "sources": [
       {
-        "title": "Wiktionary, '川' — Glyph origin",
-        "url": "https://en.wiktionary.org/wiki/%E5%B7%9D",
-        "quote": "Pictogram (象形) of flowing water.",
+        "title": "English Wiktionary — Glyph origin",
+        "url": "https://en.wiktionary.org/wiki/%E5%B7%9D#Glyph_origin",
+        "accessed": "2026-11-22"
+      },
+      {
+        "title": "Japanese Wiktionary — 字源 (羅振玉1914ほか4書)",
+        "url": "https://ja.wiktionary.org/wiki/%E5%B7%9D",
+        "accessed": "2026-11-22"
+      },
+      {
+        "title": "Shuowen via Chinese Text Project",
+        "url": "https://ctext.org/dictionary.pl?if=en&char=%E5%B7%9D",
         "accessed": "2026-11-22"
       }
     ]
@@ -45,8 +54,8 @@
     "video": "assets/anim/5ddd.mp4",
     "poster": "assets/anim/5ddd.png",
     "manim": {
-      "strokes_hint": "simple strokes based on the source description",
-      "picture": "three flowing vertical water lines"
+      "strokes_hint": "hand-drawn depiction transforms into the modern glyph",
+      "picture": "water flowing between two banks"
     }
   }
 }

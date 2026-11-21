@@ -16,12 +16,21 @@
   "origin": {
     "type": "pictogram",
     "liushu_zh": "象形",
-    "summary_en": "Pictogram of flowing water.",
+    "summary_en": "The oldest form shows flowing water.",
     "sources": [
       {
-        "title": "Wiktionary, '水' — Glyph origin",
-        "url": "https://en.wiktionary.org/wiki/%E6%B0%B4",
-        "quote": "Pictogram (象形) of water flowing.",
+        "title": "English Wiktionary — Glyph origin",
+        "url": "https://en.wiktionary.org/wiki/%E6%B0%B4#Glyph_origin",
+        "accessed": "2026-11-22"
+      },
+      {
+        "title": "Japanese Wiktionary — 字源",
+        "url": "https://ja.wiktionary.org/wiki/%E6%B0%B4",
+        "accessed": "2026-11-22"
+      },
+      {
+        "title": "Shuowen via Chinese Text Project",
+        "url": "https://ctext.org/dictionary.pl?if=en&char=%E6%B0%B4",
         "accessed": "2026-11-22"
       }
     ]
@@ -44,8 +53,8 @@
     "video": "assets/anim/6c34.mp4",
     "poster": "assets/anim/6c34.png",
     "manim": {
-      "strokes_hint": "simple strokes based on the source description",
-      "picture": "three flowing water lines"
+      "strokes_hint": "hand-drawn depiction transforms into the modern glyph",
+      "picture": "flowing water"
     }
   }
 }

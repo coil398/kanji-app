@@ -16,12 +16,21 @@
   "origin": {
     "type": "pictogram",
     "liushu_zh": "象形",
-    "summary_en": "Pictogram of a cloud with falling raindrops.",
+    "summary_en": "The oldest form shows raindrops falling from a cloud; the top line came later.",
     "sources": [
       {
-        "title": "Wiktionary, '雨' — Glyph origin",
-        "url": "https://en.wiktionary.org/wiki/%E9%9B%A8",
-        "quote": "Pictogram (象形) – a cloud with drops of rain falling from it.",
+        "title": "English Wiktionary — Glyph origin",
+        "url": "https://en.wiktionary.org/wiki/%E9%9B%A8#Glyph_origin",
+        "accessed": "2026-11-22"
+      },
+      {
+        "title": "Japanese Wiktionary — 字源 (葉玉森1924ほか4書)",
+        "url": "https://ja.wiktionary.org/wiki/%E9%9B%A8",
+        "accessed": "2026-11-22"
+      },
+      {
+        "title": "Shuowen via Chinese Text Project",
+        "url": "https://ctext.org/dictionary.pl?if=en&char=%E9%9B%A8",
         "accessed": "2026-11-22"
       }
     ]
@@ -44,8 +53,8 @@
     "video": "assets/anim/96e8.mp4",
     "poster": "assets/anim/96e8.png",
     "manim": {
-      "strokes_hint": "simple strokes based on the source description",
-      "picture": "a cloud with falling rain drops"
+      "strokes_hint": "hand-drawn depiction transforms into the modern glyph",
+      "picture": "a cloud with falling raindrops"
     }
   }
 }

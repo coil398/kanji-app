@@ -20,12 +20,21 @@
   "origin": {
     "type": "pictogram",
     "liushu_zh": "象形",
-    "summary_en": "Pictogram of a baby with a large head and spread arms.",
+    "summary_en": "The oldest form shows a baby with a big head and open arms, legs wrapped up.",
     "sources": [
       {
-        "title": "Wiktionary, '子' — Glyph origin",
-        "url": "https://en.wiktionary.org/wiki/%E5%AD%90",
-        "quote": "Pictogram (象形) – an image of a baby, with a large head and spread arms.",
+        "title": "English Wiktionary — Glyph origin",
+        "url": "https://en.wiktionary.org/wiki/%E5%AD%90#Glyph_origin",
+        "accessed": "2026-11-22"
+      },
+      {
+        "title": "Japanese Wiktionary — 字源 (裘錫圭 p.114ほか)",
+        "url": "https://ja.wiktionary.org/wiki/%E5%AD%90",
+        "accessed": "2026-11-22"
+      },
+      {
+        "title": "Shuowen via Chinese Text Project",
+        "url": "https://ctext.org/dictionary.pl?if=en&char=%E5%AD%90",
         "accessed": "2026-11-22"
       }
     ]
@@ -48,8 +57,8 @@
     "video": "assets/anim/5b50.mp4",
     "poster": "assets/anim/5b50.png",
     "manim": {
-      "strokes_hint": "simple strokes based on the source description",
-      "picture": "a small bundled baby figure"
+      "strokes_hint": "hand-drawn depiction transforms into the modern glyph",
+      "picture": "a baby with a large head and spread arms, legs wrapped up"
     }
   }
 }

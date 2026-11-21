@@ -16,31 +16,40 @@ try {
   await page.getByText('Japanese, one shape at a time.').waitFor();
   await page.screenshot({ path: path.resolve('research/screens/home.png'), fullPage: true });
 
-  await page.goto(new URL('kanji/%E6%97%A5/', base).toString(), { waitUntil: 'networkidle' });
-  await page.getByText('Pictogram of the sun.').waitFor();
-  const source = page.getByRole('link', { name: "Wiktionary, '日' — Glyph origin" });
-  assert.equal(await source.getAttribute('href'), 'https://en.wiktionary.org/wiki/%E6%97%A5');
+  const shortLink = new URL('k/%E6%9C%A8/?utm_source=tiktok', base);
+  await page.goto(shortLink.toString(), { waitUntil: 'networkidle' });
+  assert.equal(new URL(page.url()).searchParams.get('utm_source'), 'tiktok');
+  await page.getByText('The oldest form shows a tree: branches on top, roots below.').waitFor();
+  assert.equal(await page.getByText('木', { exact: true }).first().isVisible(), true);
+  const source = page.getByRole('link', { name: 'English Wiktionary — Glyph origin' });
+  assert.equal(await source.getAttribute('href'), 'https://en.wiktionary.org/wiki/%E6%9C%A8#Glyph_origin');
   const video = page.locator('video');
   await video.waitFor({ state: 'attached' });
   await page.waitForFunction(() => {
     const element = document.querySelector('video');
     return Boolean(element && element.readyState >= 2 && !element.paused);
   });
-  await page.screenshot({ path: path.resolve('research/screens/kanji-日.png'), fullPage: true });
+  await page.screenshot({ path: path.resolve('research/screens/kanji-木.png'), fullPage: true });
   await page.getByRole('button', { name: 'Got it → Quiz' }).click();
+  await page.getByText('Choose the right answer.').waitFor();
+  await page.screenshot({ path: path.resolve('research/screens/quiz.png'), fullPage: true });
   await page.getByRole('button').first().click();
   await page.getByText(/That’s right|The answer is/).waitFor();
   await page.getByRole('button', { name: 'Next question' }).click();
-  await page.getByRole('button', { name: '日', exact: true }).click();
+  await page.getByRole('button', { name: '木', exact: true }).click();
   await page.getByRole('button', { name: 'Finish quiz' }).click();
-  await page.getByText('日 is learned.').waitFor();
+  await page.getByText('木 is learned.').waitFor();
   await page.getByRole('button', { name: 'Back to my kanji' }).click();
-  await page.getByText('1/18 learned').waitFor();
+  await page.getByText('1/13 learned').waitFor();
+  await page.goto(new URL('review/', base).toString(), { waitUntil: 'networkidle' });
+  await page.screenshot({ path: path.resolve('research/screens/review.png'), fullPage: true });
+  await page.getByText(/Review|due/i).first().waitFor();
+  await page.goto(base, { waitUntil: 'networkidle' });
   await page.locator('#waitlist-email').fill('learner@example.com');
   await page.getByRole('button', { name: 'Notify me when the iOS app launches' }).click();
   await page.getByText('Thanks — saved.').waitFor();
   assert.deepEqual(errors, [], `Browser errors: ${errors.join('; ')}`);
-  console.log(`Home, /kanji/日/, quiz completion, on-device progress, and local waitlist save verified. Screenshots saved in research/screens/.`);
+  console.log('Home, the /k/木 attribution route, quiz, review, on-device progress, and local waitlist save verified without browser errors. Screenshots saved in research/screens/.');
 } finally {
   await browser.close();
 }
