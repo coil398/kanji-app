@@ -1,0 +1,6 @@
+{{Han etyl}}
+Two theories:
+*{{liushu|p|nocap=1}} of an acorn. Compare {{zh-l|櫟}}.
+*A human head. Compare {{zh-l|皃}} ({{zh-l|貌}}) and {{zh-l|黑}}.
+
+Possibly part of a phonetic family contrasting stop initials (P/B) for exposure/brightness against nasal initials (M) for concealment/darkness; compare {{och-l|黑|tr=*m̥ˤək}} and {{och-l|白|tr=*bˤrak}}.

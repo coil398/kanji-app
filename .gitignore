@@ -1,0 +1,6 @@
+.venv-manim/
+node_modules/
+dist/
+_site/
+media/
+.expo/

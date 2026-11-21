@@ -1,0 +1,51 @@
+{
+  "char": "山",
+  "jlpt": "N5",
+  "jlpt_source": "https://jlptsensei.com/jlpt-n5-kanji-list/",
+  "readings_source": "https://kanjiapi.dev/v1/kanji/%E5%B1%B1",
+  "meanings": [
+    "mountain"
+  ],
+  "on": [
+    "サン",
+    "セン"
+  ],
+  "kun": [
+    "やま"
+  ],
+  "origin": {
+    "type": "pictogram",
+    "liushu_zh": "象形",
+    "summary_en": "Pictogram of three mountain peaks.",
+    "sources": [
+      {
+        "title": "Wiktionary, '山' — Glyph origin",
+        "url": "https://en.wiktionary.org/wiki/%E5%B1%B1",
+        "quote": "Pictogram (象形) – three mountain peaks.",
+        "accessed": "2026-11-22"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "word": "山",
+      "reading": "やま",
+      "meaning": "mountain",
+      "source_url": "https://jisho.org/search/%E5%B1%B1"
+    },
+    {
+      "word": "富士山",
+      "reading": "ふじさん",
+      "meaning": "Mount Fuji",
+      "source_url": "https://jisho.org/search/%E5%AF%8C%E5%A3%AB%E5%B1%B1"
+    }
+  ],
+  "animation": {
+    "video": "assets/anim/5c71.mp4",
+    "poster": "assets/anim/5c71.png",
+    "manim": {
+      "strokes_hint": "simple strokes based on the source description",
+      "picture": "three mountain peaks"
+    }
+  }
+}

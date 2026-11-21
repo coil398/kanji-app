@@ -1,0 +1,6 @@
+{{Han etyl}}
+{{liushu|p}} – hand and fingers. The top stroke is the bent over middle finger, while the horizontal strokes are each two fingers. Compare {{zh-m|*爪}}, {{zh-m|*寸}}, {{zh-m|*九}}, {{zh-m|*又}}, and {{zh-m|*彐}} as a stylized hand. Compare {{zh-m|*丑}} as an animal claw. See also the bottom part of {{zh-m|*舉}} and {{zh-m|*奉}}.
+
+Note that unlike the other hand/claw characters, {{lang|zh|手}} has consistently had five fingers: a mammalian/human hand, as opposed to the three digits often found in the others.
+
+Compare also {{zh-m|*止|foot}}, derived from a footprint pointing upward, originally composed of 3 toes and a sole.

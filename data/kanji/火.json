@@ -1,0 +1,51 @@
+{
+  "char": "火",
+  "jlpt": "N5",
+  "jlpt_source": "https://jlptsensei.com/jlpt-n5-kanji-list/",
+  "readings_source": "https://kanjiapi.dev/v1/kanji/%E7%81%AB",
+  "meanings": [
+    "fire"
+  ],
+  "on": [
+    "カ"
+  ],
+  "kun": [
+    "ひ",
+    "ほ"
+  ],
+  "origin": {
+    "type": "pictogram",
+    "liushu_zh": "象形",
+    "summary_en": "Pictogram of fire.",
+    "sources": [
+      {
+        "title": "Wiktionary, '火' — Glyph origin",
+        "url": "https://en.wiktionary.org/wiki/%E7%81%AB",
+        "quote": "Pictogram (象形) – pictographic representation of a fire.",
+        "accessed": "2026-11-22"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "word": "火",
+      "reading": "ひ",
+      "meaning": "fire",
+      "source_url": "https://jisho.org/search/%E7%81%AB"
+    },
+    {
+      "word": "火曜日",
+      "reading": "かようび",
+      "meaning": "Tuesday",
+      "source_url": "https://jisho.org/search/%E7%81%AB%E6%9B%9C%E6%97%A5"
+    }
+  ],
+  "animation": {
+    "video": "assets/anim/706b.mp4",
+    "poster": "assets/anim/706b.png",
+    "manim": {
+      "strokes_hint": "simple strokes based on the source description",
+      "picture": "three rising flames"
+    }
+  }
+}

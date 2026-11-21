@@ -1,0 +1,53 @@
+{
+  "char": "日",
+  "jlpt": "N5",
+  "jlpt_source": "https://jlptsensei.com/jlpt-n5-kanji-list/",
+  "readings_source": "https://kanjiapi.dev/v1/kanji/%E6%97%A5",
+  "meanings": [
+    "day",
+    "sun",
+    "Japan"
+  ],
+  "on": [
+    "ニチ",
+    "ジツ"
+  ],
+  "kun": [
+    "ひ"
+  ],
+  "origin": {
+    "type": "pictogram",
+    "liushu_zh": "象形",
+    "summary_en": "Pictogram of the sun.",
+    "sources": [
+      {
+        "title": "Wiktionary, '日' — Glyph origin",
+        "url": "https://en.wiktionary.org/wiki/%E6%97%A5",
+        "quote": "Pictogram (象形) – the sun.",
+        "accessed": "2026-11-22"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "word": "今日",
+      "reading": "きょう",
+      "meaning": "today",
+      "source_url": "https://jisho.org/search/%E4%BB%8A%E6%97%A5"
+    },
+    {
+      "word": "日曜日",
+      "reading": "にちようび",
+      "meaning": "Sunday",
+      "source_url": "https://jisho.org/search/%E6%97%A5%E6%9B%9C%E6%97%A5"
+    }
+  ],
+  "animation": {
+    "video": "assets/anim/65e5.mp4",
+    "poster": "assets/anim/65e5.png",
+    "manim": {
+      "strokes_hint": "simple strokes based on the source description",
+      "picture": "a circle with a short horizontal sun mark"
+    }
+  }
+}

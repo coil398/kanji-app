@@ -1,0 +1,6 @@
+{{Han etym}}
+{{liushu|p}}: a woman with folded arms kneeling or standing. In the modern form, the pictogram is reversed from the Oracle Bone script form, and is "facing" toward the ''right'' edge of the character: the enclosed area (bounded on the right side by the downward-curving second stroke of the modern form) is the remnant of the figure's right arm, while the figure's left arm has disappeared.
+
+Graphically cognate to {{zh-l|母|mother}} and [[毋]], which has developed similarly, but also includes dots for distinction. Compare {{noncog|egy|𓁐}}.
+
+Similar but unrelated to [[卩]], in which the person kneeling has unspecified gender.

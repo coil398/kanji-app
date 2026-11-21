@@ -1,0 +1,8 @@
+{{Han etym}}
+Two possible interpretations:
+* {{liushu|i}} – three small dots > small.
+* {{liushu|p}} – three granules of sand – original character of {{och-l|沙}} > small.
+
+Starting from some bronze inscriptions, the dots have become elongated. Based on this form, ''{{w|Shuowen}}'' erroneously considers it to be an {{Han compound|八|丨|ls=ic|nocap=1|t1=to divide; to separate|t2=small object}}.
+
+Compare with {{och-l|少}}, represented by four dots in its oracle bone script form. Unrelated to the bottom part of [[京]], [[示]], [[尞]], [[尗]], and [[原]].

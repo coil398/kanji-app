@@ -1,0 +1,68 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://coil398.github.io/kanji-app/data/kanji.schema.json",
+  "title": "Kanji Origins entry",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["char", "jlpt", "jlpt_source", "readings_source", "meanings", "on", "kun", "origin", "examples", "animation"],
+  "properties": {
+    "char": { "type": "string", "minLength": 1, "maxLength": 2 },
+    "jlpt": { "const": "N5" },
+    "jlpt_source": { "type": "string", "format": "uri" },
+    "readings_source": { "type": "string", "format": "uri" },
+    "meanings": { "$ref": "#/$defs/nonEmptyStrings" },
+    "on": { "$ref": "#/$defs/nonEmptyStrings" },
+    "kun": { "$ref": "#/$defs/nonEmptyStrings" },
+    "origin": {
+      "type": "object", "additionalProperties": false,
+      "required": ["type", "liushu_zh", "summary_en", "sources"],
+      "properties": {
+        "type": { "enum": ["pictogram", "indicative"] },
+        "liushu_zh": { "enum": ["象形", "指事"] },
+        "summary_en": { "type": "string", "minLength": 1 },
+        "sources": {
+          "type": "array", "minItems": 1,
+          "items": {
+            "type": "object", "additionalProperties": false,
+            "required": ["title", "url", "quote", "accessed"],
+            "properties": {
+              "title": { "type": "string", "minLength": 1 },
+              "url": { "type": "string", "format": "uri" },
+              "quote": { "type": "string", "minLength": 1 },
+              "accessed": { "type": "string", "format": "date" }
+            }
+          }
+        }
+      }
+    },
+    "examples": {
+      "type": "array", "minItems": 2, "maxItems": 3,
+      "items": {
+        "type": "object", "additionalProperties": false,
+        "required": ["word", "reading", "meaning", "source_url"],
+        "properties": {
+          "word": { "type": "string", "minLength": 1 },
+          "reading": { "type": "string", "minLength": 1 },
+          "meaning": { "type": "string", "minLength": 1 },
+          "source_url": { "type": "string", "format": "uri" }
+        }
+      }
+    },
+    "animation": {
+      "type": "object", "additionalProperties": false,
+      "required": ["video", "poster", "manim"],
+      "properties": {
+        "video": { "type": "string", "pattern": "^assets/anim/[0-9a-f]+\\.mp4$" },
+        "poster": { "type": "string", "pattern": "^assets/anim/[0-9a-f]+\\.png$" },
+        "manim": {
+          "type": "object", "additionalProperties": false, "required": ["strokes_hint", "picture"],
+          "properties": {
+            "strokes_hint": { "type": "string" },
+            "picture": { "type": "string", "minLength": 1 }
+          }
+        }
+      }
+    }
+  },
+  "$defs": { "nonEmptyStrings": { "type": "array", "minItems": 1, "items": { "type": "string", "minLength": 1 } } }
+}

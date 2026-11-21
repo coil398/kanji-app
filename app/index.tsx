@@ -1,0 +1,97 @@
+import { useCallback, useState } from 'react';
+import { createElement } from 'react';
+import { useFocusEffect, useRouter } from 'expo-router';
+import { Platform, Pressable, Text, TextInput, View } from 'react-native';
+import AsyncStorage from '@react-native-async-storage/async-storage';
+import { kanji } from '../src/generated/kanji';
+import { dueCards } from '../src/srs';
+import { readProgress, type Progress } from '../src/progress';
+import { colors, Action, Body, Eyebrow, Panel, Screen, SectionTitle, Title, styles } from '../src/ui';
+import { WAITLIST_ENDPOINT } from '../src/config';
+
+const waitlistKey = '@kanji-origins/waitlist';
+const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+export default function HomeScreen() {
+  const router = useRouter();
+  const [progress, setProgress] = useState<Record<string, Progress>>({});
+  const [email, setEmail] = useState('');
+  const [waitlistMessage, setWaitlistMessage] = useState('');
+  const [waitlistError, setWaitlistError] = useState('');
+  const now = Date.now();
+
+  useFocusEffect(useCallback(() => { void readProgress().then(setProgress); }, []));
+  const learned = kanji.filter((item) => progress[item.char]);
+  const due = dueCards(learned.map((item) => ({ char: item.char, dueAt: progress[item.char].card.dueAt })), now);
+  const next = kanji.find((item) => !progress[item.char]) ?? kanji[0];
+
+  const submitWaitlist = async () => {
+    setWaitlistMessage('');
+    if (!emailPattern.test(email.trim())) { setWaitlistError('Enter a valid email address.'); return; }
+    setWaitlistError('');
+    if (WAITLIST_ENDPOINT) {
+      const response = await fetch(WAITLIST_ENDPOINT, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ email: email.trim(), ts: Date.now() }) });
+      if (!response.ok) { setWaitlistError('Could not save your email. Try again.'); return; }
+    } else {
+      const stored = JSON.parse((await AsyncStorage.getItem(waitlistKey)) ?? '[]') as string[];
+      if (!stored.includes(email.trim())) stored.push(email.trim());
+      await AsyncStorage.setItem(waitlistKey, JSON.stringify(stored));
+    }
+    setEmail('');
+    setWaitlistMessage('Thanks — saved.');
+  };
+
+  return <Screen>
+    <View style={{ gap: 10, paddingTop: 8 }}>
+      <Eyebrow>KANJI ORIGINS · LEARN BY SEEING</Eyebrow>
+      <Title>Japanese, one shape at a time.</Title>
+      <Body>Meet the old idea inside each character. Learn it, try it, then come back when it is due.</Body>
+    </View>
+
+    <Panel style={{ backgroundColor: colors.green, borderColor: colors.green, padding: 24 }}>
+      <Eyebrow><Text style={{ color: '#d5e7dd' }}>YOUR STUDY DESK</Text></Eyebrow>
+      <View style={{ flexDirection: 'row', justifyContent: 'space-between', gap: 12 }}>
+        <View><Text style={{ color: '#ffffff', fontSize: 30, fontWeight: '800' }}>{learned.length}</Text><Text style={{ color: '#e0eee7' }}>learned</Text></View>
+        <View><Text style={{ color: '#ffffff', fontSize: 30, fontWeight: '800' }}>{due.length}</Text><Text style={{ color: '#e0eee7' }}>due today</Text></View>
+        <View><Text style={{ color: '#ffffff', fontSize: 30, fontWeight: '800' }}>{kanji.length}</Text><Text style={{ color: '#e0eee7' }}>in this set</Text></View>
+      </View>
+      <Action label={learned.length === kanji.length ? `Learn again · ${next.char}` : `Learn next · ${next.char}`} onPress={() => router.push(`/kanji/${encodeURIComponent(next.char)}`)} />
+      <Action label={`Review · ${due.length} due`} onPress={() => router.push('/review')} secondary disabled={due.length === 0} />
+    </Panel>
+
+    <SectionTitle>Start anywhere <Text style={{ color: colors.muted, fontWeight: '500', fontSize: 13 }}>{learned.length}/{kanji.length} learned</Text></SectionTitle>
+    <View style={{ flexDirection: 'row', flexWrap: 'wrap', gap: 10 }}>
+      {kanji.map((item) => {
+        const done = Boolean(progress[item.char]);
+        return <Pressable key={item.char} accessibilityRole="link" accessibilityLabel={`${item.char}, ${item.meanings[0]}`} onPress={() => router.push(`/kanji/${encodeURIComponent(item.char)}`)} style={({ pressed }) => ({ minWidth: 100, flexGrow: 1, maxWidth: 180, borderWidth: 1, borderColor: colors.line, borderRadius: 16, padding: 14, backgroundColor: pressed ? colors.greenPale : colors.card })}>
+          <Text style={{ fontSize: 30, fontWeight: '700', color: colors.ink }}>{item.char}</Text>
+          <Text numberOfLines={1} style={{ color: colors.muted, fontSize: 13 }}>{item.meanings[0]}</Text>
+          <Text style={{ color: done ? colors.green : colors.red, fontSize: 11, fontWeight: '700', marginTop: 6 }}>{done ? 'LEARNED' : 'NEW'}</Text>
+        </Pressable>;
+      })}
+    </View>
+
+    <Panel>
+      <Eyebrow>COMING TO IOS</Eyebrow>
+      <Text accessibilityRole="header" style={styles.sectionTitle}>Get a launch note</Text>
+      <Body>Leave your email to be notified when the iOS app launches.</Body>
+      <PlatformForm email={email} setEmail={setEmail} submitWaitlist={submitWaitlist} clearError={() => setWaitlistError('')} error={waitlistError} message={waitlistMessage} />
+    </Panel>
+    <Text style={{ color: colors.muted, textAlign: 'center', fontSize: 12 }}>Free to learn · Progress stays on this device</Text>
+  </Screen>;
+}
+
+function PlatformForm({ email, setEmail, submitWaitlist, clearError, error, message }: { email: string; setEmail: (value: string) => void; submitWaitlist: () => void; clearError: () => void; error: string; message: string }) {
+  const inputStyle = { width: '100%', boxSizing: 'border-box', minHeight: 52, border: `1px solid ${error ? colors.red : '#dedbd0'}`, borderRadius: 12, padding: '0 14px', color: colors.ink, fontSize: 16, fontFamily: 'inherit' };
+  const field = Platform.OS === 'web'
+    ? createElement('input', { id: 'waitlist-email', name: 'email', type: 'email', required: true, maxLength: 254, value: email, placeholder: 'you@example.com', autoComplete: 'email', autoCapitalize: 'none', spellCheck: false, 'aria-invalid': Boolean(error), 'aria-describedby': 'waitlist-status', onChange: (event: { currentTarget: { value: string } }) => { setEmail(event.currentTarget.value); if (error) clearError(); }, style: inputStyle })
+    : <TextInput nativeID="waitlist-email" value={email} onChangeText={(value) => { setEmail(value); if (error) clearError(); }} placeholder="you@example.com" keyboardType="email-address" autoCapitalize="none" autoCorrect={false} autoComplete="email" accessibilityLabel="Email address" aria-invalid={Boolean(error)} aria-describedby="waitlist-status" maxLength={254} style={{ minHeight: 52, borderWidth: 1, borderColor: error ? colors.red : colors.line, borderRadius: 12, paddingHorizontal: 14, color: colors.ink, fontSize: 16 }} />;
+  const submit = Platform.OS === 'web'
+    ? createElement('button', { type: 'submit', style: { width: '100%', minHeight: 52, border: 0, borderRadius: 14, background: colors.green, color: '#fff', padding: '0 16px', fontSize: 15, fontWeight: 700, cursor: 'pointer' } }, 'Notify me when the iOS app launches')
+    : <Pressable accessibilityRole="button" onPress={submitWaitlist} style={styles.action}><Text style={styles.actionText}>Notify me when the iOS app launches</Text></Pressable>;
+  const fields = <View style={{ gap: 10 }}>{field}{submit}</View>;
+  return <View style={{ gap: 8 }}>
+    {Platform.OS === 'web' ? createElement('form', { onSubmit: (event: { preventDefault: () => void }) => { event.preventDefault(); submitWaitlist(); }, 'aria-label': 'iOS launch waitlist' }, createElement('label', { htmlFor: 'waitlist-email', style: { display: 'block', marginBottom: 8, color: colors.ink, fontWeight: '600' } }, 'Email address'), fields) : <><Text style={{ color: colors.ink, fontWeight: '600' }}>Email address</Text>{fields}</>}
+    <Text nativeID="waitlist-status" accessibilityLiveRegion="polite" style={{ color: error ? colors.red : colors.green }}>{error || message}</Text>
+  </View>;
+}

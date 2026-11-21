@@ -1,0 +1,53 @@
+{
+  "char": "一",
+  "jlpt": "N5",
+  "jlpt_source": "https://jlptsensei.com/jlpt-n5-kanji-list/",
+  "readings_source": "https://kanjiapi.dev/v1/kanji/%E4%B8%80",
+  "meanings": [
+    "one",
+    "one radical (no.1)"
+  ],
+  "on": [
+    "イチ",
+    "イツ"
+  ],
+  "kun": [
+    "ひと",
+    "ひとつ"
+  ],
+  "origin": {
+    "type": "indicative",
+    "liushu_zh": "指事",
+    "summary_en": "Ideogram indicating one with a single horizontal stroke.",
+    "sources": [
+      {
+        "title": "Wiktionary, '一' — Glyph origin",
+        "url": "https://en.wiktionary.org/wiki/%E4%B8%80",
+        "quote": "Ideogram (指事): a horizontal stroke, indicating the number one.",
+        "accessed": "2026-11-22"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "word": "一",
+      "reading": "いち",
+      "meaning": "one",
+      "source_url": "https://jisho.org/search/%E4%B8%80"
+    },
+    {
+      "word": "一人",
+      "reading": "ひとり",
+      "meaning": "one person",
+      "source_url": "https://jisho.org/search/%E4%B8%80%E4%BA%BA"
+    }
+  ],
+  "animation": {
+    "video": "assets/anim/4e00.mp4",
+    "poster": "assets/anim/4e00.png",
+    "manim": {
+      "strokes_hint": "simple strokes based on the source description",
+      "picture": "one horizontal stroke"
+    }
+  }
+}

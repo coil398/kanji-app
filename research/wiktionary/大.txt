@@ -1,0 +1,10 @@
+{{Han etyl}}
+{{liushu|p}}: a standing person facing forward. Compare {{och-l|*人}}, which represents the profile of a person.
+
+Often explained as an ideogram of a person with outstretched arms; however, the ancient scripts do not show stretching.
+
+Compare with {{l-lite|zh|sc=Hani|尢}}, which is a man with bent legs. Compare also {{l-lite|zh|sc=Hani|立}}, similar to {{lang|zh|大}}, and {{l-lite|zh|sc=Hani|交}}, in which the legs are crossed. Compare also {{l-lite|zh|sc=Hani|文}}, which is a man with arms outstretched and a crest or tattoo on his chest, and to {{l-lite|zh|sc=Hani|夭}}, which is a man with arms outstretched and leaning to side (running or marching vigorously).
+
+See the top component of {{l-lite|zh|sc=Hani|泰}} in the original version ({{l-lite|zh|sc=Hani|𡙌}}), the top component of {{l-lite|zh|sc=Hani|赤}} and the bottom component of [[奐]] (well visible in some fonts). Related to {{l-lite|zh|sc=Hani|太}}.
+
+Unrelated to {{l-lite|zh|sc=Hani|买}}, in which the bottom component is the stylization of a cowrie.

@@ -1,0 +1,3 @@
+Japanese simplification of [[圓]], via a simplified character similar to [[𠮚]].<ref>Toshinobu Sakaida, [http://www.akaenpitsu.gr.jp/kakioroshi001.pdf 円（圓）の異体字]</ref>
+
+Specifically, starting in the beginning of the [[Meiji period]], the {{m|ja|員}} in the middle of the character was abbreviated to 丨 in handwriting. As time went on, the bottom stroke of 囗 gradually rose, until by the time of the adoption of the {{ja-glossary|shinjitai}} characters, it had reached or even surpassed the box's centre.

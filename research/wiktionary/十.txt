@@ -1,0 +1,9 @@
+{{Han etym}}
+In oracle-bone script, {{lang|zh|十}} is mostly written as a single vertical stroke; a few examples add a central dot, as in HJ 9204. Later forms added {{lang|zh|一}}, making a cross.
+
+One view identifies it as the original graph of {{och-l|針|needle|tr=*kim}}, later borrowed for {{och-l|十|ten|tr=*gip}}. See {{och-l|針|tr=*kim}}.<ref>https://humanum.arts.cuhk.edu.hk/Lexis/lexi-mf/search.php?word=%E5%8D%81</ref>
+
+Another view sees it as a knotted-cord or thread-joining form, cf. {{och-l|什|tr=*gip}} ({{zh-l|三蒼}} glosses it as “to gather”), {{zh-l|揖|tr=*ʔip}} (the {{zh-l|詩}} commentary glosses {{lang|zh|揖揖}} as “gathered”), {{zh-l|緝}} (“to join hemp fibres into thread”), and {{zh-l|輯}} (glossed in {{zh-l|說文}} as “to collect” and in {{zh-l|爾雅}} as “to harmonize”).
+
+For the sense of number ten (10), {{liushu|i}} is identified: a [[vertical]] [[stroke]], indicating the next digit above one.
+Unrelated to [[支]], [[卖]], [[直]], [[真]], [[德]], [[甫]], and [[七]], but related to the original form of [[丈]].

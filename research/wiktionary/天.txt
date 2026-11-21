@@ -1,0 +1,12 @@
+{{Han etym}}
+{{wp|zh:,yue:,en:Tian}}
+[[File:Lhfls.jpg|thumb|220px|The sky over [[Guangdong]].]]
+[[File:Hall_of_Prayer_for_Good_Harvests_interior_2014.jpg|thumb|220px|The Hall of Prayer for Good Harvests in [[Beijing]]'s [[w:Temple of Heaven|Temple of Heaven]].]]
+
+Oracle bone script: a frontal standing man ({{zh-l|*大}}) with four head variants:
+* Square or round block.
+* Square or round block with an elongated neck and a horizontal line.
+* Two equal horizontal lines.
+* Two unequal horizontal lines, resembling {{zh-l|*上}}.
+
+{{zh-ref|Chen (2019)}} analyzes these as either an ideogrammic compound ({{zh-l|*大}} + {{zh-l|*上}}) or a phono-semantic compound ({{Han compound|大|丁|ls=psc|c1=s|c2=p|nocap=y|tr=*l̥ˤiŋ|tr2=*tˤeŋ}}).

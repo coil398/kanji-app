@@ -1,0 +1,42 @@
+{
+  "name": "kanji-origins",
+  "version": "1.0.0",
+  "main": "expo-router/entry",
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "2.2.0",
+    "expo": "~58.0.26",
+    "expo-constants": "~58.0.16",
+    "expo-linking": "~58.0.17",
+    "expo-router": "~58.0.32",
+    "expo-status-bar": "~58.0.5",
+    "expo-video": "~58.0.14",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "react-native": "0.88.1",
+    "react-native-safe-area-context": "~5.11.1",
+    "react-native-screens": "~4.30.1",
+    "react-native-web": "^0.21.4"
+  },
+  "devDependencies": {
+    "@types/react": "~19.3.0",
+    "ajv": "^8.20.0",
+    "ajv-formats": "^3.0.1",
+    "playwright": "^1.65.1",
+    "sharp": "^0.35.5",
+    "typescript": "~6.0.3",
+    "vitest": "^5.1.1"
+  },
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "test": "npm run validate:data && vitest run",
+    "gen:data": "node scripts/gen-data.mjs",
+    "validate:data": "node scripts/validate-data.mjs",
+    "render:anim": "node scripts/render-animations.mjs",
+    "finalize:web": "node scripts/finalize-web.mjs",
+    "verify:browser": "node scripts/verify-browser.mjs"
+  },
+  "private": true
+}

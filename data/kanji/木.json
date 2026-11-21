@@ -1,0 +1,53 @@
+{
+  "char": "木",
+  "jlpt": "N5",
+  "jlpt_source": "https://jlptsensei.com/jlpt-n5-kanji-list/",
+  "readings_source": "https://kanjiapi.dev/v1/kanji/%E6%9C%A8",
+  "meanings": [
+    "tree",
+    "wood"
+  ],
+  "on": [
+    "ボク",
+    "モク"
+  ],
+  "kun": [
+    "き",
+    "こ"
+  ],
+  "origin": {
+    "type": "pictogram",
+    "liushu_zh": "象形",
+    "summary_en": "Pictogram of a tree with branches and roots.",
+    "sources": [
+      {
+        "title": "Wiktionary, '木' — Glyph origin",
+        "url": "https://en.wiktionary.org/wiki/%E6%9C%A8",
+        "quote": "Pictogram (象形) – a tree: branches on top, roots on the bottom (more visible in earlier forms).",
+        "accessed": "2026-11-22"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "word": "木",
+      "reading": "き",
+      "meaning": "tree",
+      "source_url": "https://jisho.org/search/%E6%9C%A8"
+    },
+    {
+      "word": "木曜日",
+      "reading": "もくようび",
+      "meaning": "Thursday",
+      "source_url": "https://jisho.org/search/%E6%9C%A8%E6%9B%9C%E6%97%A5"
+    }
+  ],
+  "animation": {
+    "video": "assets/anim/6728.mp4",
+    "poster": "assets/anim/6728.png",
+    "manim": {
+      "strokes_hint": "simple strokes based on the source description",
+      "picture": "a trunk with branches and roots"
+    }
+  }
+}

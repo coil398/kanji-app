@@ -1,0 +1,4 @@
+{{Han etym}}
+{{liushu|p}} – resembles an open mouth.
+
+In the oracle bone script, radical {{lang|zh|口}} is used for characters having abstract meanings. Such a character can have a figurative meaning derived from the phonetic part, e.g. {{och-l|右|gloss=right}} = {{och-l|又|gloss=right hand}} + {{lang|zh|口}} and {{och-l|𪪺|gloss=strong; powerful}} = {{och-l|弓|gloss=bow}} + {{lang|zh|口}}, or be an unrelated borrowing, e.g. {{och-l|否|gloss=no}} = {{och-l|不|gloss=calyx}} + {{lang|zh|口}}.

@@ -1,0 +1,52 @@
+{
+  "char": "川",
+  "jlpt": "N5",
+  "jlpt_source": "https://jlptsensei.com/jlpt-n5-kanji-list/",
+  "readings_source": "https://kanjiapi.dev/v1/kanji/%E5%B7%9D",
+  "meanings": [
+    "stream",
+    "river",
+    "river or three-stroke river radical (no. 47)"
+  ],
+  "on": [
+    "セン"
+  ],
+  "kun": [
+    "かわ"
+  ],
+  "origin": {
+    "type": "pictogram",
+    "liushu_zh": "象形",
+    "summary_en": "Pictogram of flowing water.",
+    "sources": [
+      {
+        "title": "Wiktionary, '川' — Glyph origin",
+        "url": "https://en.wiktionary.org/wiki/%E5%B7%9D",
+        "quote": "Pictogram (象形) of flowing water.",
+        "accessed": "2026-11-22"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "word": "川",
+      "reading": "かわ",
+      "meaning": "river",
+      "source_url": "https://jisho.org/search/%E5%B7%9D"
+    },
+    {
+      "word": "小川",
+      "reading": "おがわ",
+      "meaning": "stream",
+      "source_url": "https://jisho.org/search/%E5%B0%8F%E5%B7%9D"
+    }
+  ],
+  "animation": {
+    "video": "assets/anim/5ddd.mp4",
+    "poster": "assets/anim/5ddd.png",
+    "manim": {
+      "strokes_hint": "simple strokes based on the source description",
+      "picture": "three flowing vertical water lines"
+    }
+  }
+}

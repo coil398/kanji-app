@@ -1,0 +1,52 @@
+{
+  "char": "本",
+  "jlpt": "N5",
+  "jlpt_source": "https://jlptsensei.com/jlpt-n5-kanji-list/",
+  "readings_source": "https://kanjiapi.dev/v1/kanji/%E6%9C%AC",
+  "meanings": [
+    "book",
+    "present",
+    "main"
+  ],
+  "on": [
+    "ホン"
+  ],
+  "kun": [
+    "もと"
+  ],
+  "origin": {
+    "type": "indicative",
+    "liushu_zh": "指事",
+    "summary_en": "Ideogram marking the bottom of a tree to indicate its roots.",
+    "sources": [
+      {
+        "title": "Wiktionary, '本' — Glyph origin",
+        "url": "https://en.wiktionary.org/wiki/%E6%9C%AC",
+        "quote": "Ideogram (指事): a tree with its bottom highlighted with an extra stroke, accentuating the roots.",
+        "accessed": "2026-11-22"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "word": "本",
+      "reading": "ほん",
+      "meaning": "book",
+      "source_url": "https://jisho.org/search/%E6%9C%AC"
+    },
+    {
+      "word": "本当",
+      "reading": "ほんとう",
+      "meaning": "truth",
+      "source_url": "https://jisho.org/search/%E6%9C%AC%E5%BD%93"
+    }
+  ],
+  "animation": {
+    "video": "assets/anim/672c.mp4",
+    "poster": "assets/anim/672c.png",
+    "manim": {
+      "strokes_hint": "simple strokes based on the source description",
+      "picture": "a tree with its roots marked"
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{{Han etyl}}
+{{liushu|psc}}: semantic {{zh-l|士}} or {{zh-l|王}}, + semantic {{zh-l|*呂}} (“two blocks of metal”) + phonetic {{zh-l|亼}} ({{och-l|今|tr=*kum}}). The blocks of metal were originally drawn as : and later as {{zh-l|丷}}.
+
+Shuowen interprets it as an image of metal in the [[earth]] (Xu Shen writes "象金在土中形") with {{lang-lite|zh|sc=Hani|亼}} as phonetic. But the most ancient versions do not contain the pictogram of the earth.
+
+Originally referred to [[copper]], first used during the Copper Age and the Jade Age in China (hence before the Bronze Age, during which the first bronzes were produced); later the meaning was extended to [[metal]] as a whole, and then to [[gold]].

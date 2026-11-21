@@ -1,0 +1,51 @@
+{
+  "char": "雨",
+  "jlpt": "N5",
+  "jlpt_source": "https://jlptsensei.com/jlpt-n5-kanji-list/",
+  "readings_source": "https://kanjiapi.dev/v1/kanji/%E9%9B%A8",
+  "meanings": [
+    "rain"
+  ],
+  "on": [
+    "ウ"
+  ],
+  "kun": [
+    "あめ",
+    "あま"
+  ],
+  "origin": {
+    "type": "pictogram",
+    "liushu_zh": "象形",
+    "summary_en": "Pictogram of a cloud with falling raindrops.",
+    "sources": [
+      {
+        "title": "Wiktionary, '雨' — Glyph origin",
+        "url": "https://en.wiktionary.org/wiki/%E9%9B%A8",
+        "quote": "Pictogram (象形) – a cloud with drops of rain falling from it.",
+        "accessed": "2026-11-22"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "word": "雨",
+      "reading": "あめ",
+      "meaning": "rain",
+      "source_url": "https://jisho.org/search/%E9%9B%A8"
+    },
+    {
+      "word": "大雨",
+      "reading": "おおあめ",
+      "meaning": "heavy rain",
+      "source_url": "https://jisho.org/search/%E5%A4%A7%E9%9B%A8"
+    }
+  ],
+  "animation": {
+    "video": "assets/anim/96e8.mp4",
+    "poster": "assets/anim/96e8.png",
+    "manim": {
+      "strokes_hint": "simple strokes based on the source description",
+      "picture": "a cloud with falling rain drops"
+    }
+  }
+}
