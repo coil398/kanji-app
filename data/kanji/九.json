@@ -1,0 +1,73 @@
+{
+  "char": "九",
+  "jlpt": "N5",
+  "jlpt_source": "https://jlptsensei.com/jlpt-n5-kanji-list/",
+  "readings_source": "https://kanjiapi.dev/v1/kanji/%E4%B9%9D",
+  "meanings": [
+    "nine"
+  ],
+  "on": [
+    "キュウ",
+    "ク"
+  ],
+  "kun": [
+    "ここの",
+    "ここの.つ"
+  ],
+  "origin": {
+    "type": "pictogram",
+    "liushu_zh": "象形",
+    "summary_en": "A forearm bent at the elbow, drawn with the elbow emphasized. The original word was 'elbow', now written 肘; the graph was then borrowed for the number nine. Shuowen describes the shape as bent and twisted to its end (象其屈曲究盡之形).",
+    "sources": [
+      {
+        "title": "English Wiktionary — Glyph origin",
+        "url": "https://en.wiktionary.org/wiki/%E4%B9%9D#Glyph_origin",
+        "accessed": "2026-11-22"
+      },
+      {
+        "title": "Japanese Wiktionary — 字源",
+        "url": "https://ja.wiktionary.org/wiki/%E4%B9%9D",
+        "accessed": "2026-11-22"
+      },
+      {
+        "title": "Shuowen Jiezi (說文解字), Wikisource",
+        "url": "https://zh.wikisource.org/wiki/%E8%AA%AA%E6%96%87%E8%A7%A3%E5%AD%97/14#%E4%B9%9D%E9%83%A8",
+        "quote": "陽之變也。象其屈曲究盡之形。凡九之屬皆从九。",
+        "accessed": "2026-11-22"
+      },
+      {
+        "title": "Shuowen via Chinese Text Project",
+        "url": "https://ctext.org/dictionary.pl?if=en&char=%E4%B9%9D",
+        "accessed": "2026-11-22"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "word": "九つ",
+      "reading": "ここのつ",
+      "meaning": "nine",
+      "source_url": "https://jisho.org/search/%E4%B9%9D%E3%81%A4"
+    },
+    {
+      "word": "九月",
+      "reading": "くがつ",
+      "meaning": "September",
+      "source_url": "https://jisho.org/search/%E4%B9%9D%E6%9C%88"
+    },
+    {
+      "word": "九州",
+      "reading": "きゅうしゅう",
+      "meaning": "Kyūshū (southernmost of the four main islands of Japan)",
+      "source_url": "https://jisho.org/search/%E4%B9%9D%E5%B7%9E"
+    }
+  ],
+  "animation": {
+    "video": "assets/anim/4e5d.mp4",
+    "poster": "assets/anim/4e5d.png",
+    "manim": {
+      "strokes_hint": "hand-drawn depiction transforms into the modern glyph",
+      "picture": "a bent arm with the elbow emphasized"
+    }
+  }
+}

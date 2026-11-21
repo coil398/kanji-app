@@ -1,0 +1,7 @@
+Character: 川
+Wikisource page: https://zh.wikisource.org/wiki/%E8%AA%AA%E6%96%87%E8%A7%A3%E5%AD%97/11 (section 川部)
+Wikisource API request: https://zh.wikisource.org/w/api.php?action=parse&page=%E8%AA%AA%E6%96%87%E8%A7%A3%E5%AD%97/11&prop=wikitext&format=json
+Chinese Text Project Shuowen page: https://ctext.org/dictionary.pl?if=en&char=%E5%B7%9D
+Retrieved: 2026-11-22
+
+Entry (Shuowen Jiezi, verbatim from the Wikisource wikitext): 貫穿通流水也。《虞書》曰：“濬𡿨巜，距川。”言深𡿨巜之水會爲川也。凡川之屬皆从川。

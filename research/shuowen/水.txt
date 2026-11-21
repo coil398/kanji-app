@@ -1,0 +1,7 @@
+Character: 水
+Wikisource page: https://zh.wikisource.org/wiki/%E8%AA%AA%E6%96%87%E8%A7%A3%E5%AD%97/11 (section 水部)
+Wikisource API request: https://zh.wikisource.org/w/api.php?action=parse&page=%E8%AA%AA%E6%96%87%E8%A7%A3%E5%AD%97/11&prop=wikitext&format=json
+Chinese Text Project Shuowen page: https://ctext.org/dictionary.pl?if=en&char=%E6%B0%B4
+Retrieved: 2026-11-22
+
+Entry (Shuowen Jiezi, verbatim from the Wikisource wikitext): 凖也。北方之行。象眾水並流，中有微陽之气也。凡水之屬皆从水。

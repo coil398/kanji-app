@@ -17,7 +17,7 @@ Press `w` in Expo's terminal UI to open the web app. Progress and a disabled-end
 
 See [data/SCHEMA.md](data/SCHEMA.md) and [data/kanji.schema.json](data/kanji.schema.json). Add one `<character>.json` file under `data/kanji/` and add its character at the desired position in `data/kanji/index.json`, then run `npm run gen:data`. The generated module is `src/generated/kanji.ts`; edit the JSON source files, not the generated module. `npm run validate:data` checks the index and all entries.
 
-Origin summaries are based on the English and Japanese Wiktionary glyph-origin entries, with source links to both entries and the corresponding Shuowen page. Candidate selection evidence and excluded-candidate reasons are in [research/SELECTION.md](research/SELECTION.md). Kanji readings and meanings use KanjiAPI's KANJIDIC-derived records. Example words, readings, and meanings have individual Jisho sources in their JSON records.
+Origin summaries are based on the English and Japanese Wiktionary glyph-origin entries, with source links to both entries, the Shuowen Jiezi entry on Chinese Wikisource, and the Chinese Text Project Shuowen page. Candidate selection evidence and excluded-candidate reasons are in [research/SELECTION.md](research/SELECTION.md). Kanji readings and meanings use KanjiAPI's KANJIDIC-derived records. Example words, readings, and meanings have individual Jisho sources in their JSON records.
 
 Planning data can be merged with `npm run import:planning`. It reads matching `<character>.json` files from `/workspace/jp-learning/kanji-data/`, prints changed fields, preserves unknown fields under `planning_raw`, and validates the resulting dataset. If that directory is absent, the command reports the missing directory and exits successfully.
 

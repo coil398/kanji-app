@@ -1,4 +1,9 @@
 Candidate: 今
+Wikisource page: https://zh.wikisource.org/wiki/%E8%AA%AA%E6%96%87%E8%A7%A3%E5%AD%97/05 (section 亼部)
+Wikisource API request: https://zh.wikisource.org/w/api.php?action=parse&page=%E8%AA%AA%E6%96%87%E8%A7%A3%E5%AD%97/05&prop=wikitext&format=json
 Chinese Text Project Shuowen page: https://ctext.org/dictionary.pl?if=en&char=%E4%BB%8A
+Retrieved: 2026-11-22
 
-No candidate-specific Shuowen passage is recorded. Ctext automated retrieval was refused with an access-unavailable response in this environment, and neither Wiktionary origin section supplies a quoted Shuowen passage for this candidate. This file records an evidence gap, not a source quote or a positive classification.
+Entry (Shuowen Jiezi, verbatim from the Wikisource wikitext): 是時也。从亼从乁。乁，古文及。
+
+Reading of the entry: Shuowen analyzes the graph as 「从亼从乁」, a compound, so the pictogram/indicative condition fails.

@@ -1,4 +1,9 @@
 Candidate: 上
+Wikisource page: https://zh.wikisource.org/wiki/%E8%AA%AA%E6%96%87%E8%A7%A3%E5%AD%97/01 (section 丄部)
+Wikisource API request: https://zh.wikisource.org/w/api.php?action=parse&page=%E8%AA%AA%E6%96%87%E8%A7%A3%E5%AD%97/01&prop=wikitext&format=json
 Chinese Text Project Shuowen page: https://ctext.org/dictionary.pl?if=en&char=%E4%B8%8A
+Retrieved: 2026-11-22
 
-No candidate-specific Shuowen passage is recorded. Ctext automated retrieval was refused with an access-unavailable response in this environment, and neither Wiktionary origin section supplies a quoted Shuowen passage for this candidate. This file records an evidence gap, not a source quote or a positive classification.
+Entry (Shuowen Jiezi, verbatim from the Wikisource wikitext): 高也。此古文上，指事也。凡丄之屬皆从丄。
+
+Reading of the entry: Shuowen classes the old form 丄 explicitly as 指事 (「指事也」), matching English Wiktionary {{liushu|i}} and Japanese Wiktionary 指事.

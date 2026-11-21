@@ -1,0 +1,7 @@
+Character: 車
+Wikisource page: https://zh.wikisource.org/wiki/%E8%AA%AA%E6%96%87%E8%A7%A3%E5%AD%97/14 (section 車部)
+Wikisource API request: https://zh.wikisource.org/w/api.php?action=parse&page=%E8%AA%AA%E6%96%87%E8%A7%A3%E5%AD%97/14&prop=wikitext&format=json
+Chinese Text Project Shuowen page: https://ctext.org/dictionary.pl?if=en&char=%E8%BB%8A
+Retrieved: 2026-11-22
+
+Entry (Shuowen Jiezi, verbatim from the Wikisource wikitext): 輿輪之緫名。夏后時奚仲所造。象形。凡車之屬皆从車。

@@ -1,4 +1,9 @@
 Candidate: 下
+Wikisource page: https://zh.wikisource.org/wiki/%E8%AA%AA%E6%96%87%E8%A7%A3%E5%AD%97/01 (section 丄部)
+Wikisource API request: https://zh.wikisource.org/w/api.php?action=parse&page=%E8%AA%AA%E6%96%87%E8%A7%A3%E5%AD%97/01&prop=wikitext&format=json
 Chinese Text Project Shuowen page: https://ctext.org/dictionary.pl?if=en&char=%E4%B8%8B
+Retrieved: 2026-11-22
 
-No candidate-specific Shuowen passage is recorded. Ctext automated retrieval was refused with an access-unavailable response in this environment, and neither Wiktionary origin section supplies a quoted Shuowen passage for this candidate. This file records an evidence gap, not a source quote or a positive classification.
+Entry (Shuowen Jiezi, verbatim from the Wikisource wikitext): 底也。指事。
+
+Reading of the entry: Shuowen gives the entry as 「底也。指事。」, an explicit 指事 classification matching English Wiktionary {{liushu|i}} and Japanese Wiktionary 指事.

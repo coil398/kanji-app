@@ -57,6 +57,21 @@ def source_drawing(char: str, picture: str):
     if char == "土":
         mound = VMobject().set_points_smoothly([LEFT * .8 + DOWN * .38, LEFT * .65 + DOWN * .05, LEFT * .3 + UP * .15, ORIGIN + UP * .45, RIGHT * .3 + UP * .15, RIGHT * .65 + DOWN * .05, RIGHT * .8 + DOWN * .38])
         return VGroup(mound, Line(LEFT * .9 + DOWN * .4, RIGHT * .9 + DOWN * .4)).set_color(ink)
+    if char == "一":
+        return Line(LEFT * .85, RIGHT * .85).set_color(ink)
+    if char == "三":
+        return VGroup(*[Line(LEFT * .8, RIGHT * .8).shift(UP * y) for y in (.62, 0, -.62)]).set_color(ink)
+    if char == "上":
+        baseline = Line(LEFT * .85 + DOWN * .3, RIGHT * .85 + DOWN * .3)
+        mark = Line(LEFT * .3 + UP * .45, RIGHT * .3 + UP * .45)
+        return VGroup(baseline, mark).set_color(ink)
+    if char == "下":
+        baseline = Line(LEFT * .85 + UP * .3, RIGHT * .85 + UP * .3)
+        mark = Line(LEFT * .3 + DOWN * .45, RIGHT * .3 + DOWN * .45)
+        return VGroup(baseline, mark).set_color(ink)
+    if char == "九":
+        arm = VMobject().set_points_smoothly([LEFT * .62 + UP * .78, LEFT * .3 + UP * .2, LEFT * .12 + DOWN * .25, RIGHT * .35 + DOWN * .42, RIGHT * .72 + DOWN * .2, RIGHT * .78 + UP * .12])
+        return arm.set_color(ink)
     if char == "火":
         left = VMobject().set_points_as_corners([LEFT * .7 + DOWN * .65, LEFT * .52 + DOWN * .05, LEFT * .65 + UP * .35, LEFT * .15 + DOWN * .02, ORIGIN + UP * .8, RIGHT * .18 + UP * .1])
         right = VMobject().set_points_as_corners([RIGHT * .65 + DOWN * .65, RIGHT * .46 + DOWN * .02, RIGHT * .63 + UP * .36, RIGHT * .13 + DOWN * .1, ORIGIN + UP * .55])

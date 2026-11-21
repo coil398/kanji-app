@@ -1,0 +1,76 @@
+{
+  "char": "上",
+  "jlpt": "N5",
+  "jlpt_source": "https://jlptsensei.com/jlpt-n5-kanji-list/",
+  "readings_source": "https://kanjiapi.dev/v1/kanji/%E4%B8%8A",
+  "meanings": [
+    "above",
+    "up"
+  ],
+  "on": [
+    "ジョウ",
+    "ショウ",
+    "シャン"
+  ],
+  "kun": [
+    "うえ",
+    "うわ",
+    "かみ"
+  ],
+  "origin": {
+    "type": "indicative",
+    "liushu_zh": "指事",
+    "summary_en": "A short line drawn above a longer line: the mark points to the place 'above'. Shuowen classes the old form 丄 as 指事 (indicative).",
+    "sources": [
+      {
+        "title": "English Wiktionary — Glyph origin",
+        "url": "https://en.wiktionary.org/wiki/%E4%B8%8A#Glyph_origin",
+        "accessed": "2026-11-22"
+      },
+      {
+        "title": "Japanese Wiktionary — 字源",
+        "url": "https://ja.wiktionary.org/wiki/%E4%B8%8A",
+        "accessed": "2026-11-22"
+      },
+      {
+        "title": "Shuowen Jiezi (說文解字), Wikisource",
+        "url": "https://zh.wikisource.org/wiki/%E8%AA%AA%E6%96%87%E8%A7%A3%E5%AD%97/01#%E4%B8%84%E9%83%A8",
+        "quote": "高也。此古文上，指事也。凡丄之屬皆从丄。",
+        "accessed": "2026-11-22"
+      },
+      {
+        "title": "Shuowen via Chinese Text Project",
+        "url": "https://ctext.org/dictionary.pl?if=en&char=%E4%B8%8A",
+        "accessed": "2026-11-22"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "word": "上",
+      "reading": "うえ",
+      "meaning": "above, over",
+      "source_url": "https://jisho.org/search/%E4%B8%8A"
+    },
+    {
+      "word": "上手",
+      "reading": "じょうず",
+      "meaning": "skillful, skilled",
+      "source_url": "https://jisho.org/search/%E4%B8%8A%E6%89%8B"
+    },
+    {
+      "word": "以上",
+      "reading": "いじょう",
+      "meaning": "not less than ..., ... and over",
+      "source_url": "https://jisho.org/search/%E4%BB%A5%E4%B8%8A"
+    }
+  ],
+  "animation": {
+    "video": "assets/anim/4e0a.mp4",
+    "poster": "assets/anim/4e0a.png",
+    "manim": {
+      "strokes_hint": "hand-drawn depiction transforms into the modern glyph",
+      "picture": "a short stroke above a longer baseline"
+    }
+  }
+}

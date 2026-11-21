@@ -1,0 +1,76 @@
+{
+  "char": "下",
+  "jlpt": "N5",
+  "jlpt_source": "https://jlptsensei.com/jlpt-n5-kanji-list/",
+  "readings_source": "https://kanjiapi.dev/v1/kanji/%E4%B8%8B",
+  "meanings": [
+    "below",
+    "down",
+    "descend"
+  ],
+  "on": [
+    "カ",
+    "ゲ"
+  ],
+  "kun": [
+    "した",
+    "しも",
+    "もと"
+  ],
+  "origin": {
+    "type": "indicative",
+    "liushu_zh": "指事",
+    "summary_en": "A short line drawn below a longer line: the mark points to the place 'below'. Shuowen's whole entry is 底也。指事。 — 'bottom; indicative'.",
+    "sources": [
+      {
+        "title": "English Wiktionary — Glyph origin",
+        "url": "https://en.wiktionary.org/wiki/%E4%B8%8B#Glyph_origin",
+        "accessed": "2026-11-22"
+      },
+      {
+        "title": "Japanese Wiktionary — 字源",
+        "url": "https://ja.wiktionary.org/wiki/%E4%B8%8B",
+        "accessed": "2026-11-22"
+      },
+      {
+        "title": "Shuowen Jiezi (說文解字), Wikisource",
+        "url": "https://zh.wikisource.org/wiki/%E8%AA%AA%E6%96%87%E8%A7%A3%E5%AD%97/01#%E4%B8%84%E9%83%A8",
+        "quote": "底也。指事。",
+        "accessed": "2026-11-22"
+      },
+      {
+        "title": "Shuowen via Chinese Text Project",
+        "url": "https://ctext.org/dictionary.pl?if=en&char=%E4%B8%8B",
+        "accessed": "2026-11-22"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "word": "下",
+      "reading": "した",
+      "meaning": "below, down",
+      "source_url": "https://jisho.org/search/%E4%B8%8B"
+    },
+    {
+      "word": "地下鉄",
+      "reading": "ちかてつ",
+      "meaning": "subway, metro",
+      "source_url": "https://jisho.org/search/%E5%9C%B0%E4%B8%8B%E9%89%84"
+    },
+    {
+      "word": "下手",
+      "reading": "へた",
+      "meaning": "unskillful, poor",
+      "source_url": "https://jisho.org/search/%E4%B8%8B%E6%89%8B"
+    }
+  ],
+  "animation": {
+    "video": "assets/anim/4e0b.mp4",
+    "poster": "assets/anim/4e0b.png",
+    "manim": {
+      "strokes_hint": "hand-drawn depiction transforms into the modern glyph",
+      "picture": "a short stroke below a longer baseline"
+    }
+  }
+}

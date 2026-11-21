@@ -1,4 +1,9 @@
 Candidate: 北
+Wikisource page: https://zh.wikisource.org/wiki/%E8%AA%AA%E6%96%87%E8%A7%A3%E5%AD%97/08 (section 北部)
+Wikisource API request: https://zh.wikisource.org/w/api.php?action=parse&page=%E8%AA%AA%E6%96%87%E8%A7%A3%E5%AD%97/08&prop=wikitext&format=json
 Chinese Text Project Shuowen page: https://ctext.org/dictionary.pl?if=en&char=%E5%8C%97
+Retrieved: 2026-11-22
 
-No candidate-specific Shuowen passage is recorded. Ctext automated retrieval was refused with an access-unavailable response in this environment, and neither Wiktionary origin section supplies a quoted Shuowen passage for this candidate. This file records an evidence gap, not a source quote or a positive classification.
+Entry (Shuowen Jiezi, verbatim from the Wikisource wikitext): 𦮃也。从二人相背。凡北之屬皆从北。
+
+Reading of the entry: Shuowen analyzes the graph as 「从二人相背」, a compound of two 人, so the pictogram/indicative condition fails.

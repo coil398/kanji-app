@@ -2,7 +2,7 @@
 
 ## Included set and order
 
-The first twelve entries retain the requested order. 土 remains the only additional candidate because its English and Japanese Wiktionary descriptions agree and Japanese Wiktionary quotes a matching Shuowen passage.
+The eighteen entries below meet every evidence condition: English and Japanese Wiktionary give the same origin account with no competing theory, and the Shuowen Jiezi entry describes the graph as 象形 or 指事 (or uses 象…形 wording) rather than analyzing a compound of two graphs.
 
 1. 木 — the oldest form resembles a tree with branches and roots.
 2. 本 — a mark is added at the tree's roots.
@@ -16,27 +16,32 @@ The first twelve entries retain the requested order. 土 remains the only additi
 10. 車 — a chariot seen from above.
 11. 火 — a pictogram of fire.
 12. 水 — a pictogram of flowing water.
-13. 土 — an earth mound. English and Japanese Wiktionary agree, and Japanese Wiktionary quotes Shuowen: “土，地之吐生物者也。二象地之下、地之中物出形也”.
+13. 土 — an earth mound. Japanese Wiktionary quotes Shuowen: “土，地之吐生物者也。二象地之下、地之中物出形也”; the Wikisource entry reads 「地之吐生物者也。二象地之下、地之中，物出形也」.
+14. 上 — a short mark above a baseline. Both Wiktionary entries class it 指事, and Shuowen's 丄 entry says 「高也。此古文上，指事也」.
+15. 下 — a short mark below a baseline. Both Wiktionary entries class it 指事, and the whole Shuowen entry is 「底也。指事。」.
+16. 一 — one horizontal stroke for one, classed 指事 by both Wiktionary entries. Shuowen adds a cosmological gloss, 「惟初太始，道立於一，造分天地，化成萬物」, which names no liushu class and does not contradict 指事; the gloss is recorded in the entry's `summary_en`.
+17. 三 — three parallel strokes for three, classed 指事 by both Wiktionary entries. Shuowen glosses it as 「天、地、人之道也。从三數」, a cosmological reading of the three strokes rather than a compound of two graphs; the gloss is recorded in `summary_en`.
+18. 九 — a bent forearm with the elbow emphasized, borrowed for the number nine. Both Wiktionary entries class it 象形, Shuowen says 「象其屈曲究盡之形」, and `summary_en` states the elbow → nine loan.
 
-The existing first twelve remain unchanged. No further candidate met every evidence condition after direct English and Japanese Wiktionary API review. The requested 20–30 range is therefore not met; evidence requirements were not relaxed to reach it.
+The eighteen entries remain below the requested 20–30 range. No further candidate met every evidence condition after direct English and Japanese Wiktionary and Wikisource Shuowen review; the requirements were not relaxed to reach the range.
 
 ## Candidate review
 
-For each N5 candidate checked below, `research/wiktionary/<char>.txt` and `research/ja-wiktionary/<char>.txt` contain the fetched Glyph origin and 字源 sections. The corresponding `research/shuowen/<char>.txt` records the ctext access limitation and whether Wiktionary quoted Shuowen. A missing quote is recorded as an evidence gap, not treated as agreement.
+For each N5 candidate checked below, `research/wiktionary/<char>.txt` and `research/ja-wiktionary/<char>.txt` contain the fetched Glyph origin and 字源 sections, and `research/shuowen/<char>.txt` records the Wikisource page, section, and verbatim Shuowen entry. A missing entry is recorded as an evidence gap, not treated as agreement.
 
 | Character | Decision | Candidate-specific reason |
 |---|---|---|
-| 上 | Excluded | Both Wiktionary entries describe a mark above a baseline, but no Shuowen passage or classification could be retrieved or found quoted on Wiktionary. |
-| 下 | Excluded | Both entries describe a mark below a baseline, but no Shuowen passage or classification could be retrieved or found quoted on Wiktionary. |
-| 一 | Excluded | English describes a horizontal stroke for one and Japanese calls it 指事; the Shuowen wording required by the numeric exception was not available as a quote or fetched text. |
-| 二 | Excluded | English calls two parallel strokes 指事; Japanese explicitly offers 指事 or 会意, so the classifications do not agree. |
-| 三 | Excluded | Both entries describe three parallel strokes, but the Shuowen wording required by the numeric exception was not available as a quote or fetched text. |
-| 八 | Excluded | Both entries connect the split strokes with division, but English labels the form pictographic and Japanese labels it 指事; no Shuowen quotation resolves the difference. |
+| 上 | Included | English (`{{liushu\|i}}`) and Japanese (指事) agree on a mark above a baseline with no rival theory; Shuowen's 丄 entry says 「高也。此古文上，指事也」. |
+| 下 | Included | English (`{{liushu\|i}}`) and Japanese (指事) agree on a mark below a baseline; the Shuowen entry is 「底也。指事。」. |
+| 一 | Included | English and Japanese both class the single stroke 指事; the Shuowen cosmological gloss gives no liushu class and does not contradict it. Gloss recorded. |
+| 二 | Excluded | English calls two parallel strokes 指事; Japanese explicitly offers 指事 or 会意, so the classifications do not agree. Shuowen analyzes 「从偶一」. |
+| 三 | Included | English and Japanese both class three parallel strokes 指事; Shuowen's 「天、地、人之道也。从三數」 reads the strokes cosmologically without contradicting 指事. Gloss recorded. |
+| 八 | Excluded | Shuowen supplies 「別也。象分別相背之形」, but English labels the form pictographic (`{{liushu\|p}}`) and Japanese labels it 指事, so the shared-classification condition fails. |
 | 十 | Excluded | English records competing interpretations of the early vertical stroke; Japanese says the origin is unknown and presents a vertical 一 only as one theory. |
-| 生 | Excluded | The sprout-over-ground explanation agrees across Wiktionary, but no Shuowen passage or classification was available from either permitted source route. |
+| 生 | Excluded | Shuowen supplies 「進也。象艸木生出土上」, but English analyzes 屮 + 一 as an ideographic compound while Japanese classifies the graph as 象形, so the classifications do not agree. |
 | 西 | Excluded | English distinguishes open and closed oracle forms and presents the nest interpretation as one proposal; Japanese gives the nest as the source form and notes the later borrowing for west. |
 | 東 | Excluded | English describes a tied bag and rejects the Shuowen sun-behind-tree account as folk etymology; Japanese gives the tied bag and borrowing for east. |
-| 午 | Excluded | English and Japanese agree on a pestle borrowed for the zodiac sign, but no matching Shuowen classification or quoted passage was available. |
+| 午 | Excluded | English and Japanese agree on a pestle borrowed for the zodiac sign, but the Shuowen entry, 「啎也。五月，陰气午逆陽。冒地而出。此予矢同意」, gives no 象形/指事 class and no 象…形 wording, so the pictograph condition fails. |
 | 長 | Excluded | English says an old man with long hair; Japanese describes long eyebrows and explicitly rejects the long-hair account. |
 | 千 | Excluded | Both entries analyze a compound containing 人 as a phonetic element; this is not a pictogram or indicative analysis. |
 | 万 | Excluded | English marks the origin unknown and reports competing theories; Japanese identifies the modern glyph as a cursive/abbreviated form of 萬. |
@@ -50,17 +55,17 @@ For each N5 candidate checked below, `research/wiktionary/<char>.txt` and `resea
 | 天 | Excluded | Japanese gives a human head and an alternate 指事 theory; English discusses additional interpretations, so there is no single uncontested shared explanation. |
 | 金 | Excluded | English describes a semantic/phonetic compound and contrasts it with Shuowen's metal-in-earth account; Japanese identifies the early form as 火 plus a phonetic element. |
 | 円 | Excluded | Both entries identify 円 as a later simplification of 圓, rather than a pictogram or indicative graph. |
-| 九 | Excluded | English and Japanese agree on an elbow/arm picture later borrowed for nine, but no qualifying Shuowen passage or class was available. |
+| 九 | Included | English (`{{liushu\|p}}`) and Japanese (象形) agree on a bent arm whose original meaning was “elbow”, borrowed for nine; Shuowen says 「象其屈曲究盡之形」. |
 | 四 | Excluded | English and Japanese report breath or nasal discharge as the old picture and a later loan for four; the two possible original meanings remain unresolved. |
 | 六 | Excluded | English offers a shed or an ancient numeral mark; Japanese says the origin is unknown and notes a cave-dwelling proposal. |
-| 七 | Excluded | Both connect intersecting strokes with cutting, but English labels it pictographic and Japanese labels it 指事; no Shuowen quote resolves the class difference. |
-| 北 | Excluded | Both entries agree on two people back-to-back and a later loan for north, but no Shuowen passage/classification was available through the permitted source routes. |
+| 七 | Excluded | English labels the intersecting strokes pictographic and Japanese labels them 指事; the Shuowen entry, 「陽之正也。从一，微陰从中衺出也」, gives no 象形/指事 class and no 象…形 wording, so the difference stays unresolved. |
+| 北 | Excluded | Both entries agree on two people back-to-back and a later loan for north, but Shuowen analyzes the graph as 「从二人相背」, a compound of two 人, so the pictogram/indicative condition fails. |
 | 南 | Excluded | The entries give different reconstructions of the oracle form; Japanese also records competing vessel/instrument analyses. |
 | 年 | Excluded | English presents a grain-and-person harvest compound; Japanese analyzes 禾 plus phonetic 人 and a later graphic change, so the explanations differ. |
-| 今 | Excluded | English presents an inverted 曰 and an additional interpretation; Japanese gives the inverted 曰 account, but no Shuowen evidence was available to resolve the alternatives. |
+| 今 | Excluded | Shuowen supplies 「是時也。从亼从乁。乁，古文及」, a compound analysis, while both Wiktionary entries keep the inverted 曰 account as the leading proposal. |
 
 立 is not present in the 80-character JLPT Sensei N5 list used for this review, so it was not considered. 休, 口, 母, 女, and 馬 remain excluded as explicitly required.
 
 ## Shuowen access
 
-The planning team's twelve requested entries retain their requested Chinese Text Project source links. Direct ctext page retrieval returned an access-unavailable/403 response, including with a browser User-Agent, and stated automated downloads were prohibited. No further ctext requests were made. The Wiktionary fallback qualifies 土 because its Japanese entry quotes a matching Shuowen passage. For the additional candidates, the fetched Wiktionary origin sections did not quote a Shuowen passage that resolved the candidate's issue. The app therefore remains at 13 entries.
+The Shuowen Jiezi full text is available on Chinese Wikisource as 說文解字/01 through 說文解字/15. Entries are fetched with `action=parse&prop=wikitext` from the Wikisource API, and each candidate's entry is stored verbatim in `research/shuowen/<character>.txt` together with the page URL and section. The Chinese Text Project Shuowen pages remain linked in `origin.sources`; direct ctext page retrieval returns an access-unavailable response that states automated downloads are prohibited, so ctext is used as a link only.

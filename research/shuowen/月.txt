@@ -1,0 +1,7 @@
+Character: 月
+Wikisource page: https://zh.wikisource.org/wiki/%E8%AA%AA%E6%96%87%E8%A7%A3%E5%AD%97/07 (section 月部)
+Wikisource API request: https://zh.wikisource.org/w/api.php?action=parse&page=%E8%AA%AA%E6%96%87%E8%A7%A3%E5%AD%97/07&prop=wikitext&format=json
+Chinese Text Project Shuowen page: https://ctext.org/dictionary.pl?if=en&char=%E6%9C%88
+Retrieved: 2026-11-22
+
+Entry (Shuowen Jiezi, verbatim from the Wikisource wikitext): 闕也。大陰之精。象形。凡月之屬皆从月。

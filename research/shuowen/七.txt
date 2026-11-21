@@ -1,4 +1,9 @@
 Candidate: 七
+Wikisource page: https://zh.wikisource.org/wiki/%E8%AA%AA%E6%96%87%E8%A7%A3%E5%AD%97/14 (section 七部)
+Wikisource API request: https://zh.wikisource.org/w/api.php?action=parse&page=%E8%AA%AA%E6%96%87%E8%A7%A3%E5%AD%97/14&prop=wikitext&format=json
 Chinese Text Project Shuowen page: https://ctext.org/dictionary.pl?if=en&char=%E4%B8%83
+Retrieved: 2026-11-22
 
-No candidate-specific Shuowen passage is recorded. Ctext automated retrieval was refused with an access-unavailable response in this environment, and neither Wiktionary origin section supplies a quoted Shuowen passage for this candidate. This file records an evidence gap, not a source quote or a positive classification.
+Entry (Shuowen Jiezi, verbatim from the Wikisource wikitext): 陽之正也。从一，微陰从中衺出也。凡七之屬皆从七。
+
+Reading of the entry: The Shuowen entry (「从一，微陰从中衺出也」) gives no 象形/指事 label and no 象... form wording, and English (pictographic) and Japanese (指事) still differ.

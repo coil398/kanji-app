@@ -19,9 +19,9 @@ try {
   const shortLink = new URL('k/%E6%9C%A8/?utm_source=tiktok', base);
   await page.goto(shortLink.toString(), { waitUntil: 'networkidle' });
   assert.equal(new URL(page.url()).searchParams.get('utm_source'), 'tiktok');
-  await page.getByText('The oldest form shows a tree: branches on top, roots below.').waitFor();
+  await page.getByText('The oldest forms show a tree: a trunk with branches spreading up and roots spreading down.').waitFor();
   assert.equal(await page.getByText('木', { exact: true }).first().isVisible(), true);
-  const source = page.getByRole('link', { name: 'English Wiktionary — Glyph origin' });
+  const source = page.getByRole('link', { name: 'English Wiktionary, Glyph origin' });
   assert.equal(await source.getAttribute('href'), 'https://en.wiktionary.org/wiki/%E6%9C%A8#Glyph_origin');
   const video = page.locator('video');
   await video.waitFor({ state: 'attached' });
@@ -40,7 +40,7 @@ try {
   await page.getByRole('button', { name: 'Finish quiz' }).click();
   await page.getByText('木 is learned.').waitFor();
   await page.getByRole('button', { name: 'Back to my kanji' }).click();
-  await page.getByText('1/13 learned').waitFor();
+  await page.getByText('1/18 learned').waitFor();
   await page.goto(new URL('review/', base).toString(), { waitUntil: 'networkidle' });
   await page.screenshot({ path: path.resolve('research/screens/review.png'), fullPage: true });
   await page.getByText(/Review|due/i).first().waitFor();

@@ -1,4 +1,9 @@
 Candidate: 一
+Wikisource page: https://zh.wikisource.org/wiki/%E8%AA%AA%E6%96%87%E8%A7%A3%E5%AD%97/01 (section 一部)
+Wikisource API request: https://zh.wikisource.org/w/api.php?action=parse&page=%E8%AA%AA%E6%96%87%E8%A7%A3%E5%AD%97/01&prop=wikitext&format=json
 Chinese Text Project Shuowen page: https://ctext.org/dictionary.pl?if=en&char=%E4%B8%80
+Retrieved: 2026-11-22
 
-No candidate-specific Shuowen passage is recorded. Ctext automated retrieval was refused with an access-unavailable response in this environment, and neither Wiktionary origin section supplies a quoted Shuowen passage for this candidate. This file records an evidence gap, not a source quote or a positive classification.
+Entry (Shuowen Jiezi, verbatim from the Wikisource wikitext): 惟初太始，道立於一，造分天地，化成萬物。凡一之屬皆从一。
+
+Reading of the entry: Shuowen gives a cosmological gloss rather than a liushu label. It does not contradict the 指事 classification that both Wiktionary entries give; the gloss is recorded in the data record.

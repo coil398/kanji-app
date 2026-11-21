@@ -1,4 +1,9 @@
 Candidate: 午
+Wikisource page: https://zh.wikisource.org/wiki/%E8%AA%AA%E6%96%87%E8%A7%A3%E5%AD%97/14 (section 午部)
+Wikisource API request: https://zh.wikisource.org/w/api.php?action=parse&page=%E8%AA%AA%E6%96%87%E8%A7%A3%E5%AD%97/14&prop=wikitext&format=json
 Chinese Text Project Shuowen page: https://ctext.org/dictionary.pl?if=en&char=%E5%8D%88
+Retrieved: 2026-11-22
 
-No candidate-specific Shuowen passage is recorded. Ctext automated retrieval was refused with an access-unavailable response in this environment, and neither Wiktionary origin section supplies a quoted Shuowen passage for this candidate. This file records an evidence gap, not a source quote or a positive classification.
+Entry (Shuowen Jiezi, verbatim from the Wikisource wikitext): 啎也。五月，陰气午逆陽。冒地而出。此予矢同意。凡午之屬皆从午。
+
+Reading of the entry: The Shuowen entry explains the graph through the fifth month and 陰气 and says 「此予矢同意」; it gives no 象形/指事 classification and no 象... form wording.

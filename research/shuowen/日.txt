@@ -1,0 +1,7 @@
+Character: 日
+Wikisource page: https://zh.wikisource.org/wiki/%E8%AA%AA%E6%96%87%E8%A7%A3%E5%AD%97/07 (section 日部)
+Wikisource API request: https://zh.wikisource.org/w/api.php?action=parse&page=%E8%AA%AA%E6%96%87%E8%A7%A3%E5%AD%97/07&prop=wikitext&format=json
+Chinese Text Project Shuowen page: https://ctext.org/dictionary.pl?if=en&char=%E6%97%A5
+Retrieved: 2026-11-22
+
+Entry (Shuowen Jiezi, verbatim from the Wikisource wikitext): 實也。太陽之精不虧。从囗一。象形。凡日之屬皆从日。

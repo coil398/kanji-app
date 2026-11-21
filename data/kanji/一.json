@@ -1,0 +1,73 @@
+{
+  "char": "一",
+  "jlpt": "N5",
+  "jlpt_source": "https://jlptsensei.com/jlpt-n5-kanji-list/",
+  "readings_source": "https://kanjiapi.dev/v1/kanji/%E4%B8%80",
+  "meanings": [
+    "one"
+  ],
+  "on": [
+    "イチ",
+    "イツ"
+  ],
+  "kun": [
+    "ひと",
+    "ひと.つ"
+  ],
+  "origin": {
+    "type": "indicative",
+    "liushu_zh": "指事",
+    "summary_en": "One horizontal stroke, the graph for 'one'; English and Japanese Wiktionary both class it as 指事. Shuowen reads it cosmologically: at the first beginning the Way stood on one, divided heaven and earth, and formed the ten thousand things (惟初太始，道立於一，造分天地，化成萬物).",
+    "sources": [
+      {
+        "title": "English Wiktionary — Glyph origin",
+        "url": "https://en.wiktionary.org/wiki/%E4%B8%80#Glyph_origin",
+        "accessed": "2026-11-22"
+      },
+      {
+        "title": "Japanese Wiktionary — 字源",
+        "url": "https://ja.wiktionary.org/wiki/%E4%B8%80",
+        "accessed": "2026-11-22"
+      },
+      {
+        "title": "Shuowen Jiezi (說文解字), Wikisource",
+        "url": "https://zh.wikisource.org/wiki/%E8%AA%AA%E6%96%87%E8%A7%A3%E5%AD%97/01#%E4%B8%80%E9%83%A8",
+        "quote": "惟初太始，道立於一，造分天地，化成萬物。凡一之屬皆从一。",
+        "accessed": "2026-11-22"
+      },
+      {
+        "title": "Shuowen via Chinese Text Project",
+        "url": "https://ctext.org/dictionary.pl?if=en&char=%E4%B8%80",
+        "accessed": "2026-11-22"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "word": "一つ",
+      "reading": "ひとつ",
+      "meaning": "one",
+      "source_url": "https://jisho.org/search/%E4%B8%80%E3%81%A4"
+    },
+    {
+      "word": "一日",
+      "reading": "いちにち",
+      "meaning": "one day",
+      "source_url": "https://jisho.org/search/%E4%B8%80%E6%97%A5"
+    },
+    {
+      "word": "一月",
+      "reading": "ひとつき",
+      "meaning": "one month",
+      "source_url": "https://jisho.org/search/%E4%B8%80%E6%9C%88"
+    }
+  ],
+  "animation": {
+    "video": "assets/anim/4e00.mp4",
+    "poster": "assets/anim/4e00.png",
+    "manim": {
+      "strokes_hint": "hand-drawn depiction transforms into the modern glyph",
+      "picture": "a single horizontal stroke"
+    }
+  }
+}
