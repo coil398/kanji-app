@@ -1,0 +1,6 @@
+Source: https://en.wiktionary.org/w/api.php?action=parse&page=%E7%99%BE&prop=wikitext&format=json
+Fetched: 2026-11-21T18:28:40.520Z
+
+===Glyph origin===
+{{Han etym}}
+{{Han compound|一|白|ls=psc|c1=s|c2=p}}.

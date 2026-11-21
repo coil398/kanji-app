@@ -11,22 +11,26 @@
     "ニン"
   ],
   "kun": [
-    "ひと",
-    "-り",
-    "-と"
+    "ひと"
   ],
   "examples": [
     {
-      "word": "人",
-      "reading": "ひと",
-      "meaning": "person",
-      "source_url": "https://jisho.org/search/%E4%BA%BA"
+      "word": "日本人",
+      "reading": "にほんじん",
+      "meaning": "Japanese person",
+      "source_url": "https://jisho.org/search/%E6%97%A5%E6%9C%AC%E4%BA%BA"
     },
     {
-      "word": "二人",
-      "reading": "ふたり",
-      "meaning": "two people",
-      "source_url": "https://jisho.org/search/%E4%BA%8C%E4%BA%BA"
+      "word": "一人",
+      "reading": "ひとり",
+      "meaning": "one person, alone (special reading)",
+      "source_url": "https://jisho.org/search/%E4%B8%80%E4%BA%BA"
+    },
+    {
+      "word": "人気",
+      "reading": "にんき",
+      "meaning": "popularity",
+      "source_url": "https://jisho.org/search/%E4%BA%BA%E6%B0%97"
     }
   ],
   "animation": {
@@ -40,23 +44,105 @@
   "origin": {
     "type": "pictogram",
     "liushu_zh": "象形",
-    "summary_en": "The oldest form shows one person seen from the side, an arm and a leg — not two people leaning.",
+    "summary_en": "One person seen from the side, with an arm and a leg showing. It is not two people leaning on each other — that's a popular story, not the origin.",
     "sources": [
       {
-        "title": "English Wiktionary — Glyph origin",
+        "title": "白川静『字通』（平凡社 普及版字通、コトバンク）",
+        "url": "https://kotobank.jp/word/%E4%BA%BA",
+        "accessed": "2026-11-22"
+      },
+      {
+        "title": "藤堂明保 編『学研漢和大字典』（個人サイト『論語語釈』での引用。原本は未確認）※『字通』の引用も同ページ",
+        "url": "https://hayaron.kyukyodo.work/gosyaku/sin.html#%E4%BA%BA",
+        "accessed": "2026-11-22"
+      },
+      {
+        "title": "English Wiktionary, Glyph origin",
         "url": "https://en.wiktionary.org/wiki/%E4%BA%BA#Glyph_origin",
         "accessed": "2026-11-22"
       },
       {
-        "title": "Japanese Wiktionary — 字源 (季旭昇 p.630)",
+        "title": "日本語版ウィクショナリー 字源（裘錫圭・季旭昇ほか）",
         "url": "https://ja.wiktionary.org/wiki/%E4%BA%BA",
         "accessed": "2026-11-22"
       },
       {
-        "title": "Shuowen via Chinese Text Project",
+        "title": "説文解字（ctext 辞書）",
         "url": "https://ctext.org/dictionary.pl?if=en&char=%E4%BA%BA",
         "accessed": "2026-11-22"
+      },
+      {
+        "title": "中央研究院 小學堂 字形演變（字形の参照元）",
+        "url": "https://xiaoxue.iis.sinica.edu.tw/yanbian?char=%E4%BA%BA",
+        "accessed": "2026-11-21"
       }
     ]
+  },
+  "planning_raw": {
+    "id": "08",
+    "jlpt_note": "JLPT has no official kanji list since 2010; N5 per JLPT Sensei list (https://jlptsensei.com/jlpt-n5-kanji-list/).",
+    "role": "main",
+    "origin_type": "pictograph",
+    "origin_views": {
+      "shirakawa_jitsu": "象形。人の側身形。",
+      "todo_gakken": "象形。人のたった姿を描いたもの。"
+    },
+    "shirakawa_todo_agree": true,
+    "agreement_note_ja": "白川（側身形）・藤堂（たった姿）・Wiktionary（side view of a standing man）で一致。「二人が支え合う」は俗説（どの辞書も採らない）。",
+    "glyph_stages": [
+      {
+        "stage": "oracle",
+        "stage_ja": "甲骨文",
+        "stage_en": "Oracle bone script",
+        "era_en": "c. 1200 BCE",
+        "image": {
+          "file": "人-oracle.svg",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/cd/%E4%BA%BA-oracle.svg",
+          "page_url": "https://commons.wikimedia.org/wiki/File:%E4%BA%BA-oracle.svg",
+          "license": "Public domain (Wikimedia Commons metadata)",
+          "note": "Ancient Chinese characters project on Commons; Credit field lists Sinica 小學堂 字形演變 as the reference source."
+        }
+      },
+      {
+        "stage": "bronze",
+        "stage_ja": "金文",
+        "stage_en": "Bronze script",
+        "era_en": "c. 1000 BCE",
+        "image": {
+          "file": "人-bronze.svg",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/%E4%BA%BA-bronze.svg",
+          "page_url": "https://commons.wikimedia.org/wiki/File:%E4%BA%BA-bronze.svg",
+          "license": "Public domain (Wikimedia Commons metadata)",
+          "note": "Ancient Chinese characters project on Commons; Credit field lists Sinica 小學堂 字形演變 as the reference source."
+        }
+      },
+      {
+        "stage": "seal",
+        "stage_ja": "小篆",
+        "stage_en": "Small seal script",
+        "era_en": "c. 200 BCE",
+        "image": {
+          "file": "人-seal.svg",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/%E4%BA%BA-seal.svg",
+          "page_url": "https://commons.wikimedia.org/wiki/File:%E4%BA%BA-seal.svg",
+          "license": "Public domain (Wikimedia Commons metadata)",
+          "note": "Ancient Chinese characters project on Commons; Credit field lists Sinica 小學堂 字形演變 as the reference source."
+        }
+      },
+      {
+        "stage": "regular",
+        "stage_ja": "楷書",
+        "stage_en": "Regular script",
+        "era_en": "today",
+        "image": null,
+        "note": "Render with a font (e.g. Noto Sans JP / Noto Serif JP, SIL OFL)."
+      }
+    ],
+    "video": {
+      "script": "scripts/08-人.md",
+      "picture_line_en": "It's one person.",
+      "next_teaser_en": "Next: #9 — a baby with a big head."
+    },
+    "checked_at": "2026-11-22"
   }
 }

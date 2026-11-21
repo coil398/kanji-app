@@ -1,0 +1,7 @@
+Source: https://ja.wiktionary.org/w/api.php?action=parse&page=%E5%8D%81&prop=wikitext&format=json
+Fetched: 2026-11-21T18:28:10.673Z
+
+===字源===
+* 未詳。一説に「[[一]]」を縦にした形<ref group="字源">于省吾主編『甲骨文字詁林』中華書局、1996年、[https://jgw.aynu.edu.cn/home/zx/child/gl.html?url=3503 3503-3504頁]。<br>季旭昇撰 『説文新証』 芸文印書館、2014年、155頁。<br>香港中文大学『漢語多功能字庫』「[https://humanum.arts.cuhk.edu.hk/Lexis/lexi-mf/search.php?word=%E5%8D%81 十]」</ref>。「[[とお]]」を意味する[[漢語]]｛[[十]] {{phoneme|*ɡip}}｝を表す字。
+** 針の[[象形文字|象形]]とする説があるが<ref group="字源">裘錫圭《釋郭店《緇衣》“出言有丨，黎民所𧥞”——兼説“丨”爲“針”之初文》 『古墓新知——紀念郭店楚簡出土十周年論文專輯』國際炎黄文化出版社、2012<br>季旭昇撰 『説文新証』 芸文印書館、2014年、155頁。<br>香港中文大学『漢語多功能字庫』「[https://humanum.arts.cuhk.edu.hk/Lexis/lexi-mf/search.php?word=%E5%8D%81 十]」</ref>、「[[針]]」字の成立が「[[鍼]]」よりも遅く不自然であることや、｛[[箴]]｝の[[表意]][[初文]]（[[箴#字源]]を参照）が別に存在していることから、近年ではあまり有力視されていない<ref group="字源">鄔可晶、施瑞峰 《説“朕”“灷”》 『文史』2022年2期、13-17頁。</ref>。
+{{字源}}

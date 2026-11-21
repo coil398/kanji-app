@@ -1,0 +1,8 @@
+Source: https://ja.wiktionary.org/w/api.php?action=parse&page=%E5%A4%A7&prop=wikitext&format=json
+Fetched: 2026-11-21T18:29:04.995Z
+
+===字源===
+* [[象形文字|象形]]。正面を向いた大人を象る<ref group="字源">季旭昇撰 『説文新証』 芸文印書館、2014年、763-764頁。</ref>。「[[おおきい]]」を意味する[[漢語]]｛[[大]] {{phoneme|*lˤath}}｝を表す字。
+{{字源}}
+* [[上古音]]は布之道『[http://www.kaom.net/sgy_bzd.php 広韻形声考]』による。
+<references group="字源" />

@@ -1,0 +1,8 @@
+Source: https://en.wiktionary.org/w/api.php?action=parse&page=%E5%9B%9B&prop=wikitext&format=json
+Fetched: 2026-11-21T18:29:15.499Z
+
+===Glyph origin===
+{{Han etym}}
+{{liushu|p}}: a nose exhaling. Original form of {{och-l|呬}}. Later {{Han phonetically borrowed}} to represent {{och-l|四|four}}.<ref>{{R:yue:Hanzi}}</ref>
+
+The word "four" was written as {{och-l|*亖}} before {{w|Western Zhou}} and {{och-l|*四}} appeared in late {{w|Spring and Autumn period}}. This alternative form was used to prevent confusion of {{och-l|*亖}} and {{l|zh|二|tr=-|t=two}} or {{l|zh|三|tr=-|t=three}} in vertical writing. It was standardized in {{w|Qin dynasty}}.

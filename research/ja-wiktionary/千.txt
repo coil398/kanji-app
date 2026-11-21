@@ -1,0 +1,7 @@
+Source: https://ja.wiktionary.org/w/api.php?action=parse&page=%E5%8D%83&prop=wikitext&format=json
+Fetched: 2026-11-21T18:28:37.456Z
+
+===字源===
+* [[形声文字|形声]]。「[[一]]」（数）+音符「[[人]] {{phoneme|*NIN}}」<ref group="字源">張世超、孫凌安、金国泰、馬如森 『金文形義通解』 中文出版社、1996年、470-471頁。</ref>。「[[1000]]」を意味する[[漢語]]｛[[千]] {{phoneme|*sniin}}｝を表す字。
+{{字源}}
+<references group="字源" />

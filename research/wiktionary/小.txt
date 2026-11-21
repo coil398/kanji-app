@@ -1,3 +1,7 @@
+Source: https://en.wiktionary.org/w/api.php?action=parse&page=%E5%B0%8F&prop=wikitext&format=json
+Fetched: 2026-11-21T18:28:49.445Z
+
+===Glyph origin===
 {{Han etym}}
 Two possible interpretations:
 * {{liushu|i}} – three small dots > small.

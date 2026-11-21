@@ -8,8 +8,8 @@
     "wood"
   ],
   "on": [
-    "ボク",
-    "モク"
+    "モク",
+    "ボク"
   ],
   "kun": [
     "き",
@@ -18,37 +18,58 @@
   "origin": {
     "type": "pictogram",
     "liushu_zh": "象形",
-    "summary_en": "The oldest form shows a tree: branches on top, roots below.",
+    "summary_en": "The oldest forms show a tree: a trunk with branches spreading up and roots spreading down. The Shuowen (c. 100 CE) already reads the lower strokes as roots.",
     "sources": [
       {
-        "title": "English Wiktionary — Glyph origin",
+        "title": "白川静『字通』（平凡社 普及版字通、コトバンク）",
+        "url": "https://kotobank.jp/word/%E6%9C%A8",
+        "accessed": "2026-11-22"
+      },
+      {
+        "title": "藤堂明保 編『学研漢和大字典』（個人サイト『論語語釈』での引用。原本は未確認）※『字通』の引用も同ページ",
+        "url": "https://hayaron.kyukyodo.work/gosyaku/ho.html#%E6%9C%A8",
+        "accessed": "2026-11-22"
+      },
+      {
+        "title": "English Wiktionary, Glyph origin",
         "url": "https://en.wiktionary.org/wiki/%E6%9C%A8#Glyph_origin",
         "accessed": "2026-11-22"
       },
       {
-        "title": "Japanese Wiktionary — 字源 (季旭昇『説文新証』p.484)",
+        "title": "日本語版ウィクショナリー 字源（裘錫圭・季旭昇ほか）",
         "url": "https://ja.wiktionary.org/wiki/%E6%9C%A8",
         "accessed": "2026-11-22"
       },
       {
-        "title": "Shuowen via Chinese Text Project",
+        "title": "説文解字（ctext 辞書）",
         "url": "https://ctext.org/dictionary.pl?if=en&char=%E6%9C%A8",
         "accessed": "2026-11-22"
+      },
+      {
+        "title": "中央研究院 小學堂 字形演變（字形の参照元）",
+        "url": "https://xiaoxue.iis.sinica.edu.tw/yanbian?char=%E6%9C%A8",
+        "accessed": "2026-11-21"
       }
     ]
   },
   "examples": [
     {
-      "word": "木",
-      "reading": "き",
-      "meaning": "tree",
-      "source_url": "https://jisho.org/search/%E6%9C%A8"
-    },
-    {
       "word": "木曜日",
       "reading": "もくようび",
       "meaning": "Thursday",
       "source_url": "https://jisho.org/search/%E6%9C%A8%E6%9B%9C%E6%97%A5"
+    },
+    {
+      "word": "植木",
+      "reading": "うえき",
+      "meaning": "garden tree, potted plant",
+      "source_url": "https://jisho.org/search/%E6%A4%8D%E6%9C%A8"
+    },
+    {
+      "word": "木製",
+      "reading": "もくせい",
+      "meaning": "wooden, made of wood",
+      "source_url": "https://jisho.org/search/%E6%9C%A8%E8%A3%BD"
     }
   ],
   "animation": {
@@ -58,5 +79,72 @@
       "strokes_hint": "hand-drawn depiction transforms into the modern glyph",
       "picture": "a tree with branches, trunk, and visible roots"
     }
+  },
+  "planning_raw": {
+    "id": "01",
+    "jlpt_note": "JLPT has no official kanji list since 2010; N5 per JLPT Sensei list (https://jlptsensei.com/jlpt-n5-kanji-list/).",
+    "role": "main",
+    "origin_type": "pictograph",
+    "origin_views": {
+      "shirakawa_jitsu": "象形。枝のある木の形。",
+      "todo_gakken": "象形。立ち木の形を描いたもの。上に葉や花をかぶった木。"
+    },
+    "shirakawa_todo_agree": true,
+    "agreement_note_ja": "白川・藤堂とも「木の形（象形）」で一致。根の部分の説明は『説文』（下象其根）とWiktionary。藤堂は根に触れず「葉や花をかぶった木」とする（矛盾ではない）。",
+    "glyph_stages": [
+      {
+        "stage": "oracle",
+        "stage_ja": "甲骨文",
+        "stage_en": "Oracle bone script",
+        "era_en": "c. 1200 BCE",
+        "image": {
+          "file": "木-oracle.svg",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/%E6%9C%A8-oracle.svg",
+          "page_url": "https://commons.wikimedia.org/wiki/File:%E6%9C%A8-oracle.svg",
+          "license": "Public domain (Wikimedia Commons metadata)",
+          "note": "Ancient Chinese characters project on Commons; Credit field lists Sinica 小學堂 字形演變 as the reference source."
+        }
+      },
+      {
+        "stage": "bronze",
+        "stage_ja": "金文",
+        "stage_en": "Bronze script",
+        "era_en": "c. 1000 BCE",
+        "image": {
+          "file": "木-bronze.svg",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/%E6%9C%A8-bronze.svg",
+          "page_url": "https://commons.wikimedia.org/wiki/File:%E6%9C%A8-bronze.svg",
+          "license": "Public domain (Wikimedia Commons metadata)",
+          "note": "Ancient Chinese characters project on Commons; Credit field lists Sinica 小學堂 字形演變 as the reference source."
+        }
+      },
+      {
+        "stage": "seal",
+        "stage_ja": "小篆",
+        "stage_en": "Small seal script",
+        "era_en": "c. 200 BCE",
+        "image": {
+          "file": "木-seal.svg",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/%E6%9C%A8-seal.svg",
+          "page_url": "https://commons.wikimedia.org/wiki/File:%E6%9C%A8-seal.svg",
+          "license": "Public domain (Wikimedia Commons metadata)",
+          "note": "Ancient Chinese characters project on Commons; Credit field lists Sinica 小學堂 字形演變 as the reference source."
+        }
+      },
+      {
+        "stage": "regular",
+        "stage_ja": "楷書",
+        "stage_en": "Regular script",
+        "era_en": "today",
+        "image": null,
+        "note": "Render with a font (e.g. Noto Sans JP / Noto Serif JP, SIL OFL)."
+      }
+    ],
+    "video": {
+      "script": "scripts/01-木.md",
+      "picture_line_en": "It's a tree.",
+      "next_teaser_en": "Next: mark its roots and you get a new kanji…"
+    },
+    "checked_at": "2026-11-22"
   }
 }

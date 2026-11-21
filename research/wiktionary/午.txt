@@ -1,0 +1,6 @@
+Source: https://en.wiktionary.org/w/api.php?action=parse&page=%E5%8D%88&prop=wikitext&format=json
+Fetched: 2026-11-21T18:28:32.203Z
+
+===Glyph origin===
+{{Han etym}}
+{{liushu|p}} –  a [[pestle]] (now written {{zh-l|*杵}}). Unrelated to [[干]]. See the central component of [[舂]] and [[秦]] in their original version.

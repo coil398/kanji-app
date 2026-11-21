@@ -2,14 +2,13 @@ import { useCallback, useState } from 'react';
 import { createElement } from 'react';
 import { useFocusEffect, useRouter } from 'expo-router';
 import { Platform, Pressable, Text, TextInput, View } from 'react-native';
-import AsyncStorage from '@react-native-async-storage/async-storage';
 import { kanji } from '../src/generated/kanji';
 import { dueCards } from '../src/srs';
 import { readProgress, type Progress } from '../src/progress';
 import { colors, Action, Body, Eyebrow, Panel, Screen, SectionTitle, Title, styles } from '../src/ui';
-import { WAITLIST_ENDPOINT } from '../src/config';
+import { createWaitlistSubmission, submitWaitlist as saveWaitlistSubmission } from '../src/waitlist';
+import { track } from '../src/analytics';
 
-const waitlistKey = '@kanji-origins/waitlist';
 const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
 export default function HomeScreen() {
@@ -18,6 +17,8 @@ export default function HomeScreen() {
   const [email, setEmail] = useState('');
   const [waitlistMessage, setWaitlistMessage] = useState('');
   const [waitlistError, setWaitlistError] = useState('');
+  const [payIntent, setPayIntent] = useState<'yes' | 'maybe' | 'no' | null>(null);
+  const [waitlistBusy, setWaitlistBusy] = useState(false);
   const now = Date.now();
 
   useFocusEffect(useCallback(() => { void readProgress().then(setProgress); }, []));
@@ -29,16 +30,17 @@ export default function HomeScreen() {
     setWaitlistMessage('');
     if (!emailPattern.test(email.trim())) { setWaitlistError('Enter a valid email address.'); return; }
     setWaitlistError('');
-    if (WAITLIST_ENDPOINT) {
-      const response = await fetch(WAITLIST_ENDPOINT, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ email: email.trim(), ts: Date.now() }) });
-      if (!response.ok) { setWaitlistError('Could not save your email. Try again.'); return; }
-    } else {
-      const stored = JSON.parse((await AsyncStorage.getItem(waitlistKey)) ?? '[]') as string[];
-      if (!stored.includes(email.trim())) stored.push(email.trim());
-      await AsyncStorage.setItem(waitlistKey, JSON.stringify(stored));
-    }
-    setEmail('');
-    setWaitlistMessage('Thanks — saved.');
+    setWaitlistBusy(true);
+    try {
+      const payload = await createWaitlistSubmission(email, payIntent);
+      await saveWaitlistSubmission(payload);
+      try { await track('waitlist_submit', { source: payload.source, pay_intent: payload.pay_intent }); } catch (error) { console.warn('waitlist analytics failed', error); }
+      setEmail('');
+      setPayIntent(null);
+      setWaitlistMessage("Thanks — you're on the list.");
+    } catch {
+      setWaitlistError('Could not save your email. Try again.');
+    } finally { setWaitlistBusy(false); }
   };
 
   return <Screen>
@@ -75,21 +77,30 @@ export default function HomeScreen() {
       <Eyebrow>COMING TO IOS</Eyebrow>
       <Text accessibilityRole="header" style={styles.sectionTitle}>Get a launch note</Text>
       <Body>Leave your email to be notified when the iOS app launches.</Body>
-      <PlatformForm email={email} setEmail={setEmail} submitWaitlist={submitWaitlist} clearError={() => setWaitlistError('')} error={waitlistError} message={waitlistMessage} />
+      <PlatformForm email={email} setEmail={setEmail} payIntent={payIntent} setPayIntent={setPayIntent} busy={waitlistBusy} submitWaitlist={submitWaitlist} clearError={() => setWaitlistError('')} error={waitlistError} message={waitlistMessage} />
     </Panel>
     <Text style={{ color: colors.muted, textAlign: 'center', fontSize: 12 }}>Free to learn · Progress stays on this device</Text>
   </Screen>;
 }
 
-function PlatformForm({ email, setEmail, submitWaitlist, clearError, error, message }: { email: string; setEmail: (value: string) => void; submitWaitlist: () => void; clearError: () => void; error: string; message: string }) {
+function PlatformForm({ email, setEmail, payIntent, setPayIntent, busy, submitWaitlist, clearError, error, message }: { email: string; setEmail: (value: string) => void; payIntent: 'yes' | 'maybe' | 'no' | null; setPayIntent: (value: 'yes' | 'maybe' | 'no' | null) => void; busy: boolean; submitWaitlist: () => void; clearError: () => void; error: string; message: string }) {
   const inputStyle = { width: '100%', boxSizing: 'border-box', minHeight: 52, border: `1px solid ${error ? colors.red : '#dedbd0'}`, borderRadius: 12, padding: '0 14px', color: colors.ink, fontSize: 16, fontFamily: 'inherit' };
   const field = Platform.OS === 'web'
     ? createElement('input', { id: 'waitlist-email', name: 'email', type: 'email', required: true, maxLength: 254, value: email, placeholder: 'you@example.com', autoComplete: 'email', autoCapitalize: 'none', spellCheck: false, 'aria-invalid': Boolean(error), 'aria-describedby': 'waitlist-status', onChange: (event: { currentTarget: { value: string } }) => { setEmail(event.currentTarget.value); if (error) clearError(); }, style: inputStyle })
     : <TextInput nativeID="waitlist-email" value={email} onChangeText={(value) => { setEmail(value); if (error) clearError(); }} placeholder="you@example.com" keyboardType="email-address" autoCapitalize="none" autoCorrect={false} autoComplete="email" accessibilityLabel="Email address" aria-invalid={Boolean(error)} aria-describedby="waitlist-status" maxLength={254} style={{ minHeight: 52, borderWidth: 1, borderColor: error ? colors.red : colors.line, borderRadius: 12, paddingHorizontal: 14, color: colors.ink, fontSize: 16 }} />;
+  const options = (['yes', 'maybe', 'no'] as const).map((value) => {
+    const label = value === 'yes' ? 'Yes' : value === 'maybe' ? 'Maybe' : 'No';
+    return Platform.OS === 'web'
+      ? createElement('label', { key: value, style: { display: 'flex', alignItems: 'center', gap: 8, minHeight: 36, color: colors.ink, cursor: 'pointer' } }, createElement('input', { type: 'radio', name: 'pay-intent', value, checked: payIntent === value, onChange: () => setPayIntent(value) }), label)
+      : <Pressable key={value} accessibilityRole="radio" accessibilityState={{ checked: payIntent === value }} onPress={() => setPayIntent(value)} style={{ flexDirection: 'row', alignItems: 'center', gap: 8, minHeight: 38 }}><View style={{ width: 20, height: 20, borderRadius: 10, borderWidth: 2, borderColor: payIntent === value ? colors.green : colors.muted, alignItems: 'center', justifyContent: 'center' }}>{payIntent === value ? <View style={{ width: 10, height: 10, borderRadius: 5, backgroundColor: colors.green }} /> : null}</View><Text style={{ color: colors.ink }}>{label}</Text></Pressable>;
+  });
   const submit = Platform.OS === 'web'
-    ? createElement('button', { type: 'submit', style: { width: '100%', minHeight: 52, border: 0, borderRadius: 14, background: colors.green, color: '#fff', padding: '0 16px', fontSize: 15, fontWeight: 700, cursor: 'pointer' } }, 'Notify me when the iOS app launches')
-    : <Pressable accessibilityRole="button" onPress={submitWaitlist} style={styles.action}><Text style={styles.actionText}>Notify me when the iOS app launches</Text></Pressable>;
-  const fields = <View style={{ gap: 10 }}>{field}{submit}</View>;
+    ? createElement('button', { type: 'submit', disabled: busy, style: { width: '100%', minHeight: 52, border: 0, borderRadius: 14, background: colors.green, color: '#fff', padding: '0 16px', fontSize: 15, fontWeight: 700, cursor: busy ? 'wait' : 'pointer' } }, busy ? 'Saving…' : 'Notify me when the iOS app launches')
+    : <Pressable accessibilityRole="button" accessibilityState={{ disabled: busy }} disabled={busy} onPress={submitWaitlist} style={styles.action}><Text style={styles.actionText}>{busy ? 'Saving…' : 'Notify me when the iOS app launches'}</Text></Pressable>;
+  const question = Platform.OS === 'web'
+    ? createElement('fieldset', { style: { border: 0, padding: 0, margin: '8px 0', color: colors.ink } }, createElement('legend', { style: { fontWeight: 600, marginBottom: 4 } }, 'Would you pay $29.99/year for the full app (N4–N1)?'), ...options)
+    : <View accessibilityRole="radiogroup" accessibilityLabel="Would you pay $29.99/year for the full app (N4–N1)?" style={{ gap: 2, marginVertical: 8 }}><Text style={{ color: colors.ink, fontWeight: '600', marginBottom: 4 }}>Would you pay $29.99/year for the full app (N4–N1)?</Text>{options}</View>;
+  const fields = <View style={{ gap: 10 }}>{field}{question}{submit}</View>;
   return <View style={{ gap: 8 }}>
     {Platform.OS === 'web' ? createElement('form', { onSubmit: (event: { preventDefault: () => void }) => { event.preventDefault(); submitWaitlist(); }, 'aria-label': 'iOS launch waitlist' }, createElement('label', { htmlFor: 'waitlist-email', style: { display: 'block', marginBottom: 8, color: colors.ink, fontWeight: '600' } }, 'Email address'), fields) : <><Text style={{ color: colors.ink, fontWeight: '600' }}>Email address</Text>{fields}</>}
     <Text nativeID="waitlist-status" accessibilityLiveRegion="polite" style={{ color: error ? colors.red : colors.green }}>{error || message}</Text>

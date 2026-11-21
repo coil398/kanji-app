@@ -1,0 +1,11 @@
+Source: https://en.wiktionary.org/w/api.php?action=parse&page=%E4%B8%87&prop=wikitext&format=json
+Fetched: 2026-11-21T18:28:38.455Z
+
+===Glyph origin===
+{{Han etym}}
+{{unk|zh}}. Used as a tribal name in oracle inscriptions. Used as a number since the {{w|Spring and Autumn period|Spring and Autumn}} and {{w|Warring States period}}s.
+
+Various theories have been proposed for its original meaning:
+* [[w:zh:屈萬里|Qu Wanli]], {{w|Qiu Xigui}} and others propose that it originally refers to a type of dancer-musicians. This usage is attested in the oracle inscriptions. This may be supported by ancient literature, e.g. ''{{w|Shijing}}'', which mentions a type of dance called {{zh-l|萬舞}}.
+* Lin Yiguang proposes that it is an ancient form of {{och-l|丏}}, acting as a phonetic component in {{och-l|賓}}.
+* Some propose that it is a differentiated form of {{zh-l|*亥}}.

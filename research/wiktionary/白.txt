@@ -1,3 +1,7 @@
+Source: https://en.wiktionary.org/w/api.php?action=parse&page=%E7%99%BD&prop=wikitext&format=json
+Fetched: 2026-11-21T18:28:46.763Z
+
+===Glyph origin===
 {{Han etyl}}
 Two theories:
 *{{liushu|p|nocap=1}} of an acorn. Compare {{zh-l|櫟}}.

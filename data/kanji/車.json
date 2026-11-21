@@ -4,7 +4,8 @@
   "jlpt_source": "https://jlptsensei.com/jlpt-n5-kanji-list/",
   "readings_source": "https://kanjiapi.dev/v1/kanji/%E8%BB%8A",
   "meanings": [
-    "car"
+    "car",
+    "vehicle"
   ],
   "on": [
     "シャ"
@@ -15,37 +16,58 @@
   "origin": {
     "type": "pictogram",
     "liushu_zh": "象形",
-    "summary_en": "The oldest form shows a chariot seen from above: two wheels, an axle, a shaft.",
+    "summary_en": "A cart or chariot drawn from above: two wheels joined by an axle. Early forms vary — some add the shaft, a canopy, or even horses.",
     "sources": [
       {
-        "title": "English Wiktionary — Glyph origin",
+        "title": "白川静『字通』（平凡社 普及版字通、コトバンク）",
+        "url": "https://kotobank.jp/word/%E8%BB%8A",
+        "accessed": "2026-11-22"
+      },
+      {
+        "title": "藤堂明保 編『学研漢和大字典』（個人サイト『論語語釈』での引用。原本は未確認）※『字通』の引用も同ページ",
+        "url": "https://hayaron.kyukyodo.work/gosyaku/sya.html#%E8%BB%8A",
+        "accessed": "2026-11-22"
+      },
+      {
+        "title": "English Wiktionary, Glyph origin",
         "url": "https://en.wiktionary.org/wiki/%E8%BB%8A#Glyph_origin",
         "accessed": "2026-11-22"
       },
       {
-        "title": "Japanese Wiktionary — 字源 (『金文形義通解』ほか3書)",
+        "title": "日本語版ウィクショナリー 字源（裘錫圭・季旭昇ほか）",
         "url": "https://ja.wiktionary.org/wiki/%E8%BB%8A",
         "accessed": "2026-11-22"
       },
       {
-        "title": "Shuowen via Chinese Text Project",
+        "title": "説文解字（ctext 辞書）",
         "url": "https://ctext.org/dictionary.pl?if=en&char=%E8%BB%8A",
         "accessed": "2026-11-22"
+      },
+      {
+        "title": "中央研究院 小學堂 字形演變（字形の参照元）",
+        "url": "https://xiaoxue.iis.sinica.edu.tw/yanbian?char=%E8%BB%8A",
+        "accessed": "2026-11-21"
       }
     ]
   },
   "examples": [
     {
-      "word": "車",
-      "reading": "くるま",
-      "meaning": "car",
-      "source_url": "https://jisho.org/search/%E8%BB%8A"
-    },
-    {
       "word": "電車",
       "reading": "でんしゃ",
       "meaning": "train",
       "source_url": "https://jisho.org/search/%E9%9B%BB%E8%BB%8A"
+    },
+    {
+      "word": "自転車",
+      "reading": "じてんしゃ",
+      "meaning": "bicycle",
+      "source_url": "https://jisho.org/search/%E8%87%AA%E8%BB%A2%E8%BB%8A"
+    },
+    {
+      "word": "車いす",
+      "reading": "くるまいす",
+      "meaning": "wheelchair",
+      "source_url": "https://jisho.org/search/%E8%BB%8A%E3%81%84%E3%81%99"
     }
   ],
   "animation": {
@@ -55,5 +77,72 @@
       "strokes_hint": "hand-drawn depiction transforms into the modern glyph",
       "picture": "a chariot seen from above, with two wheels, an axle, and a shaft"
     }
+  },
+  "planning_raw": {
+    "id": "10",
+    "jlpt_note": "JLPT has no official kanji list since 2010; N5 per JLPT Sensei list (https://jlptsensei.com/jlpt-n5-kanji-list/).",
+    "role": "main",
+    "origin_type": "pictograph",
+    "origin_views": {
+      "shirakawa_jitsu": "象形。車の形に象る。",
+      "todo_gakken": "象形。車輪を軸どめでとめた二輪車を描いたもの。"
+    },
+    "shirakawa_todo_agree": true,
+    "agreement_note_ja": "白川・藤堂とも車の象形で一致（藤堂は二輪車）。上から見た形はWiktionary。字形が多様な点は論語語釈。",
+    "glyph_stages": [
+      {
+        "stage": "oracle",
+        "stage_ja": "甲骨文",
+        "stage_en": "Oracle bone script",
+        "era_en": "c. 1200 BCE",
+        "image": {
+          "file": "車-oracle.svg",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/15/%E8%BB%8A-oracle.svg",
+          "page_url": "https://commons.wikimedia.org/wiki/File:%E8%BB%8A-oracle.svg",
+          "license": "Public domain (Wikimedia Commons metadata)",
+          "note": "Ancient Chinese characters project on Commons; Credit field lists Sinica 小學堂 字形演變 as the reference source."
+        }
+      },
+      {
+        "stage": "bronze",
+        "stage_ja": "金文",
+        "stage_en": "Bronze script",
+        "era_en": "c. 1000 BCE",
+        "image": {
+          "file": "車-bronze.svg",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/%E8%BB%8A-bronze.svg",
+          "page_url": "https://commons.wikimedia.org/wiki/File:%E8%BB%8A-bronze.svg",
+          "license": "Public domain (Wikimedia Commons metadata)",
+          "note": "Ancient Chinese characters project on Commons; Credit field lists Sinica 小學堂 字形演變 as the reference source."
+        }
+      },
+      {
+        "stage": "seal",
+        "stage_ja": "小篆",
+        "stage_en": "Small seal script",
+        "era_en": "c. 200 BCE",
+        "image": {
+          "file": "車-seal.svg",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/%E8%BB%8A-seal.svg",
+          "page_url": "https://commons.wikimedia.org/wiki/File:%E8%BB%8A-seal.svg",
+          "license": "Public domain (Wikimedia Commons metadata)",
+          "note": "Ancient Chinese characters project on Commons; Credit field lists Sinica 小學堂 字形演變 as the reference source."
+        }
+      },
+      {
+        "stage": "regular",
+        "stage_ja": "楷書",
+        "stage_en": "Regular script",
+        "era_en": "today",
+        "image": null,
+        "note": "Render with a font (e.g. Noto Sans JP / Noto Serif JP, SIL OFL)."
+      }
+    ],
+    "video": {
+      "script": "scripts/10-車.md",
+      "picture_line_en": "It's a chariot from above.",
+      "next_teaser_en": "Follow for more kanji that were pictures."
+    },
+    "checked_at": "2026-11-22"
   }
 }

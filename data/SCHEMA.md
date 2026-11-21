@@ -7,3 +7,5 @@ Each character has one JSON file named after the character in `data/kanji/`. `da
 `animation.video` and `animation.poster` name the rendered H.264 video and PNG poster in `assets/anim/`. `animation.manim.picture` describes the source drawing consumed by `manim/origins.py`.
 
 Run `npm run validate:data` to validate the index and every record against the JSON Schema.
+
+Planning imports can be applied with `npm run import:planning`. Matching files under `/workspace/jp-learning/kanji-data/` take precedence for summaries, sources, meanings, readings, and examples. Unrecognized planning fields are retained in `planning_raw`.

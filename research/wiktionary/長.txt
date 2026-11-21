@@ -1,0 +1,8 @@
+Source: https://en.wiktionary.org/w/api.php?action=parse&page=%E9%95%B7&prop=wikitext&format=json
+Fetched: 2026-11-21T18:28:34.343Z
+
+===Glyph origin===
+{{Han etym}}
+{{liushu|p}} – an old man with long hair; an ancient variant still used is [[镸]] (e.g., [[⾽]] and [[鬓]]).
+
+Compare {{l-lite|zh|sc=Hani|彡}} and the top component of [[老]] and its variant [[考]].

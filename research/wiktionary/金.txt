@@ -1,3 +1,7 @@
+Source: https://en.wiktionary.org/w/api.php?action=parse&page=%E9%87%91&prop=wikitext&format=json
+Fetched: 2026-11-21T18:29:09.266Z
+
+===Glyph origin===
 {{Han etyl}}
 {{liushu|psc}}: semantic {{zh-l|士}} or {{zh-l|王}}, + semantic {{zh-l|*呂}} (“two blocks of metal”) + phonetic {{zh-l|亼}} ({{och-l|今|tr=*kum}}). The blocks of metal were originally drawn as : and later as {{zh-l|丷}}.
 

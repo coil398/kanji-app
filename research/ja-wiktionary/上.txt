@@ -1,0 +1,8 @@
+Source: https://ja.wiktionary.org/w/api.php?action=parse&page=%E4%B8%8A&prop=wikitext&format=json
+Fetched: 2026-11-21T18:28:04.615Z
+
+===字源===
+* [[指事文字|指事]]。横棒の上側に印を加えたもの<ref group="字源">季旭昇撰 『説文新証』 芸文印書館、2014年、43-45頁。</ref>。「[[うえ]]」を意味する[[漢語]]｛[[上]] {{phoneme|*daŋh}}｝を表す字。[[仮借]]して「[[あがる]]」「[[あげる]]」を意味する漢語｛[[上]] {{phoneme|*daŋʔ}}｝にも用いる。
+{{字源}}
+* [[上古音]]は布之道『[http://www.kaom.net/sgy_bzd.php 広韻形声考]』による。
+<references group="字源" />

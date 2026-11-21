@@ -1,0 +1,8 @@
+Source: https://en.wiktionary.org/w/api.php?action=parse&page=%E4%B8%83&prop=wikitext&format=json
+Fetched: 2026-11-21T18:29:19.596Z
+
+===Glyph origin===
+{{Han etyl}}
+{{liushu|p}} – a vertical stroke and a horizontal stroke bisecting each other – original character of {{och-l|切|to cut}}.<ref>https://humanum.arts.cuhk.edu.hk/Lexis/lexi-mf/search.php?word=%E4%B8%83</ref>
+
+The top-most horizontal stroke is done from left to right. The vertical stroke and bottom-most horizontal stroke are done as one stroke, from top-left to bottom-right.

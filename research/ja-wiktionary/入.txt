@@ -1,0 +1,7 @@
+Source: https://ja.wiktionary.org/w/api.php?action=parse&page=%E5%85%A5&prop=wikitext&format=json
+Fetched: 2026-11-21T18:28:43.608Z
+
+===字源===
+* 不明<ref group="字源">季旭昇撰 『説文新証』 芸文印書館、2014年、443頁。<br>林志強等評注 『《文源》評注』 中国社会科学出版社、2017年、122頁。</ref>。入り口の象形とも、進入することを示す⌃型の記号とも言われるが、定説はない。「[[うち]]」を意味する[[漢語]]、{[[内]]{{phoneme|*nˤəph}}}を表す。のち[[仮借]]して「[[はいる]]」を表す漢語{[[入]]{{phoneme|*nəp}}}を表す。
+{{字源}}
+<references group="字源" />

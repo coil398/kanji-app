@@ -1,0 +1,14 @@
+{
+  "char": "木",
+  "summary": "Planning source summary.",
+  "sources": [
+    { "title": "Planning source", "url": "https://example.com/origin", "accessed": "2026-11-22" }
+  ],
+  "meanings": ["tree"],
+  "readings": { "on": ["モク"], "kun": ["き"] },
+  "examples": [
+    { "word": "木", "reading": "き", "meaning": "tree", "source_url": "https://jisho.org/search/%E6%9C%A8" },
+    { "word": "木曜日", "reading": "もくようび", "meaning": "Thursday", "source_url": "https://jisho.org/search/%E6%9C%A8%E6%9B%9C%E6%97%A5" }
+  ],
+  "review_note": "Preserved unknown planning field."
+}

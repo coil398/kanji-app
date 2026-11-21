@@ -7,8 +7,7 @@
     "mountain"
   ],
   "on": [
-    "サン",
-    "セン"
+    "サン"
   ],
   "kun": [
     "やま"
@@ -16,37 +15,58 @@
   "origin": {
     "type": "pictogram",
     "liushu_zh": "象形",
-    "summary_en": "The oldest form shows three mountain peaks (triangles in the oldest forms).",
+    "summary_en": "Three mountain peaks. In oracle bone script the peaks were drawn as solid triangles.",
     "sources": [
       {
-        "title": "English Wiktionary — Glyph origin",
+        "title": "白川静『字通』（平凡社 普及版字通、コトバンク）",
+        "url": "https://kotobank.jp/word/%E5%B1%B1",
+        "accessed": "2026-11-22"
+      },
+      {
+        "title": "藤堂明保 編『学研漢和大字典』（個人サイト『論語語釈』での引用。原本は未確認）※『字通』の引用も同ページ",
+        "url": "https://hayaron.kyukyodo.work/gosyaku/sa.html#%E5%B1%B1",
+        "accessed": "2026-11-22"
+      },
+      {
+        "title": "English Wiktionary, Glyph origin",
         "url": "https://en.wiktionary.org/wiki/%E5%B1%B1#Glyph_origin",
         "accessed": "2026-11-22"
       },
       {
-        "title": "Japanese Wiktionary — 字源 (裘錫圭 p.112ほか3書)",
+        "title": "日本語版ウィクショナリー 字源（裘錫圭・季旭昇ほか）",
         "url": "https://ja.wiktionary.org/wiki/%E5%B1%B1",
         "accessed": "2026-11-22"
       },
       {
-        "title": "Shuowen via Chinese Text Project",
+        "title": "説文解字（ctext 辞書）",
         "url": "https://ctext.org/dictionary.pl?if=en&char=%E5%B1%B1",
         "accessed": "2026-11-22"
+      },
+      {
+        "title": "中央研究院 小學堂 字形演變（字形の参照元）",
+        "url": "https://xiaoxue.iis.sinica.edu.tw/yanbian?char=%E5%B1%B1",
+        "accessed": "2026-11-21"
       }
     ]
   },
   "examples": [
     {
-      "word": "山",
-      "reading": "やま",
-      "meaning": "mountain",
-      "source_url": "https://jisho.org/search/%E5%B1%B1"
-    },
-    {
       "word": "富士山",
       "reading": "ふじさん",
       "meaning": "Mount Fuji",
       "source_url": "https://jisho.org/search/%E5%AF%8C%E5%A3%AB%E5%B1%B1"
+    },
+    {
+      "word": "山登り",
+      "reading": "やまのぼり",
+      "meaning": "mountain climbing",
+      "source_url": "https://jisho.org/search/%E5%B1%B1%E7%99%BB%E3%82%8A"
+    },
+    {
+      "word": "火山",
+      "reading": "かざん",
+      "meaning": "volcano",
+      "source_url": "https://jisho.org/search/%E7%81%AB%E5%B1%B1"
     }
   ],
   "animation": {
@@ -56,5 +76,72 @@
       "strokes_hint": "hand-drawn depiction transforms into the modern glyph",
       "picture": "three mountain peaks"
     }
+  },
+  "planning_raw": {
+    "id": "05",
+    "jlpt_note": "JLPT has no official kanji list since 2010; N5 per JLPT Sensei list (https://jlptsensei.com/jlpt-n5-kanji-list/).",
+    "role": "main",
+    "origin_type": "pictograph",
+    "origin_views": {
+      "shirakawa_jitsu": "象形。山の突出する形に象る。",
+      "todo_gakken": "象形。△型のやまを描いたもので、△型をなした分水嶺のこと。"
+    },
+    "shirakawa_todo_agree": true,
+    "agreement_note_ja": "白川・藤堂とも山の象形で一致（藤堂は△型の山）。普及版字通（コトバンク）には［字形］欄がなく、白川の字形説は論語語釈の引用で確認。三角形の峰はWiktionaryと藤堂の「△型」に合う。",
+    "glyph_stages": [
+      {
+        "stage": "oracle",
+        "stage_ja": "甲骨文",
+        "stage_en": "Oracle bone script",
+        "era_en": "c. 1200 BCE",
+        "image": {
+          "file": "山-oracle.svg",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/%E5%B1%B1-oracle.svg",
+          "page_url": "https://commons.wikimedia.org/wiki/File:%E5%B1%B1-oracle.svg",
+          "license": "Public domain (Wikimedia Commons metadata)",
+          "note": "Ancient Chinese characters project on Commons; Credit field lists Sinica 小學堂 字形演變 as the reference source."
+        }
+      },
+      {
+        "stage": "bronze",
+        "stage_ja": "金文",
+        "stage_en": "Bronze script",
+        "era_en": "c. 1000 BCE",
+        "image": {
+          "file": "山-bronze.svg",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/03/%E5%B1%B1-bronze.svg",
+          "page_url": "https://commons.wikimedia.org/wiki/File:%E5%B1%B1-bronze.svg",
+          "license": "Public domain (Wikimedia Commons metadata)",
+          "note": "Ancient Chinese characters project on Commons; Credit field lists Sinica 小學堂 字形演變 as the reference source."
+        }
+      },
+      {
+        "stage": "seal",
+        "stage_ja": "小篆",
+        "stage_en": "Small seal script",
+        "era_en": "c. 200 BCE",
+        "image": {
+          "file": "山-seal.svg",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/49/%E5%B1%B1-seal.svg",
+          "page_url": "https://commons.wikimedia.org/wiki/File:%E5%B1%B1-seal.svg",
+          "license": "Public domain (Wikimedia Commons metadata)",
+          "note": "Ancient Chinese characters project on Commons; Credit field lists Sinica 小學堂 字形演變 as the reference source."
+        }
+      },
+      {
+        "stage": "regular",
+        "stage_ja": "楷書",
+        "stage_en": "Regular script",
+        "era_en": "today",
+        "image": null,
+        "note": "Render with a font (e.g. Noto Sans JP / Noto Serif JP, SIL OFL)."
+      }
+    ],
+    "video": {
+      "script": "scripts/05-山.md",
+      "picture_line_en": "It's three mountain peaks.",
+      "next_teaser_en": "Next: #6 — three wavy lines."
+    },
+    "checked_at": "2026-11-22"
   }
 }

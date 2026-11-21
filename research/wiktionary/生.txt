@@ -1,0 +1,6 @@
+Source: https://en.wiktionary.org/w/api.php?action=parse&page=%E7%94%9F&prop=wikitext&format=json
+Fetched: 2026-11-21T18:28:11.189Z
+
+===Glyph origin===
+{{Han etym}}
+{{Han compound|屮|一|ls=ic|t1=bud|t2=ground}} – [[sprouting]] from the ground. A conservative version is [[𤯓]], which is unrelated to [[㞷]] ([[匩]] > [[匡]]) and [[𡴀]] > [[丰]].

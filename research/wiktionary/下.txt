@@ -1,2 +1,6 @@
+Source: https://en.wiktionary.org/w/api.php?action=parse&page=%E4%B8%8B&prop=wikitext&format=json
+Fetched: 2026-11-21T18:28:05.163Z
+
+===Glyph origin===
 {{Han etyl}}
 {{liushu|i}}: short horizontal below long arc (contrast {{l|zh|上}}).

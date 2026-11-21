@@ -1,0 +1,8 @@
+Source: https://ja.wiktionary.org/w/api.php?action=parse&page=%E4%B8%83&prop=wikitext&format=json
+Fetched: 2026-11-21T18:29:20.606Z
+
+===字源===
+* [[指事文字|指事]]。筆画の中央を切断した形<ref group="字源">季旭昇撰 『説文新証』 芸文印書館、2014年、951-952頁。</ref>。「[[きる]]」を意味する[[漢語]]｛[[切]] {{phoneme|*tsʰˤik}}｝を表す字。[[仮借]]して「[[ななつ]]」を意味する漢語｛[[七]] {{phoneme|*tsʰik}}｝に用いる。
+{{字源}}
+* [[上古音]]は布之道『[http://www.kaom.net/sgy_bzd.php 広韻形声考]』による。
+<references group="字源" />

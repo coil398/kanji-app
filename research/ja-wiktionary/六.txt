@@ -1,0 +1,9 @@
+Source: https://ja.wiktionary.org/w/api.php?action=parse&page=%E5%85%AD&prop=wikitext&format=json
+Fetched: 2026-11-21T18:29:18.580Z
+
+===字源===
+* 不明。[[仮借]]して「[[むっつ]]」を意味する[[漢語]]｛[[六]] {{phoneme|*ruk}}｝に用いる。<ref group="字源">季旭昇撰 『説文新証』 芸文印書館、2014年、951頁。</ref>
+** 一説に、洞窟住居の[[象形文字|象形]]で｛[[窖]] {{phoneme|*krˤukh}}｝の[[表意字]]<ref group="字源">即里羽元 - 知乎《[https://www.zhihu.com/question/263670195 「广」字的意思和讀音（非「廣」之簡化）？]》</ref>。
+{{字源}}
+* [[上古音]]は布之道『[http://www.kaom.net/sgy_bzd.php 広韻形声考]』による。
+<references group="字源" />

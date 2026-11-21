@@ -1,0 +1,4 @@
+Candidate: 下
+Chinese Text Project Shuowen page: https://ctext.org/dictionary.pl?if=en&char=%E4%B8%8B
+
+No candidate-specific Shuowen passage is recorded. Ctext automated retrieval was refused with an access-unavailable response in this environment, and neither Wiktionary origin section supplies a quoted Shuowen passage for this candidate. This file records an evidence gap, not a source quote or a positive classification.

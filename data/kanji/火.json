@@ -16,37 +16,58 @@
   "origin": {
     "type": "pictogram",
     "liushu_zh": "象形",
-    "summary_en": "The oldest form shows a fire.",
+    "summary_en": "Flames rising from a fire. In oracle bone script it can look a lot like 山 (mountain).",
     "sources": [
       {
-        "title": "English Wiktionary — Glyph origin",
+        "title": "白川静『字通』（平凡社 普及版字通、コトバンク）",
+        "url": "https://kotobank.jp/word/%E7%81%AB",
+        "accessed": "2026-11-22"
+      },
+      {
+        "title": "藤堂明保 編『学研漢和大字典』（個人サイト『論語語釈』での引用。原本は未確認）※『字通』の引用も同ページ",
+        "url": "https://hayaron.kyukyodo.work/gosyaku/ka.html#%E7%81%AB",
+        "accessed": "2026-11-22"
+      },
+      {
+        "title": "English Wiktionary, Glyph origin",
         "url": "https://en.wiktionary.org/wiki/%E7%81%AB#Glyph_origin",
         "accessed": "2026-11-22"
       },
       {
-        "title": "Japanese Wiktionary — 字源",
+        "title": "日本語版ウィクショナリー 字源（裘錫圭・季旭昇ほか）",
         "url": "https://ja.wiktionary.org/wiki/%E7%81%AB",
         "accessed": "2026-11-22"
       },
       {
-        "title": "Shuowen via Chinese Text Project",
+        "title": "説文解字（ctext 辞書）",
         "url": "https://ctext.org/dictionary.pl?if=en&char=%E7%81%AB",
         "accessed": "2026-11-22"
+      },
+      {
+        "title": "中央研究院 小學堂 字形演變（字形の参照元）",
+        "url": "https://xiaoxue.iis.sinica.edu.tw/yanbian?char=%E7%81%AB",
+        "accessed": "2026-11-21"
       }
     ]
   },
   "examples": [
     {
-      "word": "火",
-      "reading": "ひ",
-      "meaning": "fire",
-      "source_url": "https://jisho.org/search/%E7%81%AB"
-    },
-    {
       "word": "火曜日",
       "reading": "かようび",
       "meaning": "Tuesday",
       "source_url": "https://jisho.org/search/%E7%81%AB%E6%9B%9C%E6%97%A5"
+    },
+    {
+      "word": "花火",
+      "reading": "はなび",
+      "meaning": "fireworks",
+      "source_url": "https://jisho.org/search/%E8%8A%B1%E7%81%AB"
+    },
+    {
+      "word": "火事",
+      "reading": "かじ",
+      "meaning": "a fire (building fire)",
+      "source_url": "https://jisho.org/search/%E7%81%AB%E4%BA%8B"
     }
   ],
   "animation": {
@@ -56,5 +77,72 @@
       "strokes_hint": "hand-drawn depiction transforms into the modern glyph",
       "picture": "flames"
     }
+  },
+  "planning_raw": {
+    "id": "11",
+    "jlpt_note": "JLPT has no official kanji list since 2010; N5 per JLPT Sensei list (https://jlptsensei.com/jlpt-n5-kanji-list/).",
+    "role": "reserve",
+    "origin_type": "pictograph",
+    "origin_views": {
+      "shirakawa_jitsu": "象形。火の燃える形。",
+      "todo_gakken": "象形。火が燃えるさまを描いたもの。"
+    },
+    "shirakawa_todo_agree": true,
+    "agreement_note_ja": "白川・藤堂とも火の燃える形で一致。甲骨文で山と似る点は、普及版字通「山」の部首欄（密の山の部分はもと火の形）に記載。",
+    "glyph_stages": [
+      {
+        "stage": "oracle",
+        "stage_ja": "甲骨文",
+        "stage_en": "Oracle bone script",
+        "era_en": "c. 1200 BCE",
+        "image": {
+          "file": "火-oracle.svg",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/40/%E7%81%AB-oracle.svg",
+          "page_url": "https://commons.wikimedia.org/wiki/File:%E7%81%AB-oracle.svg",
+          "license": "Public domain (Wikimedia Commons metadata)",
+          "note": "Ancient Chinese characters project on Commons; Credit field lists Sinica 小學堂 字形演變 as the reference source."
+        }
+      },
+      {
+        "stage": "bronze",
+        "stage_ja": "金文",
+        "stage_en": "Bronze script",
+        "era_en": "c. 1000 BCE",
+        "image": {
+          "file": "火-bronze.svg",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/96/%E7%81%AB-bronze.svg",
+          "page_url": "https://commons.wikimedia.org/wiki/File:%E7%81%AB-bronze.svg",
+          "license": "Public domain (Wikimedia Commons metadata)",
+          "note": "Ancient Chinese characters project on Commons; Credit field lists Sinica 小學堂 字形演變 as the reference source."
+        }
+      },
+      {
+        "stage": "seal",
+        "stage_ja": "小篆",
+        "stage_en": "Small seal script",
+        "era_en": "c. 200 BCE",
+        "image": {
+          "file": "火-seal.svg",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/69/%E7%81%AB-seal.svg",
+          "page_url": "https://commons.wikimedia.org/wiki/File:%E7%81%AB-seal.svg",
+          "license": "Public domain (Wikimedia Commons metadata)",
+          "note": "Ancient Chinese characters project on Commons; Credit field lists Sinica 小學堂 字形演變 as the reference source."
+        }
+      },
+      {
+        "stage": "regular",
+        "stage_ja": "楷書",
+        "stage_en": "Regular script",
+        "era_en": "today",
+        "image": null,
+        "note": "Render with a font (e.g. Noto Sans JP / Noto Serif JP, SIL OFL)."
+      }
+    ],
+    "video": {
+      "script": "scripts/11-火.md",
+      "picture_line_en": "It's fire.",
+      "next_teaser_en": "Next: #12 — it always flows downhill."
+    },
+    "checked_at": "2026-11-22"
   }
 }

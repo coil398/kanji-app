@@ -4,9 +4,7 @@
   "jlpt_source": "https://jlptsensei.com/jlpt-n5-kanji-list/",
   "readings_source": "https://kanjiapi.dev/v1/kanji/%E5%B7%9D",
   "meanings": [
-    "stream",
-    "river",
-    "river or three-stroke river radical (no. 47)"
+    "river"
   ],
   "on": [
     "セン"
@@ -17,37 +15,58 @@
   "origin": {
     "type": "pictogram",
     "liushu_zh": "象形",
-    "summary_en": "The oldest form shows water flowing between two banks.",
+    "summary_en": "Flowing water: a river drawn as wavy lines. In the oldest forms the lines wiggle like a real stream.",
     "sources": [
       {
-        "title": "English Wiktionary — Glyph origin",
+        "title": "白川静『字通』（平凡社 普及版字通、コトバンク）",
+        "url": "https://kotobank.jp/word/%E5%B7%9D",
+        "accessed": "2026-11-22"
+      },
+      {
+        "title": "藤堂明保 編『学研漢和大字典』（個人サイト『論語語釈』での引用。原本は未確認）※『字通』の引用も同ページ",
+        "url": "https://hayaron.kyukyodo.work/gosyaku/sen.html#%E5%B7%9D",
+        "accessed": "2026-11-22"
+      },
+      {
+        "title": "English Wiktionary, Glyph origin",
         "url": "https://en.wiktionary.org/wiki/%E5%B7%9D#Glyph_origin",
         "accessed": "2026-11-22"
       },
       {
-        "title": "Japanese Wiktionary — 字源 (羅振玉1914ほか4書)",
+        "title": "日本語版ウィクショナリー 字源（裘錫圭・季旭昇ほか）",
         "url": "https://ja.wiktionary.org/wiki/%E5%B7%9D",
         "accessed": "2026-11-22"
       },
       {
-        "title": "Shuowen via Chinese Text Project",
+        "title": "説文解字（ctext 辞書）",
         "url": "https://ctext.org/dictionary.pl?if=en&char=%E5%B7%9D",
         "accessed": "2026-11-22"
+      },
+      {
+        "title": "中央研究院 小學堂 字形演變（字形の参照元）",
+        "url": "https://xiaoxue.iis.sinica.edu.tw/yanbian?char=%E5%B7%9D",
+        "accessed": "2026-11-21"
       }
     ]
   },
   "examples": [
     {
-      "word": "川",
-      "reading": "かわ",
-      "meaning": "river",
-      "source_url": "https://jisho.org/search/%E5%B7%9D"
-    },
-    {
       "word": "小川",
       "reading": "おがわ",
-      "meaning": "stream",
+      "meaning": "stream, brook",
       "source_url": "https://jisho.org/search/%E5%B0%8F%E5%B7%9D"
+    },
+    {
+      "word": "川岸",
+      "reading": "かわぎし",
+      "meaning": "riverbank",
+      "source_url": "https://jisho.org/search/%E5%B7%9D%E5%B2%B8"
+    },
+    {
+      "word": "天の川",
+      "reading": "あまのがわ",
+      "meaning": "the Milky Way (lit. \"river of heaven\")",
+      "source_url": "https://jisho.org/search/%E5%A4%A9%E3%81%AE%E5%B7%9D"
     }
   ],
   "animation": {
@@ -57,5 +76,72 @@
       "strokes_hint": "hand-drawn depiction transforms into the modern glyph",
       "picture": "water flowing between two banks"
     }
+  },
+  "planning_raw": {
+    "id": "06",
+    "jlpt_note": "JLPT has no official kanji list since 2010; N5 per JLPT Sensei list (https://jlptsensei.com/jlpt-n5-kanji-list/).",
+    "role": "main",
+    "origin_type": "pictograph",
+    "origin_views": {
+      "shirakawa_jitsu": "象形。水の流れる形。",
+      "todo_gakken": "象形。く印は地の間を縫って流れる川の象形。川は、三筋のく印で川の流れを描いたもの。"
+    },
+    "shirakawa_todo_agree": true,
+    "agreement_note_ja": "「川の流れの象形」で白川・藤堂が一致。ただし細部の読み方は分かれる：ja.Wiktionary（羅振玉ほか）＝両側の線は岸で間を水が流れる、藤堂＝三筋とも流れ。台本では「両岸」と言わず「流れる水」とする。",
+    "glyph_stages": [
+      {
+        "stage": "oracle",
+        "stage_ja": "甲骨文",
+        "stage_en": "Oracle bone script",
+        "era_en": "c. 1200 BCE",
+        "image": {
+          "file": "川-oracle.svg",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/%E5%B7%9D-oracle.svg",
+          "page_url": "https://commons.wikimedia.org/wiki/File:%E5%B7%9D-oracle.svg",
+          "license": "Public domain (Wikimedia Commons metadata)",
+          "note": "Ancient Chinese characters project on Commons; Credit field lists Sinica 小學堂 字形演變 as the reference source."
+        }
+      },
+      {
+        "stage": "bronze",
+        "stage_ja": "金文",
+        "stage_en": "Bronze script",
+        "era_en": "c. 1000 BCE",
+        "image": {
+          "file": "川-bronze.svg",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/91/%E5%B7%9D-bronze.svg",
+          "page_url": "https://commons.wikimedia.org/wiki/File:%E5%B7%9D-bronze.svg",
+          "license": "Public domain (Wikimedia Commons metadata)",
+          "note": "Ancient Chinese characters project on Commons; Credit field lists Sinica 小學堂 字形演變 as the reference source."
+        }
+      },
+      {
+        "stage": "seal",
+        "stage_ja": "小篆",
+        "stage_en": "Small seal script",
+        "era_en": "c. 200 BCE",
+        "image": {
+          "file": "川-seal.svg",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/%E5%B7%9D-seal.svg",
+          "page_url": "https://commons.wikimedia.org/wiki/File:%E5%B7%9D-seal.svg",
+          "license": "Public domain (Wikimedia Commons metadata)",
+          "note": "Ancient Chinese characters project on Commons; Credit field lists Sinica 小學堂 字形演變 as the reference source."
+        }
+      },
+      {
+        "stage": "regular",
+        "stage_ja": "楷書",
+        "stage_en": "Regular script",
+        "era_en": "today",
+        "image": null,
+        "note": "Render with a font (e.g. Noto Sans JP / Noto Serif JP, SIL OFL)."
+      }
+    ],
+    "video": {
+      "script": "scripts/06-川.md",
+      "picture_line_en": "It's a flowing river.",
+      "next_teaser_en": "Next: #7 — dots falling from the sky."
+    },
+    "checked_at": "2026-11-22"
   }
 }

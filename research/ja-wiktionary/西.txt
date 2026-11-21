@@ -1,0 +1,7 @@
+Source: https://ja.wiktionary.org/w/api.php?action=parse&page=%E8%A5%BF&prop=wikitext&format=json
+Fetched: 2026-11-21T18:28:13.392Z
+
+===字源===
+* [[象形文字|象形]]。鳥の巣を象る<ref group="字源">王国維 「釈西」 『観堂集林』巻六。<br>羅振玉 『増訂殷虚書契考釈』 東方学会、1927年、巻中13-14頁。<br>林志強等評注 『《文源》評注』 中国社会科学出版社、2017年、68頁。</ref>。「[[す]]」を意味する[[漢語]]｛[[棲]] {{phoneme|*səəj}}｝を表す字。のち[[仮借]]して「[[にし]]」を意味する漢語｛[[西]] {{phoneme|*səəj}}｝に用いる。
+{{字源}}
+<references group="字源" />

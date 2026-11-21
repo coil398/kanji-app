@@ -1,0 +1,8 @@
+Source: https://en.wiktionary.org/w/api.php?action=parse&page=%E5%85%A5&prop=wikitext&format=json
+Fetched: 2026-11-21T18:28:42.599Z
+
+===Glyph origin===
+{{Han etyl}}
+{{liushu|i}} - an arrowhead indicating "to enter".
+
+Compare {{zh-l|人}}.

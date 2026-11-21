@@ -20,3 +20,18 @@ export function normalizeSource(utmSource?: string | null, referrer?: string | n
     return 'other';
   }
 }
+
+export type LandingAttribution = {
+  source: TrafficSource;
+  raw_utm: Record<string, string>;
+  referrer_host: string | null;
+  landing_path: string;
+};
+
+export function landingAttribution(search: string, referrer: string | null, landingPath: string): LandingAttribution {
+  const params = new URLSearchParams(search);
+  const raw_utm = Object.fromEntries([...params.entries()].filter(([name]) => name.toLowerCase().startsWith('utm_')));
+  let referrer_host: string | null = null;
+  try { referrer_host = referrer ? new URL(referrer).hostname.toLowerCase() : null; } catch { referrer_host = null; }
+  return { source: normalizeSource(params.get('utm_source'), referrer), raw_utm, referrer_host, landing_path: landingPath };
+}

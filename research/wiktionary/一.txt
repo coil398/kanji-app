@@ -1,2 +1,6 @@
+Source: https://en.wiktionary.org/w/api.php?action=parse&page=%E4%B8%80&prop=wikitext&format=json
+Fetched: 2026-11-21T18:28:06.246Z
+
+===Glyph origin===
 {{Han etym}}
 {{liushu|i}}: a [[horizontal]] [[stroke]], indicating the number {{m-g|[[one]]}}.

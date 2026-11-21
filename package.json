@@ -34,6 +34,7 @@
     "test": "npm run validate:data && vitest run",
     "gen:data": "node scripts/gen-data.mjs",
     "validate:data": "node scripts/validate-data.mjs",
+    "import:planning": "node scripts/import-planning.mjs",
     "render:anim": "node scripts/render-animations.mjs",
     "finalize:web": "node scripts/finalize-web.mjs",
     "verify:browser": "node scripts/verify-browser.mjs"

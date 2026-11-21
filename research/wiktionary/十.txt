@@ -1,3 +1,7 @@
+Source: https://en.wiktionary.org/w/api.php?action=parse&page=%E5%8D%81&prop=wikitext&format=json
+Fetched: 2026-11-21T18:28:10.157Z
+
+===Glyph origin===
 {{Han etym}}
 In oracle-bone script, {{lang|zh|十}} is mostly written as a single vertical stroke; a few examples add a central dot, as in HJ 9204. Later forms added {{lang|zh|一}}, making a cross.
 

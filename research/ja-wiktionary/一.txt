@@ -1,0 +1,8 @@
+Source: https://ja.wiktionary.org/w/api.php?action=parse&page=%E4%B8%80&prop=wikitext&format=json
+Fetched: 2026-11-21T18:28:06.699Z
+
+===字源===
+*[[指事文字|指事]]。一本の横線を引いたもの<ref group="字源">季旭昇撰 『説文新証』 芸文印書館、2014年、37-39頁。</ref>。「[[ひとつ]]」を意味する[[漢語]]｛[[一]] {{phoneme|*ʔit}}｝を表す字。
+{{字源}}
+* [[上古音]]は布之道『[http://www.kaom.net/sgy_bzd.php 広韻形声考]』による。
+<references group="字源" />

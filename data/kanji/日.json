@@ -4,51 +4,72 @@
   "jlpt_source": "https://jlptsensei.com/jlpt-n5-kanji-list/",
   "readings_source": "https://kanjiapi.dev/v1/kanji/%E6%97%A5",
   "meanings": [
-    "day",
     "sun",
-    "Japan"
+    "day"
   ],
   "on": [
     "ニチ",
     "ジツ"
   ],
   "kun": [
-    "ひ"
+    "ひ",
+    "か"
   ],
   "origin": {
     "type": "pictogram",
     "liushu_zh": "象形",
-    "summary_en": "The oldest form shows the sun; the inner line was added to tell it apart from 口.",
+    "summary_en": "The sun, drawn as a round shape with a mark inside. Scholars explain the inner mark differently: Shirakawa says it shows the sun is solid; others say it keeps 日 apart from 口 (mouth).",
     "sources": [
       {
-        "title": "English Wiktionary — Glyph origin",
+        "title": "白川静『字通』（平凡社 普及版字通、コトバンク）",
+        "url": "https://kotobank.jp/word/%E6%97%A5",
+        "accessed": "2026-11-22"
+      },
+      {
+        "title": "藤堂明保 編『学研漢和大字典』（個人サイト『論語語釈』での引用。原本は未確認）※『字通』の引用も同ページ",
+        "url": "https://hayaron.kyukyodo.work/gosyaku/si3.html#%E6%97%A5",
+        "accessed": "2026-11-22"
+      },
+      {
+        "title": "English Wiktionary, Glyph origin",
         "url": "https://en.wiktionary.org/wiki/%E6%97%A5#Glyph_origin",
         "accessed": "2026-11-22"
       },
       {
-        "title": "Japanese Wiktionary — 字源 (季旭昇 p.531)",
+        "title": "日本語版ウィクショナリー 字源（裘錫圭・季旭昇ほか）",
         "url": "https://ja.wiktionary.org/wiki/%E6%97%A5",
         "accessed": "2026-11-22"
       },
       {
-        "title": "Shuowen via Chinese Text Project",
+        "title": "説文解字（ctext 辞書）",
         "url": "https://ctext.org/dictionary.pl?if=en&char=%E6%97%A5",
         "accessed": "2026-11-22"
+      },
+      {
+        "title": "中央研究院 小學堂 字形演變（字形の参照元）",
+        "url": "https://xiaoxue.iis.sinica.edu.tw/yanbian?char=%E6%97%A5",
+        "accessed": "2026-11-21"
       }
     ]
   },
   "examples": [
     {
-      "word": "今日",
-      "reading": "きょう",
-      "meaning": "today",
-      "source_url": "https://jisho.org/search/%E4%BB%8A%E6%97%A5"
+      "word": "毎日",
+      "reading": "まいにち",
+      "meaning": "every day",
+      "source_url": "https://jisho.org/search/%E6%AF%8E%E6%97%A5"
     },
     {
       "word": "日曜日",
       "reading": "にちようび",
       "meaning": "Sunday",
       "source_url": "https://jisho.org/search/%E6%97%A5%E6%9B%9C%E6%97%A5"
+    },
+    {
+      "word": "朝日",
+      "reading": "あさひ",
+      "meaning": "morning sun",
+      "source_url": "https://jisho.org/search/%E6%9C%9D%E6%97%A5"
     }
   ],
   "animation": {
@@ -58,5 +79,72 @@
       "strokes_hint": "hand-drawn depiction transforms into the modern glyph",
       "picture": "the sun as a round shape with an inner line"
     }
+  },
+  "planning_raw": {
+    "id": "03",
+    "jlpt_note": "JLPT has no official kanji list since 2010; N5 per JLPT Sensei list (https://jlptsensei.com/jlpt-n5-kanji-list/).",
+    "role": "main",
+    "origin_type": "pictograph",
+    "origin_views": {
+      "shirakawa_jitsu": "象形。太陽の形。中に小点を加えて、その実体があることを示す。",
+      "todo_gakken": "象形。太陽の姿を描いたもの。"
+    },
+    "shirakawa_todo_agree": true,
+    "agreement_note_ja": "「太陽の象形」では白川・藤堂が一致。ただし中の点（線）の意味は説が分かれる：白川＝実体を示す点、Wiktionary（英・日）と論語語釈＝口と区別するための画、藤堂＝言及なし。台本では点の意味を断定しない。",
+    "glyph_stages": [
+      {
+        "stage": "oracle",
+        "stage_ja": "甲骨文",
+        "stage_en": "Oracle bone script",
+        "era_en": "c. 1200 BCE",
+        "image": {
+          "file": "日-oracle.svg",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/44/%E6%97%A5-oracle.svg",
+          "page_url": "https://commons.wikimedia.org/wiki/File:%E6%97%A5-oracle.svg",
+          "license": "Public domain (Wikimedia Commons metadata)",
+          "note": "Ancient Chinese characters project on Commons; Credit field lists Sinica 小學堂 字形演變 as the reference source."
+        }
+      },
+      {
+        "stage": "bronze",
+        "stage_ja": "金文",
+        "stage_en": "Bronze script",
+        "era_en": "c. 1000 BCE",
+        "image": {
+          "file": "日-bronze.svg",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/45/%E6%97%A5-bronze.svg",
+          "page_url": "https://commons.wikimedia.org/wiki/File:%E6%97%A5-bronze.svg",
+          "license": "Public domain (Wikimedia Commons metadata)",
+          "note": "Ancient Chinese characters project on Commons; Credit field lists Sinica 小學堂 字形演變 as the reference source."
+        }
+      },
+      {
+        "stage": "seal",
+        "stage_ja": "小篆",
+        "stage_en": "Small seal script",
+        "era_en": "c. 200 BCE",
+        "image": {
+          "file": "日-seal.svg",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/30/%E6%97%A5-seal.svg",
+          "page_url": "https://commons.wikimedia.org/wiki/File:%E6%97%A5-seal.svg",
+          "license": "Public domain (Wikimedia Commons metadata)",
+          "note": "Ancient Chinese characters project on Commons; Credit field lists Sinica 小學堂 字形演變 as the reference source."
+        }
+      },
+      {
+        "stage": "regular",
+        "stage_ja": "楷書",
+        "stage_en": "Regular script",
+        "era_en": "today",
+        "image": null,
+        "note": "Render with a font (e.g. Noto Sans JP / Noto Serif JP, SIL OFL)."
+      }
+    ],
+    "video": {
+      "script": "scripts/03-日.md",
+      "picture_line_en": "It's the sun.",
+      "next_teaser_en": "Next: #4 — the sun's partner at night."
+    },
+    "checked_at": "2026-11-22"
   }
 }

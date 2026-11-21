@@ -1,0 +1,10 @@
+Source: https://en.wiktionary.org/w/api.php?action=parse&page=%E5%8D%97&prop=wikitext&format=json
+Fetched: 2026-11-21T18:29:23.733Z
+
+===Glyph origin===
+{{Han etym}}
+[[File:南-oracle-shifei.svg|class=skin-invert-image|thumb|right|Oracle-bone-script forms of 南 from the earliest group (Heji 19946, 20345, 20627)]]
+{{liushu|j}}: The oracle-bone form depicts a lidded {{zh-l|同|tube; cylindrical vessel}}. Some forms contain strokes inside the vessel, probably representing its contents. In Western Zhou bronze inscriptions, the {{zh-l|同}} element changed into {{zh-l|用}}. One proposal identifies this graph as the original character of {{zh-l|醓}} (“meat sauce; minced meat preserved in brine”).<ref>黄博.甲骨文“南”及相关字补说[J].出土文献,2020,(04):24-37+155.
+</ref>
+
+{{och-l|南|tr=*nˤəm}} may be related to {{och-l|腩|tr=*nˤəmʔ}} and {{och-l|納|tr=*nˤəp}} (“to put in; to receive”).

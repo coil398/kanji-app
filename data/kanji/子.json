@@ -4,38 +4,49 @@
   "jlpt_source": "https://jlptsensei.com/jlpt-n5-kanji-list/",
   "readings_source": "https://kanjiapi.dev/v1/kanji/%E5%AD%90",
   "meanings": [
-    "child",
-    "sign of the rat",
-    "11PM-1AM"
+    "child"
   ],
   "on": [
     "シ",
-    "ス",
-    "ツ"
+    "ス"
   ],
   "kun": [
-    "こ",
-    "ね"
+    "こ"
   ],
   "origin": {
     "type": "pictogram",
     "liushu_zh": "象形",
-    "summary_en": "The oldest form shows a baby with a big head and open arms, legs wrapped up.",
+    "summary_en": "A baby with a big head and arms held out.",
     "sources": [
       {
-        "title": "English Wiktionary — Glyph origin",
+        "title": "白川静『字通』（平凡社 普及版字通、コトバンク）",
+        "url": "https://kotobank.jp/word/%E5%AD%90",
+        "accessed": "2026-11-22"
+      },
+      {
+        "title": "藤堂明保 編『学研漢和大字典』（個人サイト『論語語釈』での引用。原本は未確認）※『字通』の引用も同ページ",
+        "url": "https://hayaron.kyukyodo.work/gosyaku/si.html#%E5%AD%90",
+        "accessed": "2026-11-22"
+      },
+      {
+        "title": "English Wiktionary, Glyph origin",
         "url": "https://en.wiktionary.org/wiki/%E5%AD%90#Glyph_origin",
         "accessed": "2026-11-22"
       },
       {
-        "title": "Japanese Wiktionary — 字源 (裘錫圭 p.114ほか)",
+        "title": "日本語版ウィクショナリー 字源（裘錫圭・季旭昇ほか）",
         "url": "https://ja.wiktionary.org/wiki/%E5%AD%90",
         "accessed": "2026-11-22"
       },
       {
-        "title": "Shuowen via Chinese Text Project",
+        "title": "説文解字（ctext 辞書）",
         "url": "https://ctext.org/dictionary.pl?if=en&char=%E5%AD%90",
         "accessed": "2026-11-22"
+      },
+      {
+        "title": "中央研究院 小學堂 字形演變（字形の参照元）",
+        "url": "https://xiaoxue.iis.sinica.edu.tw/yanbian?char=%E5%AD%90",
+        "accessed": "2026-11-21"
       }
     ]
   },
@@ -47,10 +58,16 @@
       "source_url": "https://jisho.org/search/%E5%AD%90%E3%81%A9%E3%82%82"
     },
     {
-      "word": "男の子",
-      "reading": "おとこのこ",
-      "meaning": "boy",
-      "source_url": "https://jisho.org/search/%E7%94%B7%E3%81%AE%E5%AD%90"
+      "word": "女の子",
+      "reading": "おんなのこ",
+      "meaning": "girl",
+      "source_url": "https://jisho.org/search/%E5%A5%B3%E3%81%AE%E5%AD%90"
+    },
+    {
+      "word": "椅子",
+      "reading": "いす",
+      "meaning": "chair",
+      "source_url": "https://jisho.org/search/%E6%A4%85%E5%AD%90"
     }
   ],
   "animation": {
@@ -60,5 +77,72 @@
       "strokes_hint": "hand-drawn depiction transforms into the modern glyph",
       "picture": "a baby with a large head and spread arms, legs wrapped up"
     }
+  },
+  "planning_raw": {
+    "id": "09",
+    "jlpt_note": "JLPT has no official kanji list since 2010; N5 per JLPT Sensei list (https://jlptsensei.com/jlpt-n5-kanji-list/).",
+    "role": "main",
+    "origin_type": "pictograph",
+    "origin_views": {
+      "shirakawa_jitsu": "象形。幼子の象。",
+      "todo_gakken": "象形文字で、Aは小さい子どもを描いたもの。Bは子どもの頭髪がどんどん伸びるさまを示し、おもに十二支の子の場合に用いた。のちAとBは混同して子と書く。"
+    },
+    "shirakawa_todo_agree": true,
+    "agreement_note_ja": "「幼い子の象形」で白川・藤堂が一致。補足：藤堂は十二支の「子（ね）」の字は別の形（髪の伸びる子）で、のちに混同したとし、白川も卜文の「ね」は別字とする。白川は左右の手を上下させた形を王子の身分表示とする独自の説を加えるが、台本では使わない。足を布でくるむ（Wiktionary）も台本では使わない。",
+    "glyph_stages": [
+      {
+        "stage": "oracle",
+        "stage_ja": "甲骨文",
+        "stage_en": "Oracle bone script",
+        "era_en": "c. 1200 BCE",
+        "image": {
+          "file": "子-oracle.svg",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/41/%E5%AD%90-oracle.svg",
+          "page_url": "https://commons.wikimedia.org/wiki/File:%E5%AD%90-oracle.svg",
+          "license": "Public domain (Wikimedia Commons metadata)",
+          "note": "Ancient Chinese characters project on Commons; Credit field lists Sinica 小學堂 字形演變 as the reference source."
+        }
+      },
+      {
+        "stage": "bronze",
+        "stage_ja": "金文",
+        "stage_en": "Bronze script",
+        "era_en": "c. 1000 BCE",
+        "image": {
+          "file": "子-bronze.svg",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/%E5%AD%90-bronze.svg",
+          "page_url": "https://commons.wikimedia.org/wiki/File:%E5%AD%90-bronze.svg",
+          "license": "Public domain (Wikimedia Commons metadata)",
+          "note": "Ancient Chinese characters project on Commons; Credit field lists Sinica 小學堂 字形演變 as the reference source."
+        }
+      },
+      {
+        "stage": "seal",
+        "stage_ja": "小篆",
+        "stage_en": "Small seal script",
+        "era_en": "c. 200 BCE",
+        "image": {
+          "file": "子-seal.svg",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/89/%E5%AD%90-seal.svg",
+          "page_url": "https://commons.wikimedia.org/wiki/File:%E5%AD%90-seal.svg",
+          "license": "Public domain (Wikimedia Commons metadata)",
+          "note": "Ancient Chinese characters project on Commons; Credit field lists Sinica 小學堂 字形演變 as the reference source."
+        }
+      },
+      {
+        "stage": "regular",
+        "stage_ja": "楷書",
+        "stage_en": "Regular script",
+        "era_en": "today",
+        "image": null,
+        "note": "Render with a font (e.g. Noto Sans JP / Noto Serif JP, SIL OFL)."
+      }
+    ],
+    "video": {
+      "script": "scripts/09-子.md",
+      "picture_line_en": "It's a baby.",
+      "next_teaser_en": "Next: #10 — a vehicle seen from the sky."
+    },
+    "checked_at": "2026-11-22"
   }
 }

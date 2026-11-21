@@ -1,0 +1,8 @@
+Source: https://en.wiktionary.org/w/api.php?action=parse&page=%E4%BB%8A&prop=wikitext&format=json
+Fetched: 2026-11-21T18:29:39.054Z
+
+===Glyph origin===
+{{Han etym}}
+{{liushu|i}} – An inverted {{l|zh|曰}} ("to speak"), hence [[亼]] with a horizontal stroke at the bottom, so the inverted mouth means "not to speak".
+
+Another theory suggests that it depicts something in the mouth. Maybe the original form of {{och-l|噤}} or {{och-l|吟}}. If so, the derivative {{och-l|含}} refers to the original word.

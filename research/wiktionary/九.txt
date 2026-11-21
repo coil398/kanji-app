@@ -1,3 +1,7 @@
+Source: https://en.wiktionary.org/w/api.php?action=parse&page=%E4%B9%9D&prop=wikitext&format=json
+Fetched: 2026-11-21T18:29:13.385Z
+
+===Glyph origin===
 {{Han etyl}}
 {{liushu|p}} – a stylized hand, with bent wrist/forearm (hence the hook stroke at lower right). Earlier forms resemble {{l|zh|手}}, {{l|zh|寸}}. The original meaning of the glyph was “elbow”, which is now written {{och-l|肘}}.
 

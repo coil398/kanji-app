@@ -1,0 +1,5 @@
+Source: https://ja.wiktionary.org/w/api.php?action=parse&page=%E5%86%86&prop=wikitext&format=json
+Fetched: 2026-11-21T18:29:12.327Z
+
+===字源===
+* 「[[圓]]」の略体。[[平安時代]]に「[[員]]」の部分が「丿」のような形で書かれるようになり、さらに「[[囗]]」の下の部分がだんだんとせり上がって「[[円]]」の字形となった<ref group="字源">大原望『[https://ksbookshelf.com/nozomu-oohara/WaseikanjiJiten/WaseikanjiJiten_27.html 和製漢字の辞典2014]』</ref>。

@@ -1,3 +1,7 @@
+Source: https://en.wiktionary.org/w/api.php?action=parse&page=%E4%B8%89&prop=wikitext&format=json
+Fetched: 2026-11-21T18:28:08.204Z
+
+===Glyph origin===
 {{Han etyl}}
 {{liushu|i}} - three parallel strokes. Compare with {{zh-l|*一}}, one stroke meaning “one”, {{zh-l|*二}}, two strokes meaning “two”, and {{zh-l|*亖}}, four strokes meaning “four”.
 {{zh-etym-triple|一|one}}. See also [[畺]]. Unrelated to [[丰]].

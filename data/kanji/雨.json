@@ -16,37 +16,53 @@
   "origin": {
     "type": "pictogram",
     "liushu_zh": "象形",
-    "summary_en": "The oldest form shows raindrops falling from a cloud; the top line came later.",
+    "summary_en": "Rain falling from the sky: the dots are raindrops. The horizontal line on top was added later.",
     "sources": [
       {
-        "title": "English Wiktionary — Glyph origin",
+        "title": "白川静『字通』（平凡社 普及版字通、コトバンク）",
+        "url": "https://kotobank.jp/word/%E9%9B%A8",
+        "accessed": "2026-11-22"
+      },
+      {
+        "title": "English Wiktionary, Glyph origin",
         "url": "https://en.wiktionary.org/wiki/%E9%9B%A8#Glyph_origin",
         "accessed": "2026-11-22"
       },
       {
-        "title": "Japanese Wiktionary — 字源 (葉玉森1924ほか4書)",
+        "title": "日本語版ウィクショナリー 字源（裘錫圭・季旭昇ほか）",
         "url": "https://ja.wiktionary.org/wiki/%E9%9B%A8",
         "accessed": "2026-11-22"
       },
       {
-        "title": "Shuowen via Chinese Text Project",
+        "title": "説文解字（ctext 辞書）",
         "url": "https://ctext.org/dictionary.pl?if=en&char=%E9%9B%A8",
         "accessed": "2026-11-22"
+      },
+      {
+        "title": "中央研究院 小學堂 字形演變（字形の参照元）",
+        "url": "https://xiaoxue.iis.sinica.edu.tw/yanbian?char=%E9%9B%A8",
+        "accessed": "2026-11-21"
       }
     ]
   },
   "examples": [
     {
-      "word": "雨",
-      "reading": "あめ",
-      "meaning": "rain",
-      "source_url": "https://jisho.org/search/%E9%9B%A8"
-    },
-    {
       "word": "大雨",
       "reading": "おおあめ",
       "meaning": "heavy rain",
       "source_url": "https://jisho.org/search/%E5%A4%A7%E9%9B%A8"
+    },
+    {
+      "word": "雨の日",
+      "reading": "あめのひ",
+      "meaning": "a rainy day",
+      "source_url": "https://jisho.org/search/%E9%9B%A8%E3%81%AE%E6%97%A5"
+    },
+    {
+      "word": "梅雨",
+      "reading": "つゆ",
+      "meaning": "the rainy season (special reading)",
+      "source_url": "https://jisho.org/search/%E6%A2%85%E9%9B%A8"
     }
   ],
   "animation": {
@@ -56,5 +72,72 @@
       "strokes_hint": "hand-drawn depiction transforms into the modern glyph",
       "picture": "a cloud with falling raindrops"
     }
+  },
+  "planning_raw": {
+    "id": "07",
+    "jlpt_note": "JLPT has no official kanji list since 2010; N5 per JLPT Sensei list (https://jlptsensei.com/jlpt-n5-kanji-list/).",
+    "role": "main",
+    "origin_type": "pictograph",
+    "origin_views": {
+      "shirakawa_jitsu": "象形。雨の降る形。全体が象形。",
+      "todo_gakken": "未確認（ネットで原文を確認できず）"
+    },
+    "shirakawa_todo_agree": "unverified",
+    "agreement_note_ja": "白川＝雨の降る形（象形）。藤堂（学研漢和大字典／漢字源）の解字はネットで原文を確認できず【未確認】。ja/en Wiktionary（葉玉森・季旭昇ほか）も「空から雨の降る形」で異説の記載なし。差し替えは不要と判断するが、藤堂説は辞書の現物で確認が必要。",
+    "glyph_stages": [
+      {
+        "stage": "oracle",
+        "stage_ja": "甲骨文",
+        "stage_en": "Oracle bone script",
+        "era_en": "c. 1200 BCE",
+        "image": {
+          "file": "雨-oracle.svg",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d0/%E9%9B%A8-oracle.svg",
+          "page_url": "https://commons.wikimedia.org/wiki/File:%E9%9B%A8-oracle.svg",
+          "license": "Public domain (Wikimedia Commons metadata)",
+          "note": "Ancient Chinese characters project on Commons; Credit field lists Sinica 小學堂 字形演變 as the reference source."
+        }
+      },
+      {
+        "stage": "bronze",
+        "stage_ja": "金文",
+        "stage_en": "Bronze script",
+        "era_en": "c. 1000 BCE",
+        "image": {
+          "file": "雨-bronze.svg",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/%E9%9B%A8-bronze.svg",
+          "page_url": "https://commons.wikimedia.org/wiki/File:%E9%9B%A8-bronze.svg",
+          "license": "Public domain (Wikimedia Commons metadata)",
+          "note": "Ancient Chinese characters project on Commons; Credit field lists Sinica 小學堂 字形演變 as the reference source."
+        }
+      },
+      {
+        "stage": "seal",
+        "stage_ja": "小篆",
+        "stage_en": "Small seal script",
+        "era_en": "c. 200 BCE",
+        "image": {
+          "file": "雨-seal.svg",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/%E9%9B%A8-seal.svg",
+          "page_url": "https://commons.wikimedia.org/wiki/File:%E9%9B%A8-seal.svg",
+          "license": "Public domain (Wikimedia Commons metadata)",
+          "note": "Ancient Chinese characters project on Commons; Credit field lists Sinica 小學堂 字形演變 as the reference source."
+        }
+      },
+      {
+        "stage": "regular",
+        "stage_ja": "楷書",
+        "stage_en": "Regular script",
+        "era_en": "today",
+        "image": null,
+        "note": "Render with a font (e.g. Noto Sans JP / Noto Serif JP, SIL OFL)."
+      }
+    ],
+    "video": {
+      "script": "scripts/07-雨.md",
+      "picture_line_en": "It's rain falling.",
+      "next_teaser_en": "Next: #8 — is it really two people leaning on each other?"
+    },
+    "checked_at": "2026-11-22"
   }
 }

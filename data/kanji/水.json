@@ -10,43 +10,63 @@
     "スイ"
   ],
   "kun": [
-    "みず",
     "みず"
   ],
   "origin": {
     "type": "pictogram",
     "liushu_zh": "象形",
-    "summary_en": "The oldest form shows flowing water.",
+    "summary_en": "Flowing water, drawn as a stream with drops or splashes beside it.",
     "sources": [
       {
-        "title": "English Wiktionary — Glyph origin",
+        "title": "白川静『字通』（平凡社 普及版字通、コトバンク）",
+        "url": "https://kotobank.jp/word/%E6%B0%B4",
+        "accessed": "2026-11-22"
+      },
+      {
+        "title": "藤堂明保 編『学研漢和大字典』（個人サイト『論語語釈』での引用。原本は未確認）※『字通』の引用も同ページ",
+        "url": "https://hayaron.kyukyodo.work/gosyaku/su.html#%E6%B0%B4",
+        "accessed": "2026-11-22"
+      },
+      {
+        "title": "English Wiktionary, Glyph origin",
         "url": "https://en.wiktionary.org/wiki/%E6%B0%B4#Glyph_origin",
         "accessed": "2026-11-22"
       },
       {
-        "title": "Japanese Wiktionary — 字源",
+        "title": "日本語版ウィクショナリー 字源（裘錫圭・季旭昇ほか）",
         "url": "https://ja.wiktionary.org/wiki/%E6%B0%B4",
         "accessed": "2026-11-22"
       },
       {
-        "title": "Shuowen via Chinese Text Project",
+        "title": "説文解字（ctext 辞書）",
         "url": "https://ctext.org/dictionary.pl?if=en&char=%E6%B0%B4",
         "accessed": "2026-11-22"
+      },
+      {
+        "title": "中央研究院 小學堂 字形演變（字形の参照元）",
+        "url": "https://xiaoxue.iis.sinica.edu.tw/yanbian?char=%E6%B0%B4",
+        "accessed": "2026-11-21"
       }
     ]
   },
   "examples": [
     {
-      "word": "水",
-      "reading": "みず",
-      "meaning": "water (esp. cool or cold)",
-      "source_url": "https://jisho.org/search/%E6%B0%B4"
-    },
-    {
       "word": "水曜日",
       "reading": "すいようび",
       "meaning": "Wednesday",
       "source_url": "https://jisho.org/search/%E6%B0%B4%E6%9B%9C%E6%97%A5"
+    },
+    {
+      "word": "お水",
+      "reading": "おみず",
+      "meaning": "water (polite)",
+      "source_url": "https://jisho.org/search/%E3%81%8A%E6%B0%B4"
+    },
+    {
+      "word": "水着",
+      "reading": "みずぎ",
+      "meaning": "swimsuit",
+      "source_url": "https://jisho.org/search/%E6%B0%B4%E7%9D%80"
     }
   ],
   "animation": {
@@ -56,5 +76,72 @@
       "strokes_hint": "hand-drawn depiction transforms into the modern glyph",
       "picture": "flowing water"
     }
+  },
+  "planning_raw": {
+    "id": "12",
+    "jlpt_note": "JLPT has no official kanji list since 2010; N5 per JLPT Sensei list (https://jlptsensei.com/jlpt-n5-kanji-list/).",
+    "role": "reserve",
+    "origin_type": "pictograph",
+    "origin_views": {
+      "shirakawa_jitsu": "象形。水の流れる形に象る。",
+      "todo_gakken": "象形。みずの流れの姿を描いたもの。"
+    },
+    "shirakawa_todo_agree": true,
+    "agreement_note_ja": "白川・藤堂とも水の流れの象形で一致。白川は『説文』の陰陽による解釈を「拘泥の説」と退けている。",
+    "glyph_stages": [
+      {
+        "stage": "oracle",
+        "stage_ja": "甲骨文",
+        "stage_en": "Oracle bone script",
+        "era_en": "c. 1200 BCE",
+        "image": {
+          "file": "水-oracle.svg",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/75/%E6%B0%B4-oracle.svg",
+          "page_url": "https://commons.wikimedia.org/wiki/File:%E6%B0%B4-oracle.svg",
+          "license": "Public domain (Wikimedia Commons metadata)",
+          "note": "Ancient Chinese characters project on Commons; Credit field lists Sinica 小學堂 字形演變 as the reference source."
+        }
+      },
+      {
+        "stage": "bronze",
+        "stage_ja": "金文",
+        "stage_en": "Bronze script",
+        "era_en": "c. 1000 BCE",
+        "image": {
+          "file": "水-bronze.svg",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/%E6%B0%B4-bronze.svg",
+          "page_url": "https://commons.wikimedia.org/wiki/File:%E6%B0%B4-bronze.svg",
+          "license": "Public domain (Wikimedia Commons metadata)",
+          "note": "Ancient Chinese characters project on Commons; Credit field lists Sinica 小學堂 字形演變 as the reference source."
+        }
+      },
+      {
+        "stage": "seal",
+        "stage_ja": "小篆",
+        "stage_en": "Small seal script",
+        "era_en": "c. 200 BCE",
+        "image": {
+          "file": "水-seal.svg",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/%E6%B0%B4-seal.svg",
+          "page_url": "https://commons.wikimedia.org/wiki/File:%E6%B0%B4-seal.svg",
+          "license": "Public domain (Wikimedia Commons metadata)",
+          "note": "Ancient Chinese characters project on Commons; Credit field lists Sinica 小學堂 字形演變 as the reference source."
+        }
+      },
+      {
+        "stage": "regular",
+        "stage_ja": "楷書",
+        "stage_en": "Regular script",
+        "era_en": "today",
+        "image": null,
+        "note": "Render with a font (e.g. Noto Sans JP / Noto Serif JP, SIL OFL)."
+      }
+    ],
+    "video": {
+      "script": "scripts/12-水.md",
+      "picture_line_en": "It's flowing water.",
+      "next_teaser_en": "Follow for more kanji that were pictures."
+    },
+    "checked_at": "2026-11-22"
   }
 }

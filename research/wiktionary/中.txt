@@ -1,3 +1,7 @@
+Source: https://en.wiktionary.org/w/api.php?action=parse&page=%E4%B8%AD&prop=wikitext&format=json
+Fetched: 2026-11-21T18:28:51.615Z
+
+===Glyph origin===
 {{Han etym}}
 
 {{liushu|p}} – a flagpole, as depicted in its original form [[𠁩]]. Based on archaeological evidence, the middle box has been interpreted as a drum ({{l-lite|zh|sc=Hani|建鼓}}). This flagpole with a drum was placed in the center of a field to gather people and to detect the direction of the wind. In addition, the pronunciation of {{och-l|中}} is reminiscent of the beating of a drum.

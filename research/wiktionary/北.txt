@@ -1,0 +1,8 @@
+Source: https://en.wiktionary.org/w/api.php?action=parse&page=%E5%8C%97&prop=wikitext&format=json
+Fetched: 2026-11-21T18:29:21.656Z
+
+===Glyph origin===
+{{Han etyl}}
+{{liushu|ic}} – two men back to back. Originally meaning “back”; the character {{och-l|背}} refers to the original word.
+
+Compare [[化]], [[比]], [[卬]], and [[尼]].

@@ -1,0 +1,6 @@
+Source: https://en.wiktionary.org/w/api.php?action=parse&page=%E5%85%AD&prop=wikitext&format=json
+Fetched: 2026-11-21T18:29:17.571Z
+
+===Glyph origin===
+{{Han etym}}
+{{liushu|p}} – perhaps a shed. Originally using the similar-sounding word {{och-l|廬|shed, cabin}} to represent the concept “six” (Liu Xinglong). Alternatively, it may be an ancient counting symbol.

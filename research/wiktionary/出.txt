@@ -1,0 +1,9 @@
+Source: https://en.wiktionary.org/w/api.php?action=parse&page=%E5%87%BA&prop=wikitext&format=json
+Fetched: 2026-11-21T18:28:44.718Z
+
+===Glyph origin===
+{{Han etym}}
+
+{{Han compound|止|凵|ls=ic|t1=foot|t2=cave}} – to step out of a cave; to exit. Compare {{och-l|*各}}.
+
+By the {{w|Qin dynasty}}, the character has lost its original shape. Based on the distorted form, ''{{w|Shuowen}}'' mistakenly interprets the character as a pictogram of a plant ({{och-l|*屮}}) growing outwards.

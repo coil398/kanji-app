@@ -1,0 +1,7 @@
+Source: https://ja.wiktionary.org/w/api.php?action=parse&page=%E7%94%9F&prop=wikitext&format=json
+Fetched: 2026-11-21T18:28:11.698Z
+
+===字源===
+* [[象形文字|象形]]。草が地上にはえ出る形を象る。「[[うまれる]]」「[[はえる]]」を意味する[[漢語]]｛[[生]] {{phoneme|*tsheeng}}｝を表す字。<ref group="字源">季旭昇撰 『説文新証』 芸文印書館、2014年、506頁。<br>林志強等評注 『《文源》評注』 中国社会科学出版社、2017年、316頁。</ref>
+{{字源}}
+<references group="字源" />

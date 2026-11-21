@@ -1,0 +1,9 @@
+Source: https://en.wiktionary.org/w/api.php?action=parse&page=%E8%A5%BF&prop=wikitext&format=json
+Fetched: 2026-11-21T18:28:12.213Z
+
+===Glyph origin===
+{{Han etym}}
+
+The oracle-bone forms of {{och-l|西|tr=*sˤən}} fall into two types: open-topped and closed-topped. The open-topped type is found only in periods I–II, especially in the Bin and Chu groups; later scripts inherit the closed-topped type.
+
+The open-topped form has been interpreted as a bird's nest, possibly related to {{och-l|栖|tr=*sˤəj}} (“to perch; to roost”). The later closed-topped form may be related to {{och-l|囟|tr=*sənh}}: in the Zhouyuan oracle-bone inscriptions, {{zh-l|囟}} is used for {{zh-l|西}}.

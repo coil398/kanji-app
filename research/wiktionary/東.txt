@@ -1,0 +1,11 @@
+Source: https://en.wiktionary.org/w/api.php?action=parse&page=%E6%9D%B1&prop=wikitext&format=json
+Fetched: 2026-11-21T18:28:13.935Z
+
+===Glyph origin===
+{{Han etym}}
+[[File:东-oracle-shifei.svg|class=skin-invert-image|thumb|right|180px|Oracle-bone-script forms of 東 and characters containing it as a component, from the earliest oracle-bone group (Heji 19951, 20576, 20610, 20646)]]
+{{liushu|p}}: a pictogram of a full {{och-l|橐|tr=*tʰˤak|t=bag}} tied at both ends. It is the original form of {{zh-l|*重}}: forms with a human figure gave rise to {{och-l|重|tr=*droŋ;droŋʔ;droŋh}}, while forms without it gave rise to {{och-l|東|tr=*tˤoŋ}}.<ref>張富海《說字二則》</ref><ref>施瑞峰《“束”的上古聲母及相關古文字問題補說》</ref>
+
+Interpreted in the {{w|Shuowen Jiezi}} as an {{liushu|ic|nocap=yes}} the sun ({{zh-l|*日}}) rising behind a tree ({{zh-l|*木}}). According to {{zh-ref|Allan (1991)}} p. 47-50, the character represents the {{w|Fu Sang}} tree. However, the original form is rather different, hence any interpretation tied to a tree is most likely a folk etymology. 
+
+See the top component of [[曹]] in the original version. See also [[柬]], [[熏]], [[西]] and [[鹵]]/[[卤]].

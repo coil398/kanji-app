@@ -1,0 +1,9 @@
+Source: https://en.wiktionary.org/w/api.php?action=parse&page=%E5%B9%B4&prop=wikitext&format=json
+Fetched: 2026-11-21T18:29:36.877Z
+
+===Glyph origin===
+{{Han etym}}
+
+{{Han compound|禾|人|ls=psc|c1=s|c2=p|t1=wheat; grain}}. Originally meaning "harvest", it later came to mean "year". In the oracle bone script and early bronze inscriptions, it was originally written like {{och-l|*秂}}.
+
+In bronze inscriptions after the {{w|Western Zhou}} period, a stroke was often added to {{och-l|*人}} to give {{och-l|千}}, which still acted as a phonetic component, thus getting ({{och-l|*秊}}). The current form is inherited from the clerical script, where ''{{w|libian}}'' ({{zh-l|*隸變}}) has occurred.

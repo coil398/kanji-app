@@ -1,0 +1,9 @@
+Source: https://ja.wiktionary.org/w/api.php?action=parse&page=%E9%95%B7&prop=wikitext&format=json
+Fetched: 2026-11-21T18:28:35.395Z
+
+===字源===
+* [[象形文字|象形]]。眉毛の長い老人を象る（「[[眉]]」の[[甲骨文字]]も参照）<ref group="字源">何景成編撰『甲骨文字詁林補編』中華書局、2017年、[https://jgw.aynu.edu.cn/home/zx/child/glb.html?url=20 20頁]。</ref>。「[[としより]]」を意味する[[漢語]]｛[[長]] {{phoneme|*traŋʔ}}｝を表す字。[[仮借]]して「[[ながい]]」を意味する漢語｛[[長]] {{phoneme|*draŋ}}｝に用いる。
+** 髪の長い老人を象る象形文字という説があるが、「[[老]]」や「[[髟]]」と比較すればわかるように誤った分析である。
+{{字源}}
+* [[上古音]]は布之道『[http://www.kaom.net/sgy_bzd.php 広韻形声考]』による。
+<references group="字源" />

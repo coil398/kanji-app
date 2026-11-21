@@ -47,9 +47,29 @@ try {
   await page.goto(base, { waitUntil: 'networkidle' });
   await page.locator('#waitlist-email').fill('learner@example.com');
   await page.getByRole('button', { name: 'Notify me when the iOS app launches' }).click();
-  await page.getByText('Thanks — saved.').waitFor();
+  await page.getByText("Thanks — you're on the list.").waitFor();
+
+  const signupContext = await browser.newContext({ viewport: { width: 1365, height: 1100 }, deviceScaleFactor: 1 });
+  const signupPage = await signupContext.newPage();
+  signupPage.on('pageerror', (error) => errors.push(error.message));
+  signupPage.on('console', (message) => { if (message.type() === 'error') errors.push(message.text()); });
+  signupPage.on('response', (response) => { if (response.status() >= 400) errors.push(`${response.status()} ${response.url()}`); });
+  await signupPage.goto(`${base}?utm_source=tiktok&utm_campaign=ios-prereg`, { waitUntil: 'networkidle' });
+  await signupPage.locator('#waitlist-email').fill('tiktok@example.com');
+  await signupPage.getByRole('radio', { name: 'Yes' }).check();
+  await signupPage.screenshot({ path: path.resolve('research/screens/waitlist.png'), fullPage: true });
+  await signupPage.getByRole('button', { name: 'Notify me when the iOS app launches' }).click();
+  await signupPage.getByText("Thanks — you're on the list.").waitFor();
+  const saved = await signupPage.evaluate(() => JSON.parse(localStorage.getItem('@kanji-origins/waitlist') ?? '[]'));
+  assert.equal(saved[0].source, 'tiktok');
+  assert.equal(saved[0].first_touch_source, 'tiktok');
+  assert.equal(saved[0].pay_intent, 'yes');
+  assert.equal(saved[0].raw_utm.utm_campaign, 'ios-prereg');
+  assert.match(saved[0].landing_path, /utm_source=tiktok/);
+  assert.ok(saved[0].timestamp);
+  await signupContext.close();
   assert.deepEqual(errors, [], `Browser errors: ${errors.join('; ')}`);
-  console.log('Home, the /k/木 attribution route, quiz, review, on-device progress, and local waitlist save verified without browser errors. Screenshots saved in research/screens/.');
+  console.log('Home, the /k/木 attribution route, quiz, review, local waitlist, pay intent, and TikTok first-touch attribution verified without browser errors. Screenshots saved in research/screens/.');
 } finally {
   await browser.close();
 }

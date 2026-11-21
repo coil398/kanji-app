@@ -19,6 +19,8 @@ See [data/SCHEMA.md](data/SCHEMA.md) and [data/kanji.schema.json](data/kanji.sch
 
 Origin summaries are based on the English and Japanese Wiktionary glyph-origin entries, with source links to both entries and the corresponding Shuowen page. Candidate selection evidence and excluded-candidate reasons are in [research/SELECTION.md](research/SELECTION.md). Kanji readings and meanings use KanjiAPI's KANJIDIC-derived records. Example words, readings, and meanings have individual Jisho sources in their JSON records.
 
+Planning data can be merged with `npm run import:planning`. It reads matching `<character>.json` files from `/workspace/jp-learning/kanji-data/`, prints changed fields, preserves unknown fields under `planning_raw`, and validates the resulting dataset. If that directory is absent, the command reports the missing directory and exits successfully.
+
 ## Origin animations
 
 `manim/origins.py` defines per-kanji scenes and reads each JSON record. Render with:
@@ -31,12 +33,15 @@ The renderer requires Manim Community Edition in `.venv-manim` and creates 720×
 
 ## Waitlist and analytics
 
-`src/config.ts` contains the only endpoints. `WAITLIST_ENDPOINT` is `null`; validated emails are saved in local device storage and the app shows “Thanks — saved.” `ANALYTICS_ENDPOINT` is `null`; events stay in a bounded local ring buffer and dev console, with no network requests. `ANALYTICS_PROVIDER` names the adapter target.
+`src/config.ts` contains the endpoint and provider settings. `WAITLIST_ENDPOINT` is `null` by default, so validated email, optional pay intent, UTM parameters, source, referrer host, first-touch source, landing path, and timestamp are saved locally. The success message is “Thanks — you're on the list.” Set `WAITLIST_PROVIDER` to `webhook`, `formspree`, or `google-apps-script` when enabling a JSON endpoint. Formspree accepts a form ID or full form URL; Apps Script uses the deployed web-app URL.
 
-The analytics adapter records `visit`, `quiz_answer`, `kanji_learned`, and `review_return`. Event props include event-specific kanji, answer correctness, or days since first visit. `visit`, `kanji_learned`, and `review_return` also include `source: { session, first_touch }`; each value is normalized to `tiktok`, `instagram`, `youtube`, `other`, or `direct`. Session attribution captures `utm_source`, `utm_medium`, `utm_campaign`, `utm_content`, and `document.referrer`; `utm_source` takes precedence. The normalized first-touch source and its attribution details stay on the device.
+`ANALYTICS_PROVIDER` defaults to `none`, which keeps events in a bounded local ring buffer and makes no network requests. Set it to `plausible`, `umami`, `goatcounter`, `posthog`, or `webhook` to enable that adapter. `ANALYTICS_ENDPOINT` overrides the provider URL and `ANALYTICS_SITE_ID` supplies its domain/site/project identifier. The adapter records `visit`, `quiz_answer`, `kanji_learned`, `review_return`, and `waitlist_submit`. Source metrics use the normalized `source` (session), `first_touch`, and a stable anonymous `device_id`; review returns are sent once per local calendar day and include `days_since_first_visit` only from the next day onward. UTM source aliases `tt`, `ig`, and `yt` map to TikTok, Instagram, and YouTube; other non-empty values map to `other`.
 
 Each kanji is available at `/kanji/<character>` and the short route `/k/<character>`. For example, `/kanji-app/k/木?utm_source=tiktok` opens the same learning page and preserves campaign parameters for attribution.
 
 ## GitHub Pages
 
 The app uses Expo Router's single-page web export with `/kanji-app` as its base URL. The workflow runs `npm ci`, tests, data validation, TypeScript, and `npx expo export -p web`, adds `.nojekyll` and an SPA `404.html`, and deploys `dist/` to Pages. Videos are committed assets; CI does not render them.
+
+## Current deployment (gh-pages branch)
+The box's GitHub token has no `workflow` scope, so the Actions workflow is kept at `docs/github-pages-workflow.yml` (move it back to `.github/workflows/deploy.yml` once a token with `workflow` scope is available). Until then the site is published from the `gh-pages` branch: run `npx expo export -p web && npm run finalize:web`, then push the contents of `dist/` (plus `.nojekyll`) to `gh-pages`.
