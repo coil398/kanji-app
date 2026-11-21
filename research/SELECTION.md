@@ -2,7 +2,7 @@
 
 ## Included set and order
 
-The eighteen entries below meet every evidence condition: English and Japanese Wiktionary give the same origin account with no competing theory, and the Shuowen Jiezi entry describes the graph as 象形 or 指事 (or uses 象…形 wording) rather than analyzing a compound of two graphs.
+The first twelve entries retain the requested order. 土 and the five subsequent additions are included based on the evidence recorded below. For the five additions, English and Japanese Wiktionary agree without competing theories, and Shuowen describes the graph as 象形 or 指事 or uses 象…形 wording; for 一 and 三, its cosmological gloss does not contradict the shared 指事 classification.
 
 1. 木 — the oldest form resembles a tree with branches and roots.
 2. 本 — a mark is added at the tree's roots.
@@ -23,18 +23,18 @@ The eighteen entries below meet every evidence condition: English and Japanese W
 17. 三 — three parallel strokes for three, classed 指事 by both Wiktionary entries. Shuowen glosses it as 「天、地、人之道也。从三數」, a cosmological reading of the three strokes rather than a compound of two graphs; the gloss is recorded in `summary_en`.
 18. 九 — a bent forearm with the elbow emphasized, borrowed for the number nine. Both Wiktionary entries class it 象形, Shuowen says 「象其屈曲究盡之形」, and `summary_en` states the elbow → nine loan.
 
-The eighteen entries remain below the requested 20–30 range. No further candidate met every evidence condition after direct English and Japanese Wiktionary and Wikisource Shuowen review; the requirements were not relaxed to reach the range.
+The eighteen entries remain below the requested 20–30 range. Among the candidates reviewed below, no further candidate met every evidence condition.
 
 ## Candidate review
 
-For each N5 candidate checked below, `research/wiktionary/<char>.txt` and `research/ja-wiktionary/<char>.txt` contain the fetched Glyph origin and 字源 sections, and `research/shuowen/<char>.txt` records the Wikisource page, section, and verbatim Shuowen entry. A missing entry is recorded as an evidence gap, not treated as agreement.
+For each N5 candidate checked below, `research/wiktionary/<char>.txt` and `research/ja-wiktionary/<char>.txt` contain the fetched Glyph origin and 字源 sections. Where the Wikisource entry was fetched, `research/shuowen/<char>.txt` records its page, section, and verbatim text. A missing entry is recorded as an evidence gap, not treated as agreement.
 
 | Character | Decision | Candidate-specific reason |
 |---|---|---|
 | 上 | Included | English (`{{liushu\|i}}`) and Japanese (指事) agree on a mark above a baseline with no rival theory; Shuowen's 丄 entry says 「高也。此古文上，指事也」. |
 | 下 | Included | English (`{{liushu\|i}}`) and Japanese (指事) agree on a mark below a baseline; the Shuowen entry is 「底也。指事。」. |
 | 一 | Included | English and Japanese both class the single stroke 指事; the Shuowen cosmological gloss gives no liushu class and does not contradict it. Gloss recorded. |
-| 二 | Excluded | English calls two parallel strokes 指事; Japanese explicitly offers 指事 or 会意, so the classifications do not agree. Shuowen analyzes 「从偶一」. |
+| 二 | Excluded | English calls two parallel strokes 指事; Japanese explicitly offers 指事 or 会意, so the classifications do not agree. |
 | 三 | Included | English and Japanese both class three parallel strokes 指事; Shuowen's 「天、地、人之道也。从三數」 reads the strokes cosmologically without contradicting 指事. Gloss recorded. |
 | 八 | Excluded | Shuowen supplies 「別也。象分別相背之形」, but English labels the form pictographic (`{{liushu\|p}}`) and Japanese labels it 指事, so the shared-classification condition fails. |
 | 十 | Excluded | English records competing interpretations of the early vertical stroke; Japanese says the origin is unknown and presents a vertical 一 only as one theory. |
@@ -68,4 +68,4 @@ For each N5 candidate checked below, `research/wiktionary/<char>.txt` and `resea
 
 ## Shuowen access
 
-The Shuowen Jiezi full text is available on Chinese Wikisource as 說文解字/01 through 說文解字/15. Entries are fetched with `action=parse&prop=wikitext` from the Wikisource API, and each candidate's entry is stored verbatim in `research/shuowen/<character>.txt` together with the page URL and section. The Chinese Text Project Shuowen pages remain linked in `origin.sources`; direct ctext page retrieval returns an access-unavailable response that states automated downloads are prohibited, so ctext is used as a link only.
+The Shuowen Jiezi full text is available on Chinese Wikisource as 說文解字/01 through 說文解字/15. Entries are fetched with `action=parse&prop=wikitext` from the Wikisource API and stored verbatim in `research/shuowen/<character>.txt` together with the page URL and section. The Chinese Text Project Shuowen pages remain linked in `origin.sources`; direct ctext page retrieval returns an access-unavailable response that states automated downloads are prohibited, so ctext is used as a link only.
